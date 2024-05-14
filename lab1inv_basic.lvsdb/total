@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 device net parameter pin rewire total
+1  5 (( ( S "lab1inv_basic layout ece4740" )( L "lab1inv_basic schematic ece4740" ) )(( 3 0 1 )))

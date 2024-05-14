@@ -1,0 +1,16 @@
+//Revision 5
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config lab4_alu;
+design ece4740.lab4_alu:schematic;
+liblist ece4740;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig

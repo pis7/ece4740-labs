@@ -1,0 +1,8 @@
+Schematic                        | Layout                         | Status
+-------------------------------------------------------------------------------
+lab1inv_narrow schematic ece4740 | lab1inv_narrow layout ece4740  | matched 
+lab4_2_1_mux schematic ece4740   | lab4_2_1_mux layout ece4740    | matched 
+lab4_adder_1bit schematic ece4740| lab4_adder_1bit layout ece4740 | matched 
+lab4_adder_top schematic ece4740 | lab4_adder_top layout ece4740  | matched 
+
+Schematic and Layout Match

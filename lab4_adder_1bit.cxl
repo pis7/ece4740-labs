@@ -1,0 +1,51 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab4_adder_1bit schematic ece4740" "lab4_adder_1bit layout ece4740"
+N net9 avC11
+N net13 avC10
+N A A
+N B B
+N C C
+N S S
+N COUT COUT
+N vdd! vdd!
+N gnd! gnd!
+I NM25 avD1_4
+I NM26 avD1_5
+I NM19 avD1_3
+I NM18 avD1_2
+I NM17 avD1_12
+I NM20 avD1_14
+I NM21 avD1_6
+I NM22 avD1_1
+I NM8 avD1_13
+I NM23 avD1_10
+I NM24 avD1_11
+I NM3 avD1_9
+I NM15 avD1_8
+I NM16 avD1_7
+I PM22 avD7_5
+I PM23 avD7_6
+I PM16 avD7_12
+I PM14 avD7_10
+I PM15 avD7_13
+I PM18 avD7_4
+I PM19 avD7_2
+I PM17 avD7_3
+I PM20 avD7_1
+I PM21 avD7_14
+I PM3 avD7_11
+I PM13 avD7_9
+I PM1 avD7_8
+I PM12 avD7_7
+

@@ -1,0 +1,33 @@
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab4_xor_1bit schematic ece4740" "lab4_xor_1bit layout ece4740"
+N net5 avC7
+N net8 avC6
+N OUT OUT
+N A A
+N B B
+N vdd! vdd!
+N gnd! gnd!
+I PM5 avD7_2
+I PM4 avD7_1
+I PM3 avD7_4
+I PM2 avD7_3
+I PM1 avD7_5
+I PM0 avD7_6
+I NM5 avD1_2
+I NM4 avD1_1
+I NM3 avD1_3
+I NM2 avD1_6
+I NM1 avD1_4
+I NM0 avD1_5
+

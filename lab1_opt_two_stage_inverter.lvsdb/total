@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 device net parameter pin rewire total
+1  5 (( ( S "lab1_opt_two_stage_inverter layout ece4740" )( L "lab1_opt_two_stage_inverter schematic ece4740" ) )(( 3 0 3 )( 1 4 4 )( 0 2 4 )))

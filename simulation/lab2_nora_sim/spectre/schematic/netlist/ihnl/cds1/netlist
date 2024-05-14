@@ -1,0 +1,13 @@
+
+// Library name: ece4740
+// Cell name: lab2_nora_sim
+// View name: schematic
+I0 (A B Y net4 net5) lab2_nora
+I1 (A B) lab2_signal_gen clk_period=1e-09 clk_period2=5e-10 clk_high=1.2 \
+        clk_low=0 trise=2e-11 tfall=2e-11
+C0 (Y 0) capacitor c=20f
+V3 (net5 0) vsource type=pulse val0=1.2 val1=0 period=500p delay=0 \
+        rise=20p fall=20p
+V0 (net4 0) vsource type=pulse val0=0 val1=1.2 period=500p delay=0 \
+        rise=20p fall=20p
+V2 (vdd! 0) vsource dc=1.2 type=dc

@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Apr  2 22:18:47 2024
+// Design library name: ece4740
+// Design cell name: lab3_dff_sim
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

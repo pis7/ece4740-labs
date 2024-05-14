@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab2_cmos_nand layout ece4740':
+  info: Assign pin label "gnd!" at (0.0800, 0.0000) to layer `Metal1_p'.
+  info: Assign pin label "A" at (0.1400, 1.2250) to layer `Metal1_p'.
+  info: Assign pin label "Y" at (0.7200, 1.1900) to layer `Metal1_p'.
+  info: Assign pin label "B" at (1.3150, 1.1950) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.0800, 2.8800) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.8325, 2.8800) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

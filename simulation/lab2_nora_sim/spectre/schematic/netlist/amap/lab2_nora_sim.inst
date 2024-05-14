@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"I0n" "lab2_nora"
+"I1n" "ece4740_lab2_signal_gen_veriloga"
+"C0n" "analogLib_cap_spectre"
+"V3n V0n" "analogLib_vpulse_spectre"
+"V2n" "analogLib_vdc_spectre"

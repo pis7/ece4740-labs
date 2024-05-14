@@ -1,0 +1,36 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
+sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
+run on en-ec-ecelinux-13.coecis.cornell.edu at Tue May 14 04:10:06 2024
+
+Schematic                        | Layout                        | Status
+-------------------------------------------------------------------------------
+lab4_xor_1bit schematic ece4740  | lab4_xor_1bit layout ece4740  | matched  
+lab4_xor_8bit schematic ece4740  | lab4_xor_8bit layout ece4740  | matched  
+
+Schematic and Layout Match
+
+Schematic:
+  Library:ece4740
+  Cell   :lab4_xor_8bit
+  View   :schematic
+
+Layout:
+  Library:ece4740
+  Cell   :lab4_xor_8bit
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

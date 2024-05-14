@@ -1,0 +1,7 @@
+Schematic                              | Layout                              | Status
+---------------------------------------------------------------------------------------
+lab1inv_four schematic ece4740         | lab1inv_four layout ece4740         | matched
+lab1inv_narrow schematic ece4740       | lab1inv_narrow layout ece4740       | matched
+lab1inv_opt_inv_chain schematic ece4740| lab1inv_opt_inv_chain layout ece4740| matched
+
+Schematic and Layout Match

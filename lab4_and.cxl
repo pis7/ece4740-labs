@@ -1,0 +1,83 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab1inv_narrow schematic ece4740" "lab1inv_narrow layout ece4740"
+N A avC2
+N Y avC3
+N vdd! avC4
+N gnd! avT557_1
+I NM0 avD1_1
+I PM0 avD7_1
+
+C "lab2_cmos_nand schematic ece4740" "lab2_cmos_nand layout ece4740"
+N Y avC3
+N A avC2
+N B avC4
+N vdd! avC5
+N gnd! avT557_1
+I NM1 avD1_2
+I NM0 avD1_1
+I PM3 avD7_2
+I PM0 avD7_1
+
+C "lab4_and schematic ece4740" "lab4_and layout ece4740"
+N net8 avC34
+N net9 avC33
+N net6 avC32
+N net5 avC31
+N net4 avC30
+N net3 avC29
+N net2 avC28
+N net1 avC27
+N B0 B0
+N A1 A1
+N Y0 Y0
+N Y1 Y1
+N Y2 Y2
+N Y3 Y3
+N Y4 Y4
+N Y5 Y5
+N Y6 Y6
+N Y7 Y7
+N A0 A0
+N B1 B1
+N A2 A2
+N B2 B2
+N A3 A3
+N B3 B3
+N A4 A4
+N B4 B4
+N A5 A5
+N B5 B5
+N A6 A6
+N B6 B6
+N A7 A7
+N B7 B7
+N vdd! vdd!
+N gnd! gnd!
+I I7 I7
+I I6 I6
+I I5 I5
+I I4 I4
+I I3 I3
+I I2 I2
+I I1 I1
+I I0 I0
+I I16 I16
+I I15 I15
+I I14 I14
+I I13 I13
+I I12 I12
+I I11 I11
+I I10 I10
+I I9 I9
+

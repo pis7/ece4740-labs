@@ -1,0 +1,35 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
+sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
+run on en-ec-ph314-20.ece.cornell.edu at Sat Mar 23 23:34:17 2024
+
+Schematic                      | Layout                      | Status
+-------------------------------------------------------------------------------
+lab2inv schematic ece4740      | lab2inv layout ece4740      | matched      
+
+Schematic and Layout Match
+
+Schematic:
+  Library:ece4740
+  Cell   :lab2inv
+  View   :schematic
+
+Layout:
+  Library:ece4740
+  Cell   :lab2inv
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

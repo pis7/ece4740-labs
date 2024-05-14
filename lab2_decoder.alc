@@ -1,0 +1,4 @@
+!<alc> v1 27
+0    7    0 lab2_nand layout ece4740
+0    6    0 lab2_inv layout ece4740
+0    8    0 lab2_decoder layout ece4740

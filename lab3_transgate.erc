@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab3_transgate layout ece4740':
+  info: Assign pin label "gnd!" at (0.6125, 0.0000) to layer `Metal1_p'.
+  info: Assign pin label "CLK" at (0.1475, 1.4100) to layer `Metal1_p'.
+  info: Assign pin label "A" at (0.4450, 1.3450) to layer `Metal1_p'.
+  info: Assign pin label "B" at (0.7150, 1.5100) to layer `Metal1_p'.
+  info: Assign pin label "CLK_bar" at (0.9950, 1.4950) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.6125, 2.8800) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

@@ -1,0 +1,14 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 10/27/2020 22:22 (sjfhw691) $
+\o Sub version:		sub-version  s154 
+\o Arguments:		-cdslib /home/pis7/Cadence/cds.lib -mpssession virtuoso60542 -mpshost en-ec-ecelinux-01.coecis.cornell.edu 
+\o Working Directory:	en-ec-ecelinux-01.coecis.cornell.edu:/home/pis7/Cadence
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(60 83 500 400))
+\a nrResizeWindow(cdsLibEditor list(651 207 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a exit(0)

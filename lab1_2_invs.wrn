@@ -1,0 +1,8 @@
+Assura Errors & Warnings Search (PLEASE CAREFULLY REVIEW THESE MESSAGES)
+================================================================================
+WARNINGS & ERRORS found in Assura NVN Run Log file
+--------------------------------------------------------------------------------
+*ERROR* Device 'cap(CAP)' on Schematic is unbound to any Layout device.
+*ERROR* UnBound devices found.
+Info: All devices must be bound or filtered for comparison to be run.
+Exiting nvn.

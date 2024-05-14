@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 20.1.2-p025
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/pis7/Cadence/qrc.lab3_dff_onecell.log -cmd /home/pis7/Cadence/qrc.lab3_dff_onecell.ccl 

@@ -1,0 +1,89 @@
+ahdlcmicompile: Compiling ahdlcmi in input.ahdlSimDB//2fb082655e89d872afd01ca2d8c77cf0.lab2_signal_gen.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Fri Mar 15 21:40:04 EDT 2024 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /opt/cadence/SPECTRE201/bin:/opt/cadence/SPECTRE201/tools.lnx86/bin/64bit:/opt/cadence/SPECTRE201/tools.lnx86/bin:/opt/cadence/IC618-150/bin:/opt/cadence/IC618-150/tools/bin/64bit:/opt/cadence/IC618-150/tools/bin:/opt/cadence/IC618-150/tools.lnx86/bin/64bit:/opt/cadence/IC618-150/tools.lnx86/bin:/opt/cadence/IC618-150/share/oa/bin:/opt/cadence/INNOVUS201/tools/bin:/opt/cadence/INNOVUS201/tools:/opt/cadence/INNOVUS201/tools.lnx86/lib/64bit:/opt/cadence/GENUS201/:/opt/synopsys/syn/R-2020-09.SP2//bin:/opt/synopsys/syn/R-2020-09.SP2//linux64/bin:/opt/MentorGraphics/2018.1/modelsim-de-10.7a/modelsim_dlx/bin:/opt/MentorGraphics/2018.1/modelsim-de-10.7a/modelsim_dlx:/opt/matlab/R2019A/bin:/opt/cadence/EXT152/bin:/opt/cadence/EXT152/tools/bin:/opt/cadence/assura/tools/bin:/opt/cadence:/opt/cadence/IC618-150:/opt/cadence/IC618-150/tools/dfII/bin:/opt/cadence/INNOVUS201:/opt/cadence/INNOVUS201/bin:/opt/cadence/:/opt/cadence/GENUS201/bin:/opt/cadence/STRATUS202:/opt/cadence/STRATUS202/bin:/opt/cadence/CONFRML202/bin:/opt/cadence/CONFRML202:/opt/cadence/SPECTRE201:/opt/cadence/INCISIVE152:/opt/cadence/INCISIVE152/bin:/opt/cadence/ASSURA41:/opt/cadence/ASSURA41/bin:/opt/cadence/QUANTUS201/bin:/opt/cadence/QUANTUS201:/classes/ece2400/install/bare-pkgs/x86_64-rhel7/pkgs/gh_2.0.0_linux_amd64/bin:/opt/cmake/cmake-3.19.3/bin:/opt/cmake/cmake-3.19.3:/classes/ece2400/install/venv-pkgs/x86_64-rhel7/python2.7.13/bin:/opt/rh/llvm-toolset-7/root/usr/bin:/opt/rh/llvm-toolset-7/root/usr:/opt/rh/devtoolset-9/root/usr/bin:/opt/rh/devtoolset-9/root/usr:/opt/texlive/2016/bin:/opt/texlive/2016/bin/x86_64-linux:/opt/texlive/2016:/home/pis7/install/stow-pkgs/x86_64-rhel7/bin:/home/pis7/install/stow-pkgs/noarch/bin:/classes/ece2400/install/stow-pkgs/x86_64-rhel7/bin:/classes/ece2400/install/stow-pkgs/noarch/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/classes/setup:/home/pis7/.local/bin:/home/pis7/bin:/classes/setup:/classes/setup:/opt/matlab/R2019A/bin/
+LD_LIBRARY_PATH:  /opt/cadence/SPECTRE201/tools.lnx86/giganta/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/mdl/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/mmsim/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/tcltk-8.4.20/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/inca/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/awrmwo/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/spectre/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/dfII/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/fmc/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/lib/64bit:/opt/cadence/SPECTRE201/tools.lnx86/lib:/opt/cadence/SPECTRE201/tools.lnx86/lib/64bit/RHEL/RHEL7:/opt/cadence/IC618-150/tools/lib/64bit:/opt/cadence/IC618-150/tools/lib:/opt/cadence/IC618-150/tools/lib/64bit/RHEL/RHEL7:/opt/cadence/IC618-150/share/oa/lib/linux_rhel60_64/opt:/opt/cadence/IC618-150/tools.lnx86/dfII/lib/64bit:/opt/cadence/IC618-150/tools.lnx86/sev/lib/64bit:/opt/cadence/IC618-150/tools.lnx86/lib/64bit:/opt/cadence/IC618-150/tools.lnx86/lib:/opt/cadence/IC618-150/tools.lnx86/hdf5/lib/64bit:/opt/cadence/IC618-150/tools.lnx86/lz4/lib/64bit:/opt/cadence/IC618-150/tools.lnx86/inca/lib/64bit:/opt/cadence/IC618-150/tools.lnx86/Qt/v5/64bit/lib:/opt/cadence/IC618-150/tools.lnx86/lib/64bit/RHEL/RHEL7:/opt/synopsys/syn/R-2020-09.SP2//lib/linux64/:/opt/rh/llvm-toolset-7/root/usr/lib64:/opt/rh/llvm-toolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/home/pis7/install/stow-pkgs/x86_64-rhel7/lib:/classes/ece2400/install/stow-pkgs/x86_64-rhel7/lib
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j8 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file lab2_signal_gen_func.c (optimize)
+Compiling C file lab2_signal_gen_DcFuncDerLoad.c (optimize)
+Compiling C file lab2_signal_gen_DcFuncLoad.c (optimize)
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -c lab2_signal_gen_func.c -o obj/optimize/5.0/lab2_signal_gen_func.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_func.o
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -c lab2_signal_gen_DcFuncDerLoad.c -o obj/optimize/5.0/lab2_signal_gen_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_DcFuncDerLoad.o
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -c lab2_signal_gen_DcFuncLoad.c -o obj/optimize/5.0/lab2_signal_gen_DcFuncLoad.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_DcFuncLoad.o
+Compiling C file lab2_signal_gen_TranFuncDerLoad.c (optimize)
+Compiling C file lab2_signal_gen_TranFuncLoad.c (optimize)
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -c lab2_signal_gen_TranFuncDerLoad.c -o obj/optimize/5.0/lab2_signal_gen_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_TranFuncDerLoad.o
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -c lab2_signal_gen_TranFuncLoad.c -o obj/optimize/5.0/lab2_signal_gen_TranFuncLoad.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_TranFuncLoad.o
+Compiling C file lab2_signal_gen_OpPointCalc.c (optimize)
+Compiling C file lab2_signal_gen_cmi_c.c (optimize)
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -c lab2_signal_gen_OpPointCalc.c -o obj/optimize/5.0/lab2_signal_gen_OpPointCalc.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_OpPointCalc.o
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include -I/opt/cadence/SPECTRE201/tools.lnx86/cmi/include -c lab2_signal_gen_cmi_c.c -o obj/optimize/5.0/lab2_signal_gen_cmi_c.o || rm -f -f obj/optimize/5.0/lab2_signal_gen_cmi_c.o
+<stdin>: In function 'lab2_signal_gen_pPrintDescription':
+<stdin>:665:3: warning: implicit declaration of function 'msgWrite' [-Wimplicit-function-declaration]
+<stdin>:667:67: warning: implicit declaration of function 'devGetRFinFreqDomain' [-Wimplicit-function-declaration]
+<stdin>: In function 'lab2_signal_gen_pGetInstanceParams':
+<stdin>:896:41: warning: implicit declaration of function 'devGetInstKnotStatus' [-Wimplicit-function-declaration]
+<stdin>: In function 'lab2_signal_gen_pDC_Load':
+<stdin>:1180:33: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2755:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'lab2_signal_gen_pCompare':
+<stdin>:1820:3: warning: implicit declaration of function 'spReplaceMatrixPointer' [-Wimplicit-function-declaration]
+<stdin>:1826:36: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1827:12: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^~~~~~
+<stdin>:1827:46: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'const void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^~~~~~
+<stdin>:1829:36: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'lab2_signal_gen_pMapSignals':
+<stdin>:1889:26: warning: comparison between pointer and integer
+<stdin>: In function 'lab2_signal_gen_pGetMatrixPointers':
+<stdin>:2009:33: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'lab2_signal_gen_pAnalTranLoad':
+<stdin>:2904:34: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2755:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'lab2_signal_gen_pSaveRestart':
+<stdin>:3176:4: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:3177:29: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1262:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'lab2_signal_gen_pSaveRestartInst':
+<stdin>:3254:27: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/opt/cadence/SPECTRE201/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1262:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'ahdllab2_signal_genDescInstall':
+<stdin>:3383:2: warning: implicit declaration of function 'descSetDeviceType' [-Wimplicit-function-declaration]
+<stdin>:3385:2: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:3393:2: warning: implicit declaration of function 'descSetCopySignals' [-Wimplicit-function-declaration]
+<stdin>:3423:2: warning: implicit declaration of function 'descSetPrintDescription' [-Wimplicit-function-declaration]
+<stdin>:3425:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+<stdin>:3426:2: warning: implicit declaration of function 'descSetGetLinearityFactor' [-Wimplicit-function-declaration]
+rm -f -rf lab2_signal_gen_TranFuncLoad.c
+rm -f -rf lab2_signal_gen_OpPointCalc.c
+rm -f -rf lab2_signal_gen_DcFuncLoad.c
+rm -f -rf lab2_signal_gen_TranFuncDerLoad.c
+rm -f -rf lab2_signal_gen_DcFuncDerLoad.c
+rm -f -rf lab2_signal_gen_func.c
+rm -f -rf lab2_signal_gen_cmi_c.c
+/opt/cadence/SPECTRE201/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_lab2_signal_gen.so ./obj/optimize/5.0/lab2_signal_gen_func.o ./obj/optimize/5.0/lab2_signal_gen_DcFuncDerLoad.o ./obj/optimize/5.0/lab2_signal_gen_DcFuncLoad.o ./obj/optimize/5.0/lab2_signal_gen_TranFuncDerLoad.o ./obj/optimize/5.0/lab2_signal_gen_TranFuncLoad.o ./obj/optimize/5.0/lab2_signal_gen_OpPointCalc.o ./obj/optimize/5.0/lab2_signal_gen_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
+rm -f -f ./obj/optimize/5.0/lab2_signal_gen_func.o ./obj/optimize/5.0/lab2_signal_gen_DcFuncDerLoad.o ./obj/optimize/5.0/lab2_signal_gen_DcFuncLoad.o ./obj/optimize/5.0/lab2_signal_gen_TranFuncDerLoad.o ./obj/optimize/5.0/lab2_signal_gen_TranFuncLoad.o ./obj/optimize/5.0/lab2_signal_gen_OpPointCalc.o ./obj/optimize/5.0/lab2_signal_gen_cmi_c.o 

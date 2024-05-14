@@ -1,0 +1,37 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab1inv_four schematic ece4740" "lab1inv_four layout ece4740"
+N A avC2
+N Y avC4
+N vdd! avC3
+N gnd! avT557_1
+I NM0 avD1_1
+I PM0 avD7_1
+
+C "lab1inv_narrow schematic ece4740" "lab1inv_narrow layout ece4740"
+N A avC2
+N Y avC4
+N vdd! avC3
+N gnd! avT557_1
+I NM0 avD1_1
+I PM0 avD7_1
+
+C "lab1inv_opt_inv_chain schematic ece4740" "lab1inv_opt_inv_chain layout ece4740"
+N net1 avC5
+N A A
+N Y Y
+N vdd! vdd!
+N gnd! gnd!
+I I0 I0
+I I1 I1
+

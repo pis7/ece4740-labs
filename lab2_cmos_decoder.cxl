@@ -1,0 +1,57 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab2_cmos_nand schematic ece4740" "lab2_cmos_nand layout ece4740"
+N Y avC3
+N A avC2
+N B avC4
+N vdd! avC5
+N gnd! avT557_1
+I NM1 avD1_2
+I NM0 avD1_1
+I PM3 avD7_2
+I PM0 avD7_1
+
+C "lab2_cmos_inv schematic ece4740" "lab2_cmos_inv layout ece4740"
+N A avC4
+N Y avC2
+N vdd! avC3
+N gnd! avT557_1
+I NM0 avD1_1
+I PM0 avD7_1
+
+C "lab2_cmos_decoder schematic ece4740" "lab2_cmos_decoder layout ece4740"
+N net5 avC13
+N net1 avC9
+N net6 avC14
+N net3 avC10
+N net2 avC11
+N net4 avC12
+N A A
+N B B
+N Y0 Y0
+N Y1 Y1
+N Y2 Y2
+N Y3 Y3
+N vdd! vdd!
+N gnd! gnd!
+I I23 I23
+I I25 I25
+I I24 I24
+I I26 I26
+I I27 I27
+I I28 I28
+I I31 I31
+I I32 I32
+I I29 I29
+I I30 I30
+

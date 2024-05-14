@@ -1,0 +1,1136 @@
+    c1 (\2\:B \25\:gnd!) capacitor c=5.83194e-17
+    c2 (\58\:vdd! \12\:net2) capacitor c=8.69637e-18
+    c3 (\4\:net6 \15\:A) capacitor c=2.74235e-18
+    c4 (\5\:net3 \10\:net1) capacitor c=4.59025e-17
+    c5 (\11\:A \1\:gnd!) capacitor c=2.58121e-17
+    c6 (\14\:net1 \25\:vdd!) capacitor c=3.52789e-18
+    c7 (\2\:A vdd!) capacitor c=7.32918e-18
+    c8 (vdd! \1\:gnd!) capacitor c=2.41972e-17
+    c9 (\4\:net6 \5\:vdd!) capacitor c=7.78975e-18
+    c10 (\4\:vdd! \17\:B) capacitor c=8.69637e-18
+    c11 (\19\:gnd! \20\:net2) capacitor c=3.85854e-18
+    c12 (\6\:B \18\:gnd!) capacitor c=1.31462e-17
+    c13 (\14\:A \4\:vdd!) capacitor c=3.13116e-17
+    c14 (\12\:B \14\:net5) capacitor c=1.13906e-18
+    c15 (\9\:net3 \10\:net1) capacitor c=7.31444e-18
+    c16 (\4\:net3 \12\:net2) capacitor c=2.45967e-18
+    c17 (\18\:net1 \1\:gnd!) capacitor c=2.47361e-17
+    c18 (\5\:net6 \17\:A) capacitor c=3.07295e-18
+    c19 (\4\:net1 \25\:gnd!) capacitor c=2.90756e-18
+    c20 (\58\:vdd! \13\:net1) capacitor c=8.69637e-18
+    c21 (\10\:net2 \59\:vdd!) capacitor c=1.84769e-17
+    c22 (\12\:B \17\:A) capacitor c=3.86826e-18
+    c23 (\14\:net5 \1\:gnd!) capacitor c=2.36455e-17
+    c24 (\19\:net2 \1\:gnd!) capacitor c=3.38814e-18
+    c25 (\9\:net5 \17\:vdd!) capacitor c=2.818e-18
+    c26 (\5\:net6 \16\:B) capacitor c=1.39994e-18
+    c27 (A \1\:gnd!) capacitor c=3.02417e-17
+    c28 (A \75\:vdd!) capacitor c=1.27085e-17
+    c29 (\4\:net6 \17\:B) capacitor c=3.1076e-18
+    c30 (net2 B) capacitor c=3.06306e-17
+    c31 (B \4\:net1) capacitor c=2.57451e-17
+    c32 (\4\:gnd! \5\:net6) capacitor c=2.97755e-18
+    c33 (\8\:net1 \8\:B) capacitor c=6.50956e-18
+    c34 (\19\:gnd! \10\:B) capacitor c=6.07474e-18
+    c35 (\4\:net3 \13\:net1) capacitor c=2.77108e-18
+    c36 (\17\:A \1\:gnd!) capacitor c=2.69692e-17
+    c37 (\4\:net1 \10\:net2) capacitor c=1.10254e-17
+    c38 (\18\:gnd! \9\:net4) capacitor c=1.29129e-18
+    c39 (\14\:A \17\:vdd!) capacitor c=3.74354e-17
+    c40 (Y1 \10\:net4) capacitor c=1.61879e-17
+    c41 (B \1\:gnd!) capacitor c=1.51557e-17
+    c42 (\23\:vdd! \1\:gnd!) capacitor c=1.59421e-17
+    c43 (B \68\:vdd!) capacitor c=1.19758e-17
+    c44 (\8\:net1 Y0) capacitor c=5.91271e-18
+    c45 (\5\:net6 \4\:vdd!) capacitor c=7.78567e-18
+    c46 (\9\:net3 Y0) capacitor c=4.06119e-18
+    c47 (Y0 \17\:net2) capacitor c=1.3454e-18
+    c48 (\17\:net2 \1\:Y0) capacitor c=5.43776e-19
+    c49 (\12\:B \14\:net6) capacitor c=6.74812e-18
+    c50 (\13\:net2 \59\:vdd!) capacitor c=2.46135e-17
+    c51 (\16\:B \1\:gnd!) capacitor c=2.61641e-17
+    c52 (\9\:net4 \40\:vdd!) capacitor c=2.37649e-18
+    c53 (\14\:A \5\:vdd!) capacitor c=2.81876e-17
+    c54 (\11\:net2 \58\:vdd!) capacitor c=9.38485e-18
+    c55 (Y0 \1\:gnd!) capacitor c=2.96653e-18
+    c56 (\16\:A \5\:vdd!) capacitor c=2.51267e-17
+    c57 (\5\:net6 \13\:A) capacitor c=4.03914e-17
+    c58 (Y0 \51\:vdd!) capacitor c=1.66952e-17
+    c59 (\9\:net4 Y1) capacitor c=3.25381e-17
+    c60 (\2\:A \57\:vdd!) capacitor c=8.52138e-18
+    c61 (\5\:net4 \8\:B) capacitor c=5.26027e-17
+    c62 (\14\:net1 Y1) capacitor c=6.18554e-18
+    c63 (\14\:net6 \1\:gnd!) capacitor c=4.20237e-17
+    c64 (\9\:B \1\:gnd!) capacitor c=3.59137e-18
+    c65 (\12\:net2 \13\:net1) capacitor c=1.43015e-17
+    c66 (\4\:gnd! \12\:B) capacitor c=6.8869e-17
+    c67 (\5\:net6 \5\:vdd!) capacitor c=1.56953e-17
+    c68 (\25\:gnd! \5\:net3) capacitor c=1.38901e-18
+    c69 (Y1 \1\:gnd!) capacitor c=2.9208e-18
+    c70 (\14\:A \4\:net6) capacitor c=3.37746e-18
+    c71 (net2 \2\:A) capacitor c=1.11023e-16
+    c72 (Y1 \34\:vdd!) capacitor c=1.69811e-17
+    c73 (\4\:net3 \59\:vdd!) capacitor c=3.98249e-18
+    c74 (\57\:vdd! \1\:gnd!) capacitor c=1.59284e-17
+    c75 (\9\:net5 Y2) capacitor c=4.06119e-18
+    c76 (\1\:A \1\:gnd!) capacitor c=1.11678e-17
+    c77 (\9\:net4 \8\:B) capacitor c=1.37604e-17
+    c78 (\8\:A \40\:vdd!) capacitor c=1.35245e-17
+    c79 (Y2 \1\:gnd!) capacitor c=4.91135e-18
+    c80 (\5\:net6 \16\:A) capacitor c=1.46906e-17
+    c81 (\1\:A \75\:vdd!) capacitor c=3.35568e-17
+    c82 (\8\:A \8\:B) capacitor c=9.96209e-18
+    c83 (\18\:net2 \11\:B) capacitor c=1.43032e-17
+    c84 (\5\:net3 \10\:net2) capacitor c=4.01554e-17
+    c85 (\1\:B \1\:gnd!) capacitor c=8.59673e-18
+    c86 (\11\:net1 \59\:vdd!) capacitor c=4.32842e-17
+    c87 (Y2 \17\:vdd!) capacitor c=1.70594e-17
+    c88 (\12\:B \13\:A) capacitor c=1.16387e-17
+    c89 (\2\:B net2) capacitor c=1.32342e-17
+    c90 (\25\:gnd! \8\:net1) capacitor c=7.75806e-18
+    c91 (\9\:net6 Y3) capacitor c=4.06119e-18
+    c92 (Y3 \1\:gnd!) capacitor c=5.03338e-18
+    c93 (\15\:B \5\:vdd!) capacitor c=4.30851e-17
+    c94 (\9\:net6 \4\:gnd!) capacitor c=3.82104e-18
+    c95 (\6\:B \13\:gnd!) capacitor c=4.93941e-17
+    c96 (A \2\:net2) capacitor c=3.3645e-17
+    c97 (\11\:net2 \2\:A) capacitor c=2.44347e-16
+    c98 (\14\:net1 \8\:B) capacitor c=3.24344e-18
+    c99 (\1\:B \68\:vdd!) capacitor c=4.12795e-17
+    c100 (\11\:net2 \4\:net3) capacitor c=1.80955e-17
+    c101 (Y3 \1\:vdd!) capacitor c=2.51101e-17
+    c102 (\9\:net6 \1\:vdd!) capacitor c=6.21182e-18
+    c103 (\9\:A \19\:net1) capacitor c=1.43032e-17
+    c104 (\17\:net2 \9\:B) capacitor c=3.1947e-18
+    c105 (\2\:B \4\:net1) capacitor c=1.02951e-16
+    c106 (\9\:net6 \4\:vdd!) capacitor c=4.48161e-18
+    c107 (\7\:A \10\:net4) capacitor c=2.3739e-18
+    c108 (\8\:net1 \10\:net2) capacitor c=3.71466e-18
+    c109 (\12\:B \4\:Y2) capacitor c=1.95862e-18
+    c110 (\10\:net1 \1\:gnd!) capacitor c=5.84762e-18
+    c111 (\14\:net1 \10\:net4) capacitor c=1.54887e-18
+    c112 (\10\:A \1\:gnd!) capacitor c=3.38814e-18
+    c113 (\5\:net4 \19\:net2) capacitor c=1.35762e-17
+    c114 (\5\:net6 \15\:B) capacitor c=1.15894e-17
+    c115 (\8\:A \16\:net1) capacitor c=7.24764e-18
+    c116 (\9\:net2 \59\:vdd!) capacitor c=1.88204e-17
+    c117 (\5\:net5 \16\:net1) capacitor c=5.19276e-17
+    c118 (Y0 \16\:net2) capacitor c=4.8054e-18
+    c119 (\4\:net1 \11\:net2) capacitor c=3.36251e-17
+    c120 (\7\:A \25\:vdd!) capacitor c=2.61366e-17
+    c121 (\8\:A net4) capacitor c=1.48041e-18
+    c122 (\2\:net2 B) capacitor c=6.25478e-18
+    c123 (\10\:net1 \59\:vdd!) capacitor c=1.89833e-17
+    c124 (\15\:A \17\:B) capacitor c=1.44412e-17
+    c125 (\17\:net2 \2\:A) capacitor c=1.36711e-17
+    c126 (\2\:B \8\:net1) capacitor c=1.18304e-16
+    c127 (\41\:vdd! \18\:net2) capacitor c=8.69637e-18
+    c128 (\4\:vdd! \1\:gnd!) capacitor c=5.21294e-17
+    c129 (\5\:net4 \9\:B) capacitor c=1.09214e-17
+    c130 (\2\:A \2\:net2) capacitor c=5.20707e-18
+    c131 (\5\:net3 \11\:net2) capacitor c=6.64818e-17
+    c132 (\8\:B \1\:gnd!) capacitor c=1.1564e-17
+    c133 (\17\:net1 \1\:gnd!) capacitor c=3.50502e-18
+    c134 (\2\:net2 \1\:A) capacitor c=9.76664e-18
+    c135 (\4\:net4 \18\:net2) capacitor c=2.72519e-18
+    c136 (\8\:net1 \11\:net2) capacitor c=9.84939e-18
+    c137 (\10\:net4 \1\:gnd!) capacitor c=1.51138e-17
+    c138 (\4\:net6 \16\:A) capacitor c=5.79432e-18
+    c139 (\2\:net2 \3\:A) capacitor c=3.20325e-18
+    c140 (\41\:vdd! \11\:B) capacitor c=8.69637e-18
+    c141 (\9\:net3 \11\:net2) capacitor c=3.5005e-17
+    c142 (\8\:net1 \5\:net3) capacitor c=7.78817e-17
+    c143 (\8\:A \24\:vdd!) capacitor c=6.41705e-17
+    c144 (\41\:vdd! \1\:gnd!) capacitor c=5.06338e-17
+    c145 (Y1 \7\:A) capacitor c=6.08452e-18
+    c146 (\15\:net2 \42\:vdd!) capacitor c=1.83863e-17
+    c147 (net2 \3\:B) capacitor c=3.71139e-18
+    c148 (\4\:net5 \25\:vdd!) capacitor c=7.81774e-18
+    c149 (\4\:net4 \11\:B) capacitor c=3.1076e-18
+    c150 (\14\:net2 \12\:net1) capacitor c=1.38288e-17
+    c151 (\8\:A net5) capacitor c=1.48041e-18
+    c152 (\13\:gnd! \5\:net5) capacitor c=1.78976e-18
+    c153 (\8\:net1 \9\:net3) capacitor c=7.32987e-17
+    c154 (\8\:B \42\:vdd!) capacitor c=1.98416e-17
+    c155 (\13\:A \4\:net6) capacitor c=4.58233e-18
+    c156 (\5\:net6 \14\:B) capacitor c=5.19326e-17
+    c157 (\4\:net5 \10\:A) capacitor c=5.79432e-18
+    c158 (\5\:net5 \24\:vdd!) capacitor c=2.65879e-18
+    c159 (\8\:net1 \17\:net2) capacitor c=4.06255e-17
+    c160 (\16\:A \1\:gnd!) capacitor c=3.39222e-18
+    c161 (\13\:gnd! \11\:A) capacitor c=3.85854e-18
+    c162 (\8\:net1 \5\:net4) capacitor c=6.67556e-17
+    c163 (\5\:net5 \7\:A) capacitor c=4.03685e-17
+    c164 (\9\:net3 \17\:net2) capacitor c=3.85733e-17
+    c165 (\10\:net4 \34\:vdd!) capacitor c=4.02349e-17
+    c166 (\11\:net2 \13\:net1) capacitor c=2.62749e-18
+    c167 (\19\:net2 \42\:vdd!) capacitor c=2.36743e-17
+    c168 (\9\:net6 \14\:B) capacitor c=9.02813e-18
+    c169 (\13\:gnd! \14\:net1) capacitor c=8.75501e-18
+    c170 (\20\:net2 \10\:B) capacitor c=1.38273e-17
+    c171 (\8\:net1 \6\:B) capacitor c=2.6975e-16
+    c172 (Y2 \13\:A) capacitor c=6.12536e-18
+    c173 (\14\:B \1\:gnd!) capacitor c=1.41229e-17
+    c174 (\8\:A \4\:net5) capacitor c=3.37746e-18
+    c175 (\19\:gnd! \16\:net2) capacitor c=2.52321e-18
+    c176 (\3\:A \75\:vdd!) capacitor c=3.02215e-17
+    c177 (\9\:net6 \3\:gnd!) capacitor c=6.53773e-18
+    c178 (\6\:A \25\:vdd!) capacitor c=1.84374e-17
+    c179 (\17\:net2 \12\:net3) capacitor c=3.65721e-18
+    c180 (\15\:B \1\:gnd!) capacitor c=3.61804e-18
+    c181 (\13\:gnd! \18\:net1) capacitor c=6.07474e-18
+    c182 (\14\:net1 \7\:A) capacitor c=1.70961e-17
+    c183 (\8\:net1 \8\:A) capacitor c=8.01201e-18
+    c184 (\9\:net6 \3\:vdd!) capacitor c=6.31558e-18
+    c185 (\16\:net1 \25\:vdd!) capacitor c=2.64419e-17
+    c186 (\9\:net5 \13\:gnd!) capacitor c=2.06895e-18
+    c187 (\3\:B \68\:vdd!) capacitor c=3.04539e-17
+    c188 (\2\:A \1\:gnd!) capacitor c=8.06271e-17
+    c189 (\8\:A \12\:net3) capacitor c=2.58832e-18
+    c190 (\9\:B \42\:vdd!) capacitor c=4.30579e-17
+    c191 (\11\:A \18\:net1) capacitor c=1.38255e-17
+    c192 (\17\:net2 \11\:B) capacitor c=3.32216e-18
+    c193 (\2\:A \75\:vdd!) capacitor c=3.64778e-17
+    c194 (\9\:net5 \24\:vdd!) capacitor c=1.83899e-18
+    c195 (net2 \1\:gnd!) capacitor c=2.74375e-17
+    c196 (\13\:net2 \11\:net1) capacitor c=1.84589e-17
+    c197 (\12\:net2 \59\:vdd!) capacitor c=2.84359e-17
+    c198 (\17\:net2 \8\:A) capacitor c=1.50686e-16
+    c199 (\4\:net6 \15\:B) capacitor c=5.55426e-18
+    c200 (\2\:A \68\:vdd!) capacitor c=2.74204e-17
+    c201 (net2 \75\:vdd!) capacitor c=1.31111e-17
+    c202 (\4\:net4 \19\:net2) capacitor c=5.75806e-18
+    c203 (\2\:B \1\:gnd!) capacitor c=9.69834e-17
+    c204 (\5\:net4 \8\:A) capacitor c=1.91504e-17
+    c205 (\6\:B \9\:net4) capacitor c=1.44975e-18
+    c206 (\13\:net1 \59\:vdd!) capacitor c=2.97738e-17
+    c207 (\2\:A \59\:vdd!) capacitor c=2.33251e-17
+    c208 (\3\:vdd! \1\:gnd!) capacitor c=1.71971e-17
+    c209 (net2 \68\:vdd!) capacitor c=3.25689e-18
+    c210 (\19\:net2 \9\:B) capacitor c=1.84589e-17
+    c211 (\8\:A \12\:net4) capacitor c=5.10238e-18
+    c212 (\8\:net1 \19\:gnd!) capacitor c=4.46563e-18
+    c213 (\4\:net1 \1\:gnd!) capacitor c=2.5926e-17
+    c214 (\4\:net5 \17\:net1) capacitor c=5.61224e-18
+    c215 (\12\:A \5\:vdd!) capacitor c=1.84659e-17
+    c216 (\12\:net3 \51\:vdd!) capacitor c=2.97999e-17
+    c217 (\14\:net1 \5\:net4) capacitor c=6.96525e-18
+    c218 (\17\:A \16\:B) capacitor c=1.41068e-17
+    c219 (\6\:B \5\:net5) capacitor c=1.64437e-18
+    c220 (\9\:net4 \8\:A) capacitor c=2.47392e-17
+    c221 (\24\:vdd! \9\:A) capacitor c=8.69637e-18
+    c222 (\11\:net2 \1\:gnd!) capacitor c=2.07961e-17
+    c223 (\14\:B \5\:vdd!) capacitor c=2.57595e-17
+    c224 (\4\:net1 \68\:vdd!) capacitor c=1.05272e-17
+    c225 (\6\:B \24\:gnd!) capacitor c=1.31462e-17
+    c226 (\8\:A \19\:net1) capacitor c=3.56806e-18
+    c227 (\8\:net1 \16\:net2) capacitor c=1.54457e-17
+    c228 (\14\:net1 \6\:B) capacitor c=3.12388e-16
+    c229 (\40\:vdd! \1\:gnd!) capacitor c=1.59284e-17
+    c230 (\18\:net2 \42\:vdd!) capacitor c=2.73848e-17
+    c231 (\2\:B \5\:A) capacitor c=4.77749e-18
+    c232 (\10\:A \17\:net1) capacitor c=1.84589e-17
+    c233 (\11\:net2 \68\:vdd!) capacitor c=4.24428e-18
+    c234 (\4\:net5 \9\:A) capacitor c=2.74235e-18
+    c235 (\14\:net1 \9\:net4) capacitor c=8.32068e-17
+    c236 (\5\:net5 \8\:A) capacitor c=1.93747e-17
+    c237 (\16\:net2 \42\:vdd!) capacitor c=1.7954e-17
+    c238 (\11\:B \42\:vdd!) capacitor c=3.06483e-17
+    c239 (\8\:net1 \1\:gnd!) capacitor c=4.80417e-17
+    c240 (\4\:net1 \5\:B) capacitor c=6.79273e-18
+    c241 (\2\:A \81\:vdd!) capacitor c=6.73113e-18
+    c242 (\25\:gnd! \14\:net2) capacitor c=3.85854e-18
+    c243 (\24\:vdd! \19\:net1) capacitor c=8.69637e-18
+    c244 (\11\:net2 \59\:vdd!) capacitor c=1.86176e-17
+    c245 (\14\:net1 \8\:A) capacitor c=3.31348e-17
+    c246 (\2\:B \14\:net2) capacitor c=3.19317e-18
+    c247 (\14\:A \12\:net5) capacitor c=5.36307e-18
+    c248 (\9\:net3 \1\:gnd!) capacitor c=9.04863e-18
+    c249 (\12\:B \13\:gnd!) capacitor c=1.10988e-17
+    c250 (\12\:net4 \34\:vdd!) capacitor c=3.20256e-17
+    c251 (\5\:net3 \59\:vdd!) capacitor c=1.16675e-17
+    c252 (\9\:net5 \8\:A) capacitor c=1.01411e-17
+    c253 (\14\:net1 \5\:net5) capacitor c=7.36671e-17
+    c254 (\5\:net5 \10\:A) capacitor c=1.35762e-17
+    c255 (\5\:net3 \14\:net2) capacitor c=1.8822e-18
+    c256 (\17\:net2 \1\:gnd!) capacitor c=1.4772e-17
+    c257 (\4\:net5 \19\:net1) capacitor c=3.1076e-18
+    c258 (\17\:net2 \41\:vdd!) capacitor c=6.2753e-18
+    c259 (\74\:vdd! \1\:gnd!) capacitor c=3.09416e-17
+    c260 (\25\:gnd! \12\:net1) capacitor c=6.07474e-18
+    c261 (\8\:net1 \14\:net2) capacitor c=2.32379e-18
+    c262 (\2\:net2 \1\:gnd!) capacitor c=5.36928e-18
+    c263 (\4\:net4 \9\:B) capacitor c=5.55426e-18
+    c264 (\5\:net3 \12\:net1) capacitor c=1.332e-18
+    c265 (\9\:A \25\:vdd!) capacitor c=2.76119e-17
+    c266 (\5\:net4 \1\:gnd!) capacitor c=9.39217e-19
+    c267 (\19\:gnd! \5\:net4) capacitor c=1.6385e-18
+    c268 (\16\:A \15\:B) capacitor c=1.84589e-17
+    c269 (\8\:A \57\:vdd!) capacitor c=4.6741e-18
+    c270 (\19\:net1 \25\:vdd!) capacitor c=3.06704e-17
+    c271 (\8\:net1 \14\:net3) capacitor c=3.22054e-18
+    c272 (\6\:B \1\:gnd!) capacitor c=1.71764e-16
+    c273 (\4\:net4 \42\:vdd!) capacitor c=7.78639e-18
+    c274 (\9\:net5 \12\:gnd!) capacitor c=2.74809e-18
+    c275 (\5\:net4 \41\:vdd!) capacitor c=2.65879e-18
+    c276 (\9\:net3 \51\:vdd!) capacitor c=1.65082e-18
+    c277 (\5\:net5 \17\:net1) capacitor c=1.08356e-17
+    c278 (\10\:A \25\:vdd!) capacitor c=2.51267e-17
+    c279 (\9\:net4 \1\:gnd!) capacitor c=1.08075e-17
+    c280 (\9\:net5 \23\:vdd!) capacitor c=2.58624e-18
+    c281 (\4\:net3 \13\:net2) capacitor c=5.29439e-18
+    c282 (\5\:net4 \16\:net2) capacitor c=4.03969e-17
+    c283 (\9\:net5 \14\:A) capacitor c=1.44838e-17
+    c284 (\11\:net2 \11\:net1) capacitor c=2.46195e-18
+    c285 (\12\:net5 \17\:vdd!) capacitor c=3.20256e-17
+    c286 (\2\:net2 \75\:vdd!) capacitor c=1.84417e-17
+    c287 (\17\:net2 \51\:vdd!) capacitor c=8.23605e-18
+    c288 (\2\:A \74\:vdd!) capacitor c=1.98441e-17
+    c289 (\19\:gnd! \6\:B) capacitor c=7.1378e-17
+    c290 (\5\:net3 \13\:net2) capacitor c=1.37374e-17
+    c291 (\8\:A \1\:gnd!) capacitor c=5.63264e-17
+    c292 (\2\:A net3) capacitor c=2.16682e-18
+    c293 (\5\:net4 \20\:net2) capacitor c=1.8822e-18
+    c294 (\17\:net2 \42\:vdd!) capacitor c=1.49716e-17
+    c295 (\5\:A \1\:gnd!) capacitor c=3.07398e-17
+    c296 (\17\:net2 \4\:net4) capacitor c=1.14559e-17
+    c297 (\6\:B \20\:net2) capacitor c=3.85113e-18
+    c298 (\10\:net2 \4\:net3) capacitor c=2.13022e-18
+    c299 (\15\:A \5\:vdd!) capacitor c=2.77538e-17
+    c300 (\24\:vdd! \1\:gnd!) capacitor c=5.06338e-17
+    c301 (\5\:net5 \1\:gnd!) capacitor c=9.3796e-19
+    c302 (\5\:net4 \10\:B) capacitor c=1.34286e-18
+    c303 (\12\:B \9\:net5) capacitor c=2.49869e-17
+    c304 (\5\:net4 \42\:vdd!) capacitor c=1.14583e-17
+    c305 (\5\:B \1\:gnd!) capacitor c=2.36308e-17
+    c306 (net2 \74\:vdd!) capacitor c=3.79745e-18
+    c307 (\14\:A \23\:vdd!) capacitor c=1.23132e-17
+    c308 (\17\:B \5\:vdd!) capacitor c=3.03827e-17
+    c309 (\14\:net1 \1\:gnd!) capacitor c=5.53121e-17
+    c310 (\17\:net1 \25\:vdd!) capacitor c=4.32685e-17
+    c311 (\5\:net3 \11\:net1) capacitor c=1.06088e-17
+    c312 (\4\:gnd! \17\:A) capacitor c=3.85854e-18
+    c313 (\14\:net2 \1\:gnd!) capacitor c=2.58182e-17
+    c314 (\6\:B \14\:net4) capacitor c=3.81977e-18
+    c315 (\30\:gnd! \2\:B) capacitor c=2.10347e-17
+    c316 (\9\:net4 \41\:vdd!) capacitor c=1.68639e-18
+    c317 (\8\:B \10\:net4) capacitor c=3.23889e-18
+    c318 (\9\:net5 \1\:gnd!) capacitor c=1.31618e-17
+    c319 (\12\:B \5\:net6) capacitor c=2.90284e-17
+    c320 (\58\:vdd! \1\:gnd!) capacitor c=5.07791e-17
+    c321 (\6\:B \11\:A) capacitor c=3.17304e-18
+    c322 (\12\:net6 \1\:vdd!) capacitor c=3.79808e-17
+    c323 (\12\:net1 \1\:gnd!) capacitor c=2.48314e-17
+    c324 (\13\:net2 \1\:gnd!) capacitor c=3.38814e-18
+    c325 (\8\:A \51\:vdd!) capacitor c=2.84777e-17
+    c326 (\14\:A \1\:gnd!) capacitor c=3.03662e-17
+    c327 (net2 \1\:B) capacitor c=2.21631e-18
+    c328 (\9\:net4 \34\:vdd!) capacitor c=1.72931e-17
+    c329 (\13\:A \5\:vdd!) capacitor c=2.61254e-17
+    c330 (\14\:net3 \1\:gnd!) capacitor c=3.21104e-17
+    c331 (\14\:net1 \14\:net4) capacitor c=1.94783e-18
+    c332 (\8\:A \42\:vdd!) capacitor c=2.17327e-17
+    c333 (\5\:net5 \11\:A) capacitor c=1.8822e-18
+    c334 (\2\:A \58\:vdd!) capacitor c=5.46777e-17
+    c335 (\8\:A \41\:vdd!) capacitor c=5.47482e-17
+    c336 (\4\:gnd! \16\:B) capacitor c=6.07474e-18
+    c337 (\12\:B \9\:net6) capacitor c=1.62645e-18
+    c338 (\4\:net3 \11\:net1) capacitor c=5.10651e-18
+    c339 (\4\:net1 \1\:B) capacitor c=1.22416e-17
+    c340 (\20\:net2 \1\:gnd!) capacitor c=2.66561e-17
+    c341 (\8\:A \34\:vdd!) capacitor c=3.18418e-17
+    c342 (\5\:net5 \18\:net1) capacitor c=1.32621e-18
+    c343 (\8\:A \16\:net2) capacitor c=5.81335e-18
+    c344 (\12\:B \12\:gnd!) capacitor c=1.41362e-17
+    c345 (\12\:B \1\:gnd!) capacitor c=1.29202e-16
+    c346 (\4\:vdd! \15\:A) capacitor c=8.69637e-18
+    c347 (\8\:A \25\:vdd!) capacitor c=4.28972e-17
+    c348 (\10\:B \1\:gnd!) capacitor c=2.54655e-17
+    c349 (\11\:net1 \1\:gnd!) capacitor c=3.56081e-18
+    c350 (\9\:net6 \1\:gnd!) capacitor c=1.9572e-17
+    c351 (\7\:A \4\:net5) capacitor c=4.58233e-18
+    c352 (\14\:net1 \14\:net5) capacitor c=9.11032e-18
+    c353 (\14\:net4 \1\:gnd!) capacitor c=3.38072e-17
+    c354 (\5\:net5 \25\:vdd!) capacitor c=1.01955e-17
+    c355 (\11\:net2 \10\:net1) capacitor c=1.21492e-17
+    c356 (\8\:A \10\:net3) capacitor c=1.00473e-18
+    c357 (\5\:Y2 \1\:gnd!) capacitor c=2.31104e-17
+    c358 (\14\:net1 I2\|net1) capacitor c=9.96107e-18
+    c359 (\8\:net1 I0\|net1) capacitor c=9.73872e-18
+    c360 (\2\:net4 \11\:B) capacitor c=7.60599e-18
+    c361 (\6\:B I1\|net1) capacitor c=1.63593e-17
+    c362 (\65\:vdd! \12\:net2) capacitor c=1.00005e-17
+    c363 (\2\:Y2 \12\:net5) capacitor c=1.30971e-17
+    c364 (\5\:Y3 \1\:gnd!) capacitor c=3.34456e-17
+    c365 (\25\:gnd! \7\:net3) capacitor c=5.43215e-18
+    c366 (\2\:net6 \17\:B) capacitor c=7.58072e-18
+    c367 (\9\:net5 \21\:vdd!) capacitor c=2.17341e-18
+    c368 (\38\:gnd! \14\:net5) capacitor c=1.04286e-17
+    c369 (\2\:Y3 \1\:vdd!) capacitor c=3.74804e-17
+    c370 (\38\:gnd! \10\:net5) capacitor c=1.05601e-17
+    c371 (I3\|net1 \1\:gnd!) capacitor c=4.19914e-18
+    c372 (\59\:gnd! A) capacitor c=1.05987e-17
+    c373 (\2\:net6 \5\:vdd!) capacitor c=3.13147e-18
+    c374 (\5\:Y1 \14\:net4) capacitor c=1.16586e-17
+    c375 (\6\:net1 \68\:vdd!) capacitor c=2.83038e-17
+    c376 (\14\:A \10\:net5) capacitor c=7.0341e-18
+    c377 (\12\:B \38\:gnd!) capacitor c=1.93677e-17
+    c378 (\11\:net2 \65\:vdd!) capacitor c=3.7997e-18
+    c379 (I0\|net1 \14\:net2) capacitor c=1.0637e-17
+    c380 (\12\:B \2\:Y2) capacitor c=1.21348e-18
+    c381 (\45\:vdd! \18\:net2) capacitor c=2.2317e-18
+    c382 (\2\:Y2 \17\:vdd!) capacitor c=1.70321e-17
+    c383 (\7\:net4 \20\:net2) capacitor c=1.02893e-17
+    c384 (net2 \72\:vdd!) capacitor c=1.23752e-17
+    c385 (\19\:gnd! \7\:net4) capacitor c=5.43215e-18
+    c386 (\8\:A \31\:vdd!) capacitor c=3.67966e-17
+    c387 (\2\:net5 \9\:A) capacitor c=7.31083e-18
+    c388 (I1\|net1 \20\:net2) capacitor c=1.0637e-17
+    c389 (I0\|net1 \12\:net1) capacitor c=1.0162e-17
+    c390 (\2\:Y0 \12\:net3) capacitor c=1.26824e-17
+    c391 (I1\|net1 \47\:gnd!) capacitor c=1.75757e-17
+    c392 (\14\:vdd! \15\:A) capacitor c=9.31455e-18
+    c393 (\7\:net5 \18\:net1) capacitor c=1.29173e-18
+    c394 (\5\:Y1 \1\:gnd!) capacitor c=1.58681e-17
+    c395 (\9\:net3 \55\:vdd!) capacitor c=1.39371e-18
+    c396 (I2\|net1 \11\:A) capacitor c=1.0637e-17
+    c397 (\7\:net6 \12\:A) capacitor c=2.4492e-18
+    c398 (\48\:vdd! \18\:net2) capacitor c=1.00005e-17
+    c399 (\9\:net4 \38\:vdd!) capacitor c=1.0624e-17
+    c400 (\6\:net1 \1\:B) capacitor c=5.28454e-18
+    c401 (I3\|net1 \17\:A) capacitor c=1.06795e-17
+    c402 (I1\|net1 \10\:B) capacitor c=1.01433e-17
+    c403 (\10\:net1 \10\:net3) capacitor c=5.7433e-18
+    c404 (I2\|net1 \18\:net1) capacitor c=1.01477e-17
+    c405 (\16\:net2 \48\:vdd!) capacitor c=7.35064e-18
+    c406 (\7\:net3 I0\|net1) capacitor c=1.56961e-17
+    c407 (\31\:vdd! \9\:A) capacitor c=9.267e-18
+    c408 (\10\:net5 \17\:vdd!) capacitor c=5.15742e-17
+    c409 (\7\:gnd! \14\:net6) capacitor c=1.07779e-17
+    c410 (\2\:A \62\:vdd!) capacitor c=1.26646e-17
+    c411 (I3\|net1 \16\:B) capacitor c=1.02323e-17
+    c412 (\10\:net1 \62\:vdd!) capacitor c=4.9404e-18
+    c413 (\2\:net3 \58\:vdd!) capacitor c=6.51569e-18
+    c414 (\16\:net1 \10\:net5) capacitor c=5.35226e-18
+    c415 (\31\:vdd! \2\:net5) capacitor c=1.24183e-17
+    c416 (\9\:net6 \7\:gnd!) capacitor c=3.15077e-18
+    c417 (\6\:B \41\:gnd!) capacitor c=1.62507e-17
+    c418 (\4\:net2 \75\:vdd!) capacitor c=5.90866e-18
+    c419 (\13\:gnd! I2\|net1) capacitor c=9.21299e-18
+    c420 (I2\|net1 \1\:gnd!) capacitor c=4.12294e-18
+    c421 (\14\:net1 \41\:gnd!) capacitor c=5.40228e-18
+    c422 (\2\:net1 \1\:gnd!) capacitor c=1.24292e-17
+    c423 (\7\:net6 \5\:vdd!) capacitor c=6.0455e-18
+    c424 (\38\:vdd! \10\:net4) capacitor c=1.91245e-18
+    c425 (\12\:B \5\:Y2) capacitor c=1.16878e-17
+    c426 (\38\:gnd! \5\:Y2) capacitor c=1.00853e-17
+    c427 (\2\:net4 \41\:vdd!) capacitor c=6.51569e-18
+    c428 (\8\:vdd! \2\:Y3) capacitor c=1.39378e-17
+    c429 (\5\:Y0 \1\:gnd!) capacitor c=1.60011e-17
+    c430 (\2\:A \2\:net3) capacitor c=1.01346e-17
+    c431 (\47\:gnd! \10\:B) capacitor c=8.58091e-18
+    c432 (\14\:net1 \7\:net5) capacitor c=1.86613e-17
+    c433 (\2\:net3 \12\:net2) capacitor c=7.56822e-18
+    c434 (\12\:B \10\:net5) capacitor c=6.8096e-18
+    c435 (\2\:A \65\:vdd!) capacitor c=1.26646e-17
+    c436 (\21\:vdd! \2\:Y2) capacitor c=1.39378e-17
+    c437 (\50\:gnd! \14\:net3) capacitor c=1.04286e-17
+    c438 (\2\:net5 \25\:vdd!) capacitor c=3.13147e-18
+    c439 (\4\:net2 \3\:A) capacitor c=8.34131e-18
+    c440 (\2\:Y2 \14\:A) capacitor c=1.8897e-17
+    c441 (\14\:B \11\:vdd!) capacitor c=8.16738e-18
+    c442 (\5\:net6 \11\:vdd!) capacitor c=3.1595e-18
+    c443 (\7\:net5 \6\:A) capacitor c=2.4492e-18
+    c444 (\6\:B \44\:gnd!) capacitor c=2.67413e-17
+    c445 (\7\:net6 \13\:A) capacitor c=2.70264e-17
+    c446 (net2 \6\:net1) capacitor c=7.48601e-18
+    c447 (\47\:gnd! \8\:B) capacitor c=5.75912e-18
+    c448 (\14\:net1 \44\:gnd!) capacitor c=5.7778e-18
+    c449 (I1\|net1 \1\:gnd!) capacitor c=3.93857e-18
+    c450 (\8\:net1 \7\:net4) capacitor c=1.90961e-17
+    c451 (B \72\:vdd!) capacitor c=6.11399e-18
+    c452 (\5\:Y3 \10\:net6) capacitor c=1.43904e-18
+    c453 (\13\:A \14\:vdd!) capacitor c=7.35064e-18
+    c454 (\2\:Y1 \34\:vdd!) capacitor c=1.87656e-17
+    c455 (\7\:gnd! \5\:Y3) capacitor c=1.15559e-17
+    c456 (\8\:A \2\:net5) capacitor c=1.46502e-17
+    c457 (\65\:vdd! \2\:net3) capacitor c=1.24183e-17
+    c458 (\79\:vdd! \3\:A) capacitor c=1.17509e-17
+    c459 (\4\:gnd! I3\|net1) capacitor c=9.21299e-18
+    c460 (\5\:Y2 \10\:net5) capacitor c=1.51641e-18
+    c461 (\14\:vdd! \2\:net6) capacitor c=1.44346e-17
+    c462 (\7\:net2 \2\:B) capacitor c=1.61907e-17
+    c463 (\8\:A \55\:vdd!) capacitor c=2.21241e-17
+    c464 (\50\:gnd! \10\:net3) capacitor c=6.77713e-18
+    c465 (\7\:net5 \7\:A) capacitor c=2.69673e-17
+    c466 (\8\:net1 \47\:gnd!) capacitor c=5.30541e-18
+    c467 (\6\:B \47\:gnd!) capacitor c=3.50709e-17
+    c468 (\7\:net6 \17\:A) capacitor c=1.02225e-17
+    c469 (\56\:gnd! \2\:net1) capacitor c=1.00853e-17
+    c470 (\59\:gnd! \5\:A) capacitor c=1.07374e-17
+    c471 (\11\:net2 \6\:net1) capacitor c=1.75539e-17
+    c472 (\7\:net5 \25\:vdd!) capacitor c=5.7044e-18
+    c473 (\5\:net5 \28\:vdd!) capacitor c=1.83997e-18
+    c474 (\3\:gnd! \10\:net6) capacitor c=1.05124e-18
+    c475 (\7\:net2 \5\:A) capacitor c=1.18173e-17
+    c476 (\1\:gnd! \10\:net5) capacitor c=9.68965e-18
+    c477 (I0\|net1 \1\:gnd!) capacitor c=4.12294e-18
+    c478 (\10\:net2 \65\:vdd!) capacitor c=4.9404e-18
+    c479 (\2\:net4 \45\:vdd!) capacitor c=1.24183e-17
+    c480 (\7\:A \31\:vdd!) capacitor c=7.35064e-18
+    c481 (\5\:net6 \35\:gnd!) capacitor c=2.63795e-18
+    c482 (\16\:net2 \10\:net3) capacitor c=2.02246e-18
+    c483 (\72\:vdd! \6\:net1) capacitor c=1.32123e-17
+    c484 (\62\:vdd! \13\:net1) capacitor c=1.00005e-17
+    c485 (\55\:vdd! \10\:net3) capacitor c=8.5893e-18
+    c486 (\5\:net4 \45\:vdd!) capacitor c=1.83997e-18
+    c487 (\14\:A \21\:vdd!) capacitor c=2.3318e-17
+    c488 (\5\:Y0 \14\:net3) capacitor c=1.16586e-17
+    c489 (\4\:gnd! \7\:net6) capacitor c=5.45749e-18
+    c490 (\7\:net4 \10\:B) capacitor c=1.63274e-18
+    c491 (\8\:net1 \50\:gnd!) capacitor c=5.68036e-18
+    c492 (\11\:vdd! \17\:B) capacitor c=9.95706e-18
+    c493 (\44\:gnd! \5\:Y1) capacitor c=1.00853e-17
+    c494 (Y0 \10\:net3) capacitor c=4.45944e-17
+    c495 (\2\:net5 \19\:net1) capacitor c=7.47643e-18
+    c496 (\5\:Y3 \14\:net6) capacitor c=1.21807e-17
+    c497 (\7\:net4 \15\:net2) capacitor c=2.4492e-18
+    c498 (\6\:B \50\:gnd!) capacitor c=1.84181e-17
+    c499 (\8\:A \2\:net4) capacitor c=1.14928e-17
+    c500 (\7\:net6 \1\:gnd!) capacitor c=1.86988e-17
+    c501 (\8\:net1 \10\:net3) capacitor c=1.25422e-17
+    c502 (\45\:vdd! \11\:B) capacitor c=1.00005e-17
+    c503 (\7\:net2 \1\:A) capacitor c=3.47114e-18
+    c504 (\2\:net4 \42\:vdd!) capacitor c=5.45446e-18
+    c505 (\2\:Y1 \12\:net4) capacitor c=1.30971e-17
+    c506 (\28\:vdd! \19\:net1) capacitor c=1.00005e-17
+    c507 (\7\:net3 \14\:net2) capacitor c=9.26186e-18
+    c508 (\2\:A \4\:net2) capacitor c=1.18766e-17
+    c509 (\17\:net2 \2\:Y0) capacitor c=2.39409e-17
+    c510 (\5\:Y1 \10\:net4) capacitor c=1.32623e-18
+    c511 (\7\:net6 I3\|net1) capacitor c=1.64206e-17
+    c512 (I2\|net1 \41\:gnd!) capacitor c=1.75757e-17
+    c513 (\2\:net6 \4\:vdd!) capacitor c=9.77173e-18
+    c514 (\13\:A \10\:net5) capacitor c=2.3739e-18
+    c515 (\2\:B \53\:gnd!) capacitor c=1.62507e-17
+    c516 (\56\:gnd! B) capacitor c=1.05987e-17
+    c517 (\8\:A \38\:vdd!) capacitor c=2.68074e-17
+    c518 (\55\:vdd! \2\:Y0) capacitor c=1.32123e-17
+    c519 (\9\:net5 \38\:gnd!) capacitor c=1.8516e-18
+    c520 (\17\:net2 \55\:vdd!) capacitor c=7.2264e-18
+    c521 (\2\:B \2\:net1) capacitor c=9.03196e-18
+    c522 (\48\:vdd! \15\:net2) capacitor c=2.04011e-18
+    c523 (\8\:net1 \7\:net3) capacitor c=1.82817e-17
+    c524 (\13\:gnd! \7\:net5) capacitor c=5.43215e-18
+    c525 (\8\:net1 \53\:gnd!) capacitor c=5.20855e-18
+    c526 (\8\:vdd! \10\:net6) capacitor c=1.04016e-17
+    c527 (\41\:gnd! \18\:net1) capacitor c=9.755e-18
+    c528 (\2\:Y2 \13\:A) capacitor c=2.00877e-18
+    c529 (\2\:Y0 \51\:vdd!) capacitor c=2.31643e-17
+    c530 (\2\:net3 \13\:net1) capacitor c=7.59478e-18
+    c531 (\7\:net5 \1\:gnd!) capacitor c=1.265e-17
+    c532 (\2\:net6 \15\:A) capacitor c=7.41512e-18
+    c533 (\2\:A \72\:vdd!) capacitor c=2.21241e-17
+    c534 (\16\:net1 \28\:vdd!) capacitor c=8.16738e-18
+    c535 (\41\:gnd! \16\:net1) capacitor c=5.75912e-18
+    c536 (\2\:net4 \18\:net2) capacitor c=7.58749e-18
+    c537 (\14\:net1 \2\:Y1) capacitor c=1.26295e-18
+    c538 (\6\:B \7\:net5) capacitor c=6.44568e-18
+    c539 (\2\:Y3 \12\:net6) capacitor c=1.31298e-17
+    c540 (\2\:B \56\:gnd!) capacitor c=4.0803e-17
+    c541 (\1\:gnd! \10\:net3) capacitor c=1.59395e-17
+    c542 (\25\:gnd! I0\|net1) capacitor c=9.21299e-18
+    c543 (\7\:net4 \42\:vdd!) capacitor c=5.7044e-18
+    c544 (\44\:gnd! \14\:net4) capacitor c=1.02127e-17
+    c545 (I0\|net1 \53\:gnd!) capacitor c=1.75757e-17
+    c546 (\2\:net5 \24\:vdd!) capacitor c=6.51569e-18
+    c547 (\17\:net2 \10\:net3) capacitor c=9.30467e-18
+    c548 (\79\:vdd! \4\:net2) capacitor c=1.39378e-17
+    c549 (\12\:B \7\:gnd!) capacitor c=1.32156e-17
+    c550 (\72\:vdd! \3\:B) capacitor c=1.31222e-17
+    c551 (\12\:B \7\:net6) capacitor c=1.17106e-17
+    c552 (\7\:net5 \11\:A) capacitor c=9.25058e-18
+    c553 (\5\:Y2 \14\:net5) capacitor c=1.20649e-17
+    c554 (\14\:B \10\:net6) capacitor c=8.94106e-18
+    c555 (\11\:net2 \2\:net3) capacitor c=3.0364e-18
+    c556 (\50\:gnd! \5\:Y0) capacitor c=1.00853e-17
+    c557 (Y2 \10\:net5) capacitor c=4.47667e-17
+    c558 (\7\:net4 \1\:gnd!) capacitor c=1.28023e-17
+    c559 (\59\:gnd! \7\:net2) capacitor c=1.15559e-17
+    c560 (\7\:gnd! \10\:net6) capacitor c=1.05601e-17
+    c561 (\59\:gnd! \2\:B) capacitor c=4.84399e-18
+    c562 (\10\:net6 \1\:vdd!) capacitor c=5.74064e-17
+    c563 (\14\:net1 \5\:Y1) capacitor c=1.41025e-17
+    c564 (\14\:A \2\:net6) capacitor c=5.37543e-18
+    c565 (\7\:net5 I2\|net1) capacitor c=1.56961e-17
+    c566 (\2\:net5 \28\:vdd!) capacitor c=1.24183e-17
+    c567 (\6\:net1 \3\:B) capacitor c=1.24961e-17
+    c568 (\8\:net1 \2\:Y0) capacitor c=8.14623e-19
+    c569 (\7\:net3 \10\:net2) capacitor c=2.69111e-17
+    c570 (\44\:gnd! \9\:net4) capacitor c=7.3535e-18
+    c571 (\8\:A \45\:vdd!) capacitor c=1.36073e-17
+    c572 (\6\:net1 \10\:net2) capacitor c=3.20464e-18
+    c573 (\5\:Y0 \10\:net3) capacitor c=1.25493e-18
+    c574 (\7\:net3 \9\:net2) capacitor c=2.4492e-18
+    c575 (\7\:net6 \16\:B) capacitor c=1.89756e-18
+    c576 (\10\:net6 \1\:gnd!) capacitor c=1.82434e-17
+    c577 (\53\:gnd! \12\:net1) capacitor c=9.755e-18
+    c578 (\48\:vdd! \2\:net4) capacitor c=1.24183e-17
+    c579 (\55\:vdd! \12\:net3) capacitor c=1.31222e-17
+    c580 (\2\:net3 \59\:vdd!) capacitor c=4.8444e-18
+    c581 (\7\:net3 \1\:gnd!) capacitor c=1.21793e-17
+    c582 (\2\:Y1 \7\:A) capacitor c=2.0496e-18
+    c583 (\8\:vdd! \12\:net6) capacitor c=1.35456e-17
+    c584 (B \6\:net1) capacitor c=5.82314e-18
+    c585 (\56\:gnd! \5\:B) capacitor c=9.54167e-18
+    c586 (\6\:B \7\:net4) capacitor c=6.78901e-18
+    c587 (Y3 \10\:net6) capacitor c=4.47976e-17
+    c588 (\2\:Y1 \8\:A) capacitor c=1.79013e-17
+    c589 (A \79\:vdd!) capacitor c=7.59989e-18
+    c590 (\7\:net4 \16\:net2) capacitor c=2.69673e-17
+    c591 (\21\:vdd! \12\:net5) capacitor c=1.3173e-17
+    c592 (\14\:net1 \10\:net5) capacitor c=6.73832e-18
+    c593 (\2\:Y2 \1\:gnd!) capacitor c=4.18628e-18
+    c594 (\38\:vdd! \12\:net4) capacitor c=1.3173e-17
+    c595 (\10\:net5 \21\:vdd!) capacitor c=1.04016e-17
+    c596 (\8\:net1 \5\:Y0) capacitor c=1.39575e-17
+    c597 (\2\:net1 \5\:B) capacitor c=6.70715e-18
+    c598 (\2\:B I0\|net1) capacitor c=1.4625e-17
+    c599 (\2\:Y3 \1\:gnd!) capacitor c=4.18628e-18
+    c600 (\8\:A \48\:vdd!) capacitor c=1.5226e-17
+    c601 (\6\:B I2\|net1) capacitor c=1.4625e-17
+    c602 (\7\:net3 \12\:net1) capacitor c=1.31232e-18
+    c603 (\2\:A \79\:vdd!) capacitor c=5.25852e-17
+    c604 (\2\:A \6\:net1) capacitor c=7.17655e-18
+    c605 (\8\:B \45\:vdd!) capacitor c=8.16738e-18
+    c606 (\7\:net2 \1\:gnd!) capacitor c=2.2075e-17
+    c607 (\2\:net6 \11\:vdd!) capacitor c=1.44346e-17
+    c608 (\53\:gnd! \10\:net1) capacitor c=5.75912e-18
+    c609 (\12\:B \35\:gnd!) capacitor c=3.50101e-17
+    c610 (\19\:gnd! I1\|net1) capacitor c=9.21299e-18
+    c611 (\35\:gnd! \14\:B) capacitor c=5.77755e-18
+    c612 (\2\:net3 \62\:vdd!) capacitor c=1.24183e-17
+    c613 (\7\:net3 \59\:vdd!) capacitor c=5.6574e-18
+    c614 (\11\:net2 \62\:vdd!) capacitor c=3.7997e-18
+    c615 (\7\:net4 I1\|net1) capacitor c=1.56961e-17
+    c616 (\35\:gnd! \16\:B) capacitor c=8.58091e-18
+    c617 (I3\|net1 \5\:net6) capacitor c=2.12748e-17
+    c618 (\17\:net2 \2\:net4) capacitor c=2.19319e-18
+    c619 (\10\:net3 \51\:vdd!) capacitor c=5.47194e-17
+    c620 (\14\:A \14\:vdd!) capacitor c=2.75259e-17
+    c621 (\8\:A \28\:vdd!) capacitor c=1.36073e-17
+    c622 (\38\:vdd! \2\:Y1) capacitor c=1.39378e-17
+    c623 (I0\|net1 \5\:net3) capacitor c=1.66534e-17
+    c624 (I3\|net1 \35\:gnd!) capacitor c=1.75757e-17
+    c625 (\62\:vdd! \12\:net2) capacitor c=2.2317e-18
+    c626 (I2\|net1 \5\:net5) capacitor c=1.66534e-17
+    c627 (\9\:net6 \8\:vdd!) capacitor c=2.96017e-18
+    c628 (I1\|net1 \5\:net4) capacitor c=1.66534e-17
+    c629 (\12\:B I3\|net1) capacitor c=1.91363e-17
+    c630 (\51\:vdd! \1\:gnd!) capacitor c=2.84851e-18
+    c631 (\34\:vdd! \1\:gnd!) capacitor c=2.84851e-18
+    c632 (\17\:vdd! \1\:gnd!) capacitor c=2.84851e-18
+    c633 (\68\:vdd! \1\:gnd!) capacitor c=2.99385e-18
+    c634 (\8\:A \30\:vdd!) capacitor c=4.88351e-19
+    c635 (\2\:A \51\:vdd!) capacitor c=1.03996e-18
+    c636 (\8\:A \23\:vdd!) capacitor c=1.5903e-18
+    c637 (\79\:vdd! \1\:A) capacitor c=1.91245e-18
+    c638 (\14\:vdd! \12\:A) capacitor c=2.04011e-18
+    c639 (\31\:vdd! \6\:A) capacitor c=2.04011e-18
+    c640 (\28\:vdd! \9\:A) capacitor c=2.2317e-18
+    c641 (\14\:A \11\:vdd!) capacitor c=2.3345e-18
+    c642 (\11\:vdd! \15\:A) capacitor c=2.41284e-18
+    c643 (\72\:vdd! \1\:B) capacitor c=1.52941e-18
+    c644 (\11\:vdd! \15\:B) capacitor c=2.06125e-18
+    c645 (\45\:vdd! \9\:B) capacitor c=2.06125e-18
+    c646 (\48\:vdd! \11\:B) capacitor c=2.2317e-18
+    c647 (\14\:vdd! \17\:B) capacitor c=2.32037e-18
+    c648 (\41\:gnd! \11\:A) capacitor c=1.76462e-18
+    c649 (\13\:gnd! \7\:A) capacitor c=2.41949e-18
+    c650 (\33\:gnd! A) capacitor c=2.77986e-18
+    c651 (\4\:gnd! \13\:A) capacitor c=2.81847e-18
+    c652 (\6\:B \40\:gnd!) capacitor c=1.01658e-18
+    c653 (\30\:gnd! B) capacitor c=1.11701e-18
+    c654 (\6\:B \43\:gnd!) capacitor c=1.29632e-18
+    c655 (\6\:B \46\:gnd!) capacitor c=1.43796e-18
+    c656 (\12\:B \34\:gnd!) capacitor c=1.70025e-18
+    c657 (\4\:gnd! \14\:B) capacitor c=1.76139e-18
+    c658 (\47\:gnd! \9\:B) capacitor c=1.76391e-18
+    c659 (\19\:gnd! \8\:B) capacitor c=1.79017e-18
+    c660 (\35\:gnd! \15\:B) capacitor c=2.02823e-18
+    c661 (\6\:B \25\:gnd!) capacitor c=3.04891e-18
+    c662 (\14\:A \17\:B) capacitor c=1.80901e-18
+    c663 (\13\:A \15\:B) capacitor c=1.90013e-18
+    c664 (B \1\:A) capacitor c=2.12038e-18
+    c665 (\6\:B \7\:A) capacitor c=2.23667e-18
+    c666 (\2\:A B) capacitor c=2.54538e-18
+    c667 (\2\:A \3\:B) capacitor c=2.58942e-18
+    c668 (\8\:A \11\:B) capacitor c=2.61758e-18
+    c669 (net2 \79\:vdd!) capacitor c=1.39725e-18
+    c670 (\65\:vdd! \9\:net2) capacitor c=1.50257e-18
+    c671 (\4\:net2 \72\:vdd!) capacitor c=1.90464e-18
+    c672 (\8\:net1 \65\:vdd!) capacitor c=1.06738e-18
+    c673 (\8\:net1 \48\:vdd!) capacitor c=1.36853e-18
+    c674 (\14\:net1 \31\:vdd!) capacitor c=1.36853e-18
+    c675 (\62\:vdd! \11\:net1) capacitor c=1.47264e-18
+    c676 (\8\:net1 \59\:vdd!) capacitor c=1.80464e-18
+    c677 (\28\:vdd! \17\:net1) capacitor c=2.06125e-18
+    c678 (\31\:vdd! \19\:net1) capacitor c=2.15443e-18
+    c679 (\65\:vdd! \13\:net1) capacitor c=2.2317e-18
+    c680 (\5\:net3 \62\:vdd!) capacitor c=6.73593e-19
+    c681 (\9\:net3 \57\:vdd!) capacitor c=7.5685e-19
+    c682 (\5\:net3 \58\:vdd!) capacitor c=8.45952e-19
+    c683 (\47\:gnd! \20\:net2) capacitor c=1.65324e-18
+    c684 (net2 \56\:gnd!) capacitor c=1.6993e-18
+    c685 (\25\:gnd! \10\:net2) capacitor c=1.75577e-18
+    c686 (\53\:gnd! \14\:net2) capacitor c=1.76462e-18
+    c687 (\8\:net1 \24\:gnd!) capacitor c=1.29556e-18
+    c688 (\25\:gnd! \10\:net1) capacitor c=1.35846e-18
+    c689 (\14\:net1 \18\:gnd!) capacitor c=1.35886e-18
+    c690 (\41\:gnd! \17\:net1) capacitor c=1.76391e-18
+    c691 (\53\:gnd! \11\:net1) capacitor c=1.76391e-18
+    c692 (\9\:net3 \50\:gnd!) capacitor c=5.76364e-19
+    c693 (\5\:net3 \53\:gnd!) capacitor c=6.57984e-19
+    c694 (\9\:net3 \24\:gnd!) capacitor c=7.73248e-19
+    c695 (\5\:net3 \1\:gnd!) capacitor c=9.38449e-19
+    c696 (\5\:net4 \47\:gnd!) capacitor c=6.57984e-19
+    c697 (net2 \3\:A) capacitor c=9.80502e-19
+    c698 (\8\:A \18\:net2) capacitor c=1.80223e-18
+    c699 (\2\:A \12\:net2) capacitor c=1.99526e-18
+    c700 (\5\:net5 \41\:gnd!) capacitor c=6.57984e-19
+    c701 (\7\:A \17\:net1) capacitor c=1.90013e-18
+    c702 (\2\:A \13\:net1) capacitor c=2.11965e-18
+    c703 (\14\:net1 \11\:A) capacitor c=2.32609e-18
+    c704 (\2\:A \10\:net1) capacitor c=2.57013e-18
+    c705 (\8\:B \19\:net2) capacitor c=1.10971e-18
+    c706 (\16\:net2 \9\:B) capacitor c=1.16907e-18
+    c707 (\2\:B \10\:net2) capacitor c=1.36373e-18
+    c708 (\6\:B \16\:net2) capacitor c=1.88948e-18
+    c709 (\8\:A \7\:net4) capacitor c=6.82201e-19
+    c710 (\2\:B \12\:net1) capacitor c=9.56229e-19
+    c711 (\6\:B \18\:net1) capacitor c=9.56229e-19
+    c712 (\2\:B \10\:net1) capacitor c=9.65804e-19
+    c713 (\8\:net1 \9\:B) capacitor c=1.13195e-18
+    c714 (\8\:net1 \10\:B) capacitor c=1.81953e-18
+    c715 (\8\:A \7\:net5) capacitor c=6.82201e-19
+    c716 (\6\:B \5\:net4) capacitor c=4.92469e-19
+    c717 (\6\:B \6\:net4) capacitor c=6.38961e-19
+    c718 (\6\:B \6\:net5) capacitor c=6.38961e-19
+    c719 (\8\:net1 \13\:net2) capacitor c=6.78907e-19
+    c720 (\10\:net2 \11\:net1) capacitor c=1.37825e-18
+    c721 (\8\:net1 \20\:net2) capacitor c=1.62227e-18
+    c722 (A 0) capacitor c=2.82958e-18
+    c723 (B 0) capacitor c=6.54677e-19
+    c724 (I1\|net1 0) capacitor c=7.54333e-18
+    c725 (\13\:net1 0) capacitor c=2.3596e-19
+    c726 (\11\:B 0) capacitor c=2.3596e-19
+    c727 (\12\:net4 0) capacitor c=4.92038e-19
+    c728 (\19\:net1 0) capacitor c=2.3596e-19
+    c729 (\12\:net5 0) capacitor c=4.92038e-19
+    c730 (\17\:B 0) capacitor c=2.3596e-19
+    c731 (\14\:net2 0) capacitor c=2.04578e-19
+    c732 (\14\:net3 0) capacitor c=9.06414e-19
+    c733 (\20\:net2 0) capacitor c=2.30702e-19
+    c734 (\11\:A 0) capacitor c=2.04578e-19
+    c735 (\17\:A 0) capacitor c=1.9026e-18
+    c736 (\1\:A 0) capacitor c=5.39626e-19
+    c737 (\1\:B 0) capacitor c=6.36581e-20
+    c738 (\9\:net2 0) capacitor c=1.31749e-19
+    c739 (\10\:net1 0) capacitor c=6.11284e-19
+    c740 (\10\:net3 0) capacitor c=1.90166e-18
+    c741 (\15\:net2 0) capacitor c=6.85404e-20
+    c742 (\8\:B 0) capacitor c=2.61236e-20
+    c743 (\10\:net4 0) capacitor c=5.98087e-19
+    c744 (\6\:A 0) capacitor c=3.73603e-20
+    c745 (\16\:net1 0) capacitor c=2.6973e-18
+    c746 (\10\:net5 0) capacitor c=5.33904e-19
+    c747 (\14\:B 0) capacitor c=1.16911e-18
+    c748 (\10\:net6 0) capacitor c=6.7113e-19
+    c749 (\2\:A 0) capacitor c=2.32073e-18
+    c750 (net2 0) capacitor c=1.2352e-18
+    c751 (\2\:B 0) capacitor c=1.20573e-17
+    c752 (\4\:net1 0) capacitor c=1.51057e-19
+    c753 (\11\:net2 0) capacitor c=1.65372e-18
+    c754 (\5\:net3 0) capacitor c=6.32326e-19
+    c755 (\8\:net1 0) capacitor c=8.22418e-18
+    c756 (\9\:net3 0) capacitor c=1.05088e-18
+    c757 (\17\:net2 0) capacitor c=1.49122e-18
+    c758 (\6\:B 0) capacitor c=2.34275e-17
+    c759 (\9\:net4 0) capacitor c=6.73963e-19
+    c760 (\8\:A 0) capacitor c=8.45785e-18
+    c761 (\5\:net5 0) capacitor c=4.13413e-19
+    c762 (\14\:net1 0) capacitor c=2.15969e-18
+    c763 (\9\:net5 0) capacitor c=6.13152e-19
+    c764 (\14\:A 0) capacitor c=5.51316e-19
+    c765 (\12\:B 0) capacitor c=3.29312e-18
+    c766 (\9\:net6 0) capacitor c=5.92217e-19
+    c767 (\75\:vdd! 0) capacitor c=2.34464e-18
+    c768 (\59\:vdd! 0) capacitor c=1.28788e-20
+    c769 (\42\:vdd! 0) capacitor c=6.69847e-20
+    c770 (\25\:vdd! 0) capacitor c=5.28357e-19
+    c771 (\5\:vdd! 0) capacitor c=3.85573e-19
+    c772 (\5\:net1 0) capacitor c=6.30835e-19
+    c773 (\64\:vdd! 0) capacitor c=2.48695e-20
+    c774 (\61\:vdd! 0) capacitor c=2.29323e-19
+    c775 (\54\:vdd! 0) capacitor c=3.55111e-20
+    c776 (\20\:vdd! 0) capacitor c=2.26241e-19
+    c777 (\1\:Y2 0) capacitor c=1.06439e-19
+    c778 (\6\:net3 0) capacitor c=6.29942e-19
+    c779 (\4\:Y0 0) capacitor c=8.18038e-19
+    c780 (\4\:Y1 0) capacitor c=8.18038e-19
+    c781 (\81\:vdd! 0) capacitor c=2.55996e-20
+    c782 (\58\:vdd! 0) capacitor c=5.3817e-19
+    c783 (\10\:net2 0) capacitor c=6.75544e-19
+    c784 (\57\:vdd! 0) capacitor c=1.25058e-18
+    c785 (\7\:A 0) capacitor c=4.92038e-19
+    c786 (\13\:A 0) capacitor c=4.92038e-19
+    c787 (\7\:net2 0) capacitor c=6.25373e-19
+    c788 (\6\:net1 0) capacitor c=7.3991e-19
+    c789 (\13\:net2 0) capacitor c=8.47244e-19
+    c790 (\7\:net3 0) capacitor c=7.35164e-18
+    c791 (\11\:net1 0) capacitor c=3.66576e-19
+    c792 (\2\:Y0 0) capacitor c=7.37376e-18
+    c793 (\5\:Y0 0) capacitor c=8.17486e-18
+    c794 (\19\:net2 0) capacitor c=2.41668e-19
+    c795 (\9\:B 0) capacitor c=2.36248e-19
+    c796 (\2\:Y1 0) capacitor c=1.73032e-19
+    c797 (\5\:Y1 0) capacitor c=8.17486e-18
+    c798 (\10\:A 0) capacitor c=1.34363e-18
+    c799 (\17\:net1 0) capacitor c=3.97859e-19
+    c800 (\16\:A 0) capacitor c=1.36028e-18
+    c801 (\15\:B 0) capacitor c=2.98261e-19
+    c802 (\5\:Y3 0) capacitor c=9.73966e-19
+    c803 (\2\:vdd! 0) capacitor c=2.06645e-19
+    c804 (\19\:vdd! 0) capacitor c=5.42428e-19
+    c805 (\21\:vdd! 0) capacitor c=8.5121e-19
+    c806 (\36\:vdd! 0) capacitor c=5.20277e-19
+    c807 (\38\:vdd! 0) capacitor c=9.09737e-19
+    c808 (\53\:vdd! 0) capacitor c=5.0921e-19
+    c809 (\55\:vdd! 0) capacitor c=6.5673e-19
+    c810 (\70\:vdd! 0) capacitor c=4.73484e-19
+    c811 (\72\:vdd! 0) capacitor c=1.42964e-18
+    c812 (\77\:vdd! 0) capacitor c=4.27405e-19
+    rh1 (\9\:net3 \5\:net3) resistor r=1.8038 c=0
+    rh2 (\17\:net2 \11\:net2) resistor r=0.9277 c=0
+    rh3 (\11\:net2 net2) resistor r=0.5988 c=0
+    rh4 (\9\:net4 \5\:net4) resistor r=1.8038 c=0
+    rh5 (\14\:net1 \8\:net1) resistor r=1.9131 c=0
+    rh6 (\8\:net1 \4\:net1) resistor r=2.0127 c=0
+    rh7 (\9\:net5 \5\:net5) resistor r=1.8038 c=0
+    rh8 (\14\:A \8\:A) resistor r=0.9658 c=0
+    rh9 (\8\:A \2\:A) resistor r=2.7762 c=0
+    rh10 (\12\:B \6\:B) resistor r=1.9327 c=0
+    rh11 (\6\:B \2\:B) resistor r=1.8115 c=0
+    rh12 (\9\:net6 \5\:net6) resistor r=1.8038 c=0
+    ri1 (\1\:A A) resistor r=0.02167 c=0
+    ri2 (A \2\:A) resistor r=1.8524 c=0
+    ri3 (net2 \2\:net2) resistor r=1.5642 c=0
+    ri4 (\2\:net2 \4\:net2) resistor r=0.2983 c=0
+    ri6 (\2\:net2 \7\:net2) resistor r=0.566 c=0
+    ri8 (\3\:net2 \4\:net2) resistor r=15 c=0
+    ri9 (\6\:net2 \7\:net2) resistor r=15 c=0
+    ri10 (\1\:B B) resistor r=0.02167 c=0
+    ri11 (B \2\:B) resistor r=1.9341 c=0
+    ri13 (\2\:net1 \4\:net1) resistor r=0.1593 c=0
+    ri14 (\4\:net1 \6\:net1) resistor r=0.6089 c=0
+    ri16 (net1 \2\:net1) resistor r=15 c=0
+    ri17 (\5\:net1 \6\:net1) resistor r=15 c=0
+    ri18 (\9\:net2 \10\:net2) resistor r=0.02533 c=0
+    ri19 (\10\:net2 \11\:net2) resistor r=1.5554 c=0
+    ri21 (\2\:net3 \4\:net3) resistor r=0.3267 c=0
+    ri22 (\4\:net3 \5\:net3) resistor r=0.2294 c=0
+    ri23 (\5\:net3 \7\:net3) resistor r=0.6855 c=0
+    ri25 (net3 \2\:net3) resistor r=15 c=0
+    ri26 (\6\:net3 \7\:net3) resistor r=15 c=0
+    ri28 (\8\:net1 \9\:net1) resistor r=1.616 c=0
+    ri29 (\9\:net1 \10\:net1) resistor r=10.032 c=0
+    ri30 (\9\:net3 \10\:net3) resistor r=1.49 c=0
+    ri32 (Y0 \2\:Y0) resistor r=0.3839 c=0
+    ri34 (Y0 \5\:Y0) resistor r=0.4143 c=0
+    ri36 (\1\:Y0 \2\:Y0) resistor r=15 c=0
+    ri37 (\4\:Y0 \5\:Y0) resistor r=15 c=0
+    ri38 (\15\:net2 \16\:net2) resistor r=0.02533 c=0
+    ri39 (\16\:net2 \17\:net2) resistor r=1.5967 c=0
+    ri41 (\2\:net4 \4\:net4) resistor r=0.3267 c=0
+    ri42 (\4\:net4 \5\:net4) resistor r=0.2294 c=0
+    ri43 (\5\:net4 \7\:net4) resistor r=0.6855 c=0
+    ri45 (net4 \2\:net4) resistor r=15 c=0
+    ri46 (\6\:net4 \7\:net4) resistor r=15 c=0
+    ri48 (\6\:B \7\:B) resistor r=1.8603 c=0
+    ri49 (\7\:B \8\:B) resistor r=10.032 c=0
+    ri50 (\9\:net4 \10\:net4) resistor r=1.49 c=0
+    ri52 (Y1 \2\:Y1) resistor r=0.381 c=0
+    ri54 (Y1 \5\:Y1) resistor r=0.4171 c=0
+    ri56 (\1\:Y1 \2\:Y1) resistor r=15 c=0
+    ri57 (\4\:Y1 \5\:Y1) resistor r=15 c=0
+    ri58 (\6\:A \7\:A) resistor r=0.02533 c=0
+    ri59 (\7\:A \8\:A) resistor r=1.7905 c=0
+    ri61 (\2\:net5 \4\:net5) resistor r=0.3267 c=0
+    ri62 (\4\:net5 \5\:net5) resistor r=0.2294 c=0
+    ri63 (\5\:net5 \7\:net5) resistor r=0.6855 c=0
+    ri65 (net5 \2\:net5) resistor r=15 c=0
+    ri66 (\6\:net5 \7\:net5) resistor r=15 c=0
+    ri68 (\14\:net1 \15\:net1) resistor r=1.6636 c=0
+    ri69 (\15\:net1 \16\:net1) resistor r=10.032 c=0
+    ri70 (\9\:net5 \10\:net5) resistor r=1.49 c=0
+    ri72 (Y2 \2\:Y2) resistor r=0.3782 c=0
+    ri74 (Y2 \5\:Y2) resistor r=0.42 c=0
+    ri76 (\1\:Y2 \2\:Y2) resistor r=15 c=0
+    ri77 (\4\:Y2 \5\:Y2) resistor r=15 c=0
+    ri78 (\12\:A \13\:A) resistor r=0.02533 c=0
+    ri79 (\13\:A \14\:A) resistor r=1.7905 c=0
+    ri81 (\2\:net6 \4\:net6) resistor r=0.3267 c=0
+    ri82 (\4\:net6 \5\:net6) resistor r=0.2294 c=0
+    ri83 (\5\:net6 \7\:net6) resistor r=0.6855 c=0
+    ri85 (net6 \2\:net6) resistor r=15 c=0
+    ri86 (\6\:net6 \7\:net6) resistor r=15 c=0
+    ri88 (\12\:B \13\:B) resistor r=1.8504 c=0
+    ri89 (\13\:B \14\:B) resistor r=10.032 c=0
+    ri90 (\9\:net6 \10\:net6) resistor r=1.49 c=0
+    ri92 (Y3 \2\:Y3) resistor r=0.381 c=0
+    ri94 (Y3 \5\:Y3) resistor r=0.4171 c=0
+    ri96 (\1\:Y3 \2\:Y3) resistor r=15 c=0
+    ri97 (\4\:Y3 \5\:Y3) resistor r=15 c=0
+    ri98 (\1\:vdd! \2\:vdd!) resistor r=15.0969 c=0
+    ri99 (\2\:vdd! \3\:vdd!) resistor r=0.1394 c=0
+    ri100 (\3\:vdd! \4\:vdd!) resistor r=0.7988 c=0
+    ri101 (\6\:vdd! \4\:vdd!) resistor r=0.3113 c=0
+    ri102 (\2\:vdd! \8\:vdd!) resistor r=0.3923 c=0
+    ri104 (\4\:vdd! \11\:vdd!) resistor r=0.41 c=0
+    ri106 (\4\:vdd! \14\:vdd!) resistor r=0.41 c=0
+    ri108 (\4\:vdd! \16\:vdd!) resistor r=0.3113 c=0
+    ri109 (\16\:vdd! \18\:vdd!) resistor r=0.74 c=0
+    ri110 (\18\:vdd! \19\:vdd!) resistor r=0.09694 c=0
+    ri111 (\19\:vdd! \21\:vdd!) resistor r=0.3923 c=0
+    ri113 (\19\:vdd! \23\:vdd!) resistor r=0.1394 c=0
+    ri114 (\23\:vdd! \24\:vdd!) resistor r=0.7988 c=0
+    ri115 (\26\:vdd! \24\:vdd!) resistor r=0.3113 c=0
+    ri116 (\24\:vdd! \28\:vdd!) resistor r=0.41 c=0
+    ri118 (\24\:vdd! \31\:vdd!) resistor r=0.41 c=0
+    ri120 (\24\:vdd! \33\:vdd!) resistor r=0.3113 c=0
+    ri121 (\33\:vdd! \35\:vdd!) resistor r=0.74 c=0
+    ri122 (\35\:vdd! \36\:vdd!) resistor r=0.09694 c=0
+    ri123 (\36\:vdd! \38\:vdd!) resistor r=0.3923 c=0
+    ri125 (\36\:vdd! \40\:vdd!) resistor r=0.1394 c=0
+    ri126 (\40\:vdd! \41\:vdd!) resistor r=0.7988 c=0
+    ri127 (\43\:vdd! \41\:vdd!) resistor r=0.3113 c=0
+    ri128 (\41\:vdd! \45\:vdd!) resistor r=0.41 c=0
+    ri130 (\41\:vdd! \48\:vdd!) resistor r=0.41 c=0
+    ri132 (\41\:vdd! \50\:vdd!) resistor r=0.3113 c=0
+    ri133 (\50\:vdd! \52\:vdd!) resistor r=0.74 c=0
+    ri134 (\52\:vdd! \53\:vdd!) resistor r=0.09694 c=0
+    ri135 (\53\:vdd! \55\:vdd!) resistor r=0.3923 c=0
+    ri137 (\53\:vdd! \57\:vdd!) resistor r=0.1394 c=0
+    ri138 (\57\:vdd! \58\:vdd!) resistor r=0.7988 c=0
+    ri139 (\60\:vdd! \58\:vdd!) resistor r=0.3113 c=0
+    ri140 (\58\:vdd! \62\:vdd!) resistor r=0.41 c=0
+    ri142 (\58\:vdd! \65\:vdd!) resistor r=0.41 c=0
+    ri144 (\58\:vdd! \67\:vdd!) resistor r=0.3113 c=0
+    ri145 (\67\:vdd! \69\:vdd!) resistor r=0.7425 c=0
+    ri146 (\69\:vdd! \70\:vdd!) resistor r=0.09694 c=0
+    ri147 (\70\:vdd! \72\:vdd!) resistor r=0.3923 c=0
+    ri149 (\70\:vdd! \74\:vdd!) resistor r=0.1394 c=0
+    ri150 (\74\:vdd! \76\:vdd!) resistor r=0.6275 c=0
+    ri151 (\76\:vdd! \77\:vdd!) resistor r=0.09694 c=0
+    ri152 (\77\:vdd! \79\:vdd!) resistor r=0.3923 c=0
+    ri154 (\77\:vdd! \81\:vdd!) resistor r=0.1394 c=0
+    ri155 (\81\:vdd! vdd!) resistor r=0.075 c=0
+    ri156 (\5\:vdd! \6\:vdd!) resistor r=15 c=0
+    ri157 (\7\:vdd! \8\:vdd!) resistor r=15 c=0
+    ri158 (\10\:vdd! \11\:vdd!) resistor r=15 c=0
+    ri159 (\13\:vdd! \14\:vdd!) resistor r=15 c=0
+    ri160 (\5\:vdd! \16\:vdd!) resistor r=15 c=0
+    ri161 (\17\:vdd! \18\:vdd!) resistor r=15 c=0
+    ri162 (\20\:vdd! \21\:vdd!) resistor r=15 c=0
+    ri163 (\25\:vdd! \26\:vdd!) resistor r=15 c=0
+    ri164 (\27\:vdd! \28\:vdd!) resistor r=15 c=0
+    ri165 (\30\:vdd! \31\:vdd!) resistor r=15 c=0
+    ri166 (\25\:vdd! \33\:vdd!) resistor r=15 c=0
+    ri167 (\34\:vdd! \35\:vdd!) resistor r=15 c=0
+    ri168 (\37\:vdd! \38\:vdd!) resistor r=15 c=0
+    ri169 (\42\:vdd! \43\:vdd!) resistor r=15 c=0
+    ri170 (\44\:vdd! \45\:vdd!) resistor r=15 c=0
+    ri171 (\47\:vdd! \48\:vdd!) resistor r=15 c=0
+    ri172 (\42\:vdd! \50\:vdd!) resistor r=15 c=0
+    ri173 (\51\:vdd! \52\:vdd!) resistor r=15 c=0
+    ri174 (\54\:vdd! \55\:vdd!) resistor r=15 c=0
+    ri175 (\59\:vdd! \60\:vdd!) resistor r=15 c=0
+    ri176 (\61\:vdd! \62\:vdd!) resistor r=15 c=0
+    ri177 (\64\:vdd! \65\:vdd!) resistor r=15 c=0
+    ri178 (\59\:vdd! \67\:vdd!) resistor r=15 c=0
+    ri179 (\68\:vdd! \69\:vdd!) resistor r=15 c=0
+    ri180 (\71\:vdd! \72\:vdd!) resistor r=15 c=0
+    ri181 (\75\:vdd! \76\:vdd!) resistor r=15 c=0
+    ri182 (\78\:vdd! \79\:vdd!) resistor r=15 c=0
+    ri183 (\1\:gnd! \2\:gnd!) resistor r=15.1319 c=0
+    ri184 (\2\:gnd! \3\:gnd!) resistor r=0.1057 c=0
+    ri185 (\3\:gnd! \4\:gnd!) resistor r=0.8025 c=0
+    ri186 (\5\:gnd! \4\:gnd!) resistor r=0.3413 c=0
+    ri187 (\2\:gnd! \7\:gnd!) resistor r=0.2798 c=0
+    ri189 (\4\:gnd! \9\:gnd!) resistor r=0.3413 c=0
+    ri190 (\9\:gnd! \10\:gnd!) resistor r=0.705 c=0
+    ri191 (\10\:gnd! \11\:gnd!) resistor r=0.1319 c=0
+    ri192 (\11\:gnd! \12\:gnd!) resistor r=0.1057 c=0
+    ri193 (\12\:gnd! \13\:gnd!) resistor r=0.8025 c=0
+    ri194 (\14\:gnd! \13\:gnd!) resistor r=0.3413 c=0
+    ri195 (\13\:gnd! \15\:gnd!) resistor r=0.3413 c=0
+    ri196 (\15\:gnd! \16\:gnd!) resistor r=0.705 c=0
+    ri197 (\16\:gnd! \17\:gnd!) resistor r=0.1319 c=0
+    ri198 (\17\:gnd! \18\:gnd!) resistor r=0.1057 c=0
+    ri199 (\18\:gnd! \19\:gnd!) resistor r=0.8025 c=0
+    ri200 (\20\:gnd! \19\:gnd!) resistor r=0.3413 c=0
+    ri201 (\19\:gnd! \21\:gnd!) resistor r=0.3413 c=0
+    ri202 (\21\:gnd! \22\:gnd!) resistor r=0.705 c=0
+    ri203 (\22\:gnd! \23\:gnd!) resistor r=0.1319 c=0
+    ri204 (\23\:gnd! \24\:gnd!) resistor r=0.1057 c=0
+    ri205 (\24\:gnd! \25\:gnd!) resistor r=0.8025 c=0
+    ri206 (\26\:gnd! \25\:gnd!) resistor r=0.3413 c=0
+    ri207 (\25\:gnd! \27\:gnd!) resistor r=0.3413 c=0
+    ri208 (\27\:gnd! \28\:gnd!) resistor r=0.7075 c=0
+    ri209 (\28\:gnd! \29\:gnd!) resistor r=0.1319 c=0
+    ri210 (\29\:gnd! \30\:gnd!) resistor r=0.1057 c=0
+    ri211 (\30\:gnd! \31\:gnd!) resistor r=0.6263 c=0
+    ri212 (\31\:gnd! \32\:gnd!) resistor r=0.1319 c=0
+    ri213 (\32\:gnd! \33\:gnd!) resistor r=0.1057 c=0
+    ri214 (\33\:gnd! 0) resistor r=0.07875 c=0
+    ri215 (\4\:gnd! \35\:gnd!) resistor r=0.4233 c=0
+    ri217 (\11\:gnd! \38\:gnd!) resistor r=0.2798 c=0
+    ri219 (\13\:gnd! \41\:gnd!) resistor r=0.4233 c=0
+    ri221 (\17\:gnd! \44\:gnd!) resistor r=0.2798 c=0
+    ri223 (\19\:gnd! \47\:gnd!) resistor r=0.4233 c=0
+    ri225 (\23\:gnd! \50\:gnd!) resistor r=0.2798 c=0
+    ri227 (\25\:gnd! \53\:gnd!) resistor r=0.4233 c=0
+    ri229 (\29\:gnd! \56\:gnd!) resistor r=0.2798 c=0
+    ri231 (\32\:gnd! \59\:gnd!) resistor r=0.2798 c=0
+    ri233 (\1\:gnd! \5\:gnd!) resistor r=15 c=0
+    ri234 (\6\:gnd! \7\:gnd!) resistor r=15 c=0
+    ri235 (\1\:gnd! \9\:gnd!) resistor r=15 c=0
+    ri236 (\1\:gnd! \10\:gnd!) resistor r=15 c=0
+    ri237 (\1\:gnd! \14\:gnd!) resistor r=15 c=0
+    ri238 (\1\:gnd! \15\:gnd!) resistor r=15 c=0
+    ri239 (\1\:gnd! \16\:gnd!) resistor r=15 c=0
+    ri240 (\1\:gnd! \20\:gnd!) resistor r=15 c=0
+    ri241 (\1\:gnd! \21\:gnd!) resistor r=15 c=0
+    ri242 (\1\:gnd! \22\:gnd!) resistor r=15 c=0
+    ri243 (\1\:gnd! \26\:gnd!) resistor r=15 c=0
+    ri244 (\1\:gnd! \27\:gnd!) resistor r=15 c=0
+    ri245 (\1\:gnd! \28\:gnd!) resistor r=15 c=0
+    ri246 (\1\:gnd! \31\:gnd!) resistor r=15 c=0
+    ri247 (\34\:gnd! \35\:gnd!) resistor r=15 c=0
+    ri248 (\37\:gnd! \38\:gnd!) resistor r=15 c=0
+    ri249 (\40\:gnd! \41\:gnd!) resistor r=15 c=0
+    ri250 (\43\:gnd! \44\:gnd!) resistor r=15 c=0
+    ri251 (\46\:gnd! \47\:gnd!) resistor r=15 c=0
+    ri252 (\49\:gnd! \50\:gnd!) resistor r=15 c=0
+    ri253 (\52\:gnd! \53\:gnd!) resistor r=15 c=0
+    ri254 (\55\:gnd! \56\:gnd!) resistor r=15 c=0
+    ri255 (\58\:gnd! \59\:gnd!) resistor r=15 c=0
+    rj1 (\3\:A \4\:A) resistor r=49.7927 c=0
+    rj2 (\4\:A \5\:A) resistor r=60.2927 c=0
+    rj3 (\1\:A \4\:A) resistor r=10 c=0
+    rj4 (\3\:B \4\:B) resistor r=49.7927 c=0
+    rj5 (\4\:B \5\:B) resistor r=60.2927 c=0
+    rj6 (\1\:B \4\:B) resistor r=10 c=0
+    rj7 (\12\:net2 \13\:net2) resistor r=66.8667 c=0
+    rj8 (\13\:net2 \9\:net2) resistor r=10.7993 c=0
+    rj9 (\13\:net2 \14\:net2) resistor r=65.8667 c=0
+    rj10 (\10\:net1 \11\:net1) resistor r=1.4243 c=0
+    rj11 (\11\:net1 \12\:net1) resistor r=63.8667 c=0
+    rj12 (\11\:net1 \13\:net1) resistor r=68.8667 c=0
+    rj13 (\12\:net3 \13\:net3) resistor r=49.7927 c=0
+    rj14 (\13\:net3 \14\:net3) resistor r=60.2927 c=0
+    rj15 (\10\:net3 \13\:net3) resistor r=10 c=0
+    rj16 (\18\:net2 \19\:net2) resistor r=66.8667 c=0
+    rj17 (\19\:net2 \15\:net2) resistor r=10.7993 c=0
+    rj18 (\19\:net2 \20\:net2) resistor r=65.8667 c=0
+    rj19 (\8\:B \9\:B) resistor r=1.4243 c=0
+    rj20 (\9\:B \10\:B) resistor r=63.8667 c=0
+    rj21 (\9\:B \11\:B) resistor r=68.8667 c=0
+    rj22 (\12\:net4 \13\:net4) resistor r=49.7927 c=0
+    rj23 (\13\:net4 \14\:net4) resistor r=60.2927 c=0
+    rj24 (\10\:net4 \13\:net4) resistor r=10 c=0
+    rj25 (\9\:A \10\:A) resistor r=66.8667 c=0
+    rj26 (\10\:A \6\:A) resistor r=10.7993 c=0
+    rj27 (\10\:A \11\:A) resistor r=65.8667 c=0
+    rj28 (\16\:net1 \17\:net1) resistor r=1.4243 c=0
+    rj29 (\17\:net1 \18\:net1) resistor r=63.8667 c=0
+    rj30 (\17\:net1 \19\:net1) resistor r=68.8667 c=0
+    rj31 (\12\:net5 \13\:net5) resistor r=49.7927 c=0
+    rj32 (\13\:net5 \14\:net5) resistor r=60.2927 c=0
+    rj33 (\10\:net5 \13\:net5) resistor r=10 c=0
+    rj34 (\15\:A \16\:A) resistor r=66.8667 c=0
+    rj35 (\16\:A \12\:A) resistor r=10.7993 c=0
+    rj36 (\16\:A \17\:A) resistor r=65.8667 c=0
+    rj37 (\14\:B \15\:B) resistor r=1.4243 c=0
+    rj38 (\15\:B \16\:B) resistor r=63.8667 c=0
+    rj39 (\15\:B \17\:B) resistor r=68.8667 c=0
+    rj40 (\12\:net6 \13\:net6) resistor r=49.7927 c=0
+    rj41 (\13\:net6 \14\:net6) resistor r=60.2927 c=0
+    rj42 (\10\:net6 \13\:net6) resistor r=10 c=0
+    I3\|PM0 (net6 \15\:A \13\:vdd! \5\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 m=(1)*(1)
+    I3\|PM1 (\10\:vdd! \17\:B net6 \5\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 m=(1)*(1)
+    I2\|PM0 (net5 \9\:A \30\:vdd! \25\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 m=(1)*(1)
+    I2\|PM1 (\27\:vdd! \19\:net1 net5 \25\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 m=(1)*(1)
+    I1\|PM0 (net4 \18\:net2 \47\:vdd! \42\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 m=(1)*(1)
+    I1\|PM1 (\44\:vdd! \11\:B net4 \42\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 m=(1)*(1)
+    I0\|PM0 (net3 \12\:net2 \64\:vdd! \59\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 m=(1)*(1)
+    I0\|PM1 (\61\:vdd! \13\:net1 net3 \59\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 m=(1)*(1)
+    I12\|PM0 (\1\:Y3 \12\:net6 \7\:vdd! \1\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 m=(1)*(1)
+    I11\|PM0 (\1\:Y2 \12\:net5 \20\:vdd! \17\:vdd!) gpdk090_pmos1v \
+        w=2.4e-07 l=1e-07 as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 \
+        m=(1)*(1)
+    I10\|PM0 (\1\:Y1 \12\:net4 \37\:vdd! \34\:vdd!) gpdk090_pmos1v \
+        w=2.4e-07 l=1e-07 as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 \
+        m=(1)*(1)
+    I4\|PM0 (\1\:Y0 \12\:net3 \54\:vdd! \51\:vdd!) gpdk090_pmos1v \
+        w=2.4e-07 l=1e-07 as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 \
+        m=(1)*(1)
+    I15\|PM0 (\5\:net1 \3\:B \71\:vdd! \68\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 m=(1)*(1)
+    I14\|PM0 (\3\:net2 \3\:A \78\:vdd! \75\:vdd!) gpdk090_pmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 m=(1)*(1)
+    I3\|NM0 (I3\|net1 \17\:A \6\:net6 \1\:gnd!) gpdk090_nmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 m=(1)*(1)
+    I3\|NM1 (\34\:gnd! \16\:B I3\|net1 \1\:gnd!) gpdk090_nmos1v w=2.4e-07 \
+        l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 m=(1)*(1)
+    I2\|NM0 (I2\|net1 \11\:A \6\:net5 \1\:gnd!) gpdk090_nmos1v w=2.4e-07 \
+        l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 m=(1)*(1)
+    I2\|NM1 (\40\:gnd! \18\:net1 I2\|net1 \1\:gnd!) gpdk090_nmos1v \
+        w=2.4e-07 l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 \
+        m=(1)*(1)
+    I1\|NM0 (I1\|net1 \20\:net2 \6\:net4 \1\:gnd!) gpdk090_nmos1v \
+        w=2.4e-07 l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 \
+        m=(1)*(1)
+    I1\|NM1 (\46\:gnd! \10\:B I1\|net1 \1\:gnd!) gpdk090_nmos1v w=2.4e-07 \
+        l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 m=(1)*(1)
+    I0\|NM0 (I0\|net1 \14\:net2 \6\:net3 \1\:gnd!) gpdk090_nmos1v \
+        w=2.4e-07 l=1e-07 as=6.72e-14 ad=3.84e-14 ps=1.04e-06 pd=5.6e-07 \
+        m=(1)*(1)
+    I0\|NM1 (\52\:gnd! \12\:net1 I0\|net1 \1\:gnd!) gpdk090_nmos1v \
+        w=2.4e-07 l=1e-07 as=3.84e-14 ad=6.72e-14 ps=5.6e-07 pd=1.04e-06 \
+        m=(1)*(1)
+    I12\|NM0 (\4\:Y3 \14\:net6 \6\:gnd! \1\:gnd!) gpdk090_nmos1v w=1.2e-07 \
+        l=1e-07 as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 m=(1)*(1)
+    I11\|NM0 (\4\:Y2 \14\:net5 \37\:gnd! \1\:gnd!) gpdk090_nmos1v \
+        w=1.2e-07 l=1e-07 as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 \
+        m=(1)*(1)
+    I10\|NM0 (\4\:Y1 \14\:net4 \43\:gnd! \1\:gnd!) gpdk090_nmos1v \
+        w=1.2e-07 l=1e-07 as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 \
+        m=(1)*(1)
+    I4\|NM0 (\4\:Y0 \14\:net3 \49\:gnd! \1\:gnd!) gpdk090_nmos1v w=1.2e-07 \
+        l=1e-07 as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 m=(1)*(1)
+    I15\|NM0 (net1 \5\:B \55\:gnd! \1\:gnd!) gpdk090_nmos1v w=1.2e-07 \
+        l=1e-07 as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 m=(1)*(1)
+    I14\|NM0 (\6\:net2 \5\:A \58\:gnd! \1\:gnd!) gpdk090_nmos1v w=1.2e-07 \
+        l=1e-07 as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 m=(1)*(1)
+ends lab2_decoder
+// End of subcircuit definition.

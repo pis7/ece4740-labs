@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "lab1sim"
+  repList "spectre cmos_sch cmos.sch av_extracted schematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/pis7/Cadence/simulation/lab1sim/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "ece4740/lab1sim/schematic" "lab1sim" )
+( "ece4740/lab1inv/av_extracted" "lab1inv" )
+ )
+( "lab1sim" "ihnl/cds1/map" )
+( "lab1inv" "ihnl/cds0/map" )
+ )

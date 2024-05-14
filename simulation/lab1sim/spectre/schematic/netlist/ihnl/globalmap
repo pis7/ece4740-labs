@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+ece4740/lab1inv/av_extracted lab1inv
+ece4740/lab1sim/schematic lab1sim
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

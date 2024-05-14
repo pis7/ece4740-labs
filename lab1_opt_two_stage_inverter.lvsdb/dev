@@ -1,0 +1,10 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 unmatched connect pin
+1 0 ((S "I1/NM0" "nmos1v")(("D" "Y")("G" "net1")("S" "gnd!")("B" "gnd!")))
+1 0 ((S "I1/PM0" "pmos1v")(("D" "Y")("G" "net1")("S" "vdd!")("B" "vdd!")))
+1 0 ((S "I0/NM0" "nmos1v")(("D" "net1")("G" "A")("S" "gnd!")("B" "gnd!")))
+1 0 ((S "I0/PM0" "pmos1v")(("D" "net1")("G" "A")("S" "vdd!")("B" "vdd!")))
+1 0 ((L "I##11" "nmos1v:ParMos2#1")(("OUT" "net1")("OUT2" "gnd!")("TERM4" "gnd!")("IN1" "A")("IN2" "net1")))
+1 0 ((L "I##12" "pmos1v:ParMos2#1")(("OUT" "net1")("OUT2" "vdd!")("TERM4" "vdd!")("IN1" "A")("IN2" "net1")))

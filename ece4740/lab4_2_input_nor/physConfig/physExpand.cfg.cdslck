@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      gpm58
+HostName                       en-ec-ecelinux-06.coecis.cornell.edu
+ProcessIdentifier              6634
+ProcessCreationTime_UTC        1715578532
+ProcessCreationTime_Readable   Mon May 13 01:35:32 2024 EDT
+AppIdentifier                  /opt/cadence/IC618-150/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/gpm58/Cadence/ece4740/lab4_2_input_nor/physConfig/physExpand.cfg
+TimeEditLocked                 Mon May 13 01:48:47 2024 EDT

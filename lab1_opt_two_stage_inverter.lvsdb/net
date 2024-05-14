@@ -1,0 +1,8 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 bind match unmatched shorts opens
+1 0 ((L "vdd!")((1 "pmos1v:ParMos2#1" ( "OUT" "OUT2"))(1 "pmos1v:ParMos2#1" ( "TERM4")))(S "vdd!")((2 "pmos1v" ( "D" "S"))(2 "pmos1v" ( "B"))))
+1 0 ((L "gnd!")((1 "nmos1v:ParMos2#1" ( "OUT" "OUT2"))(1 "nmos1v:ParMos2#1" ( "TERM4")))(S "gnd!")((2 "nmos1v" ( "D" "S"))(2 "nmos1v" ( "B"))))
+1 1 ((L "avC3")((1 "nmos1v:ParMos2#1" ( "OUT" "OUT2"))(1 "nmos1v:ParMos2#1" ( "IN1" "IN2"))(1 "pmos1v:ParMos2#1" ( "OUT" "OUT2"))(1 "pmos1v:ParMos2#1" ( "IN1" "IN2")))(S "net1")((1 "nmos1v" ( "D" "S"))(1 "nmos1v" ( "G"))(1 "pmos1v" ( "D" "S"))(1 "pmos1v" ( "G"))))
+1 1 ((L "avC2_3")((1 "nmos1v:ParMos2#1" ( "IN1" "IN2"))(1 "pmos1v:ParMos2#1" ( "IN1" "IN2")))(S "A")((1 "nmos1v" ( "G"))(1 "pmos1v" ( "G"))))

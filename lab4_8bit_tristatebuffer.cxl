@@ -1,0 +1,58 @@
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab4_1bit_tristatebuffer schematic ece4740" "lab4_1bit_tristatebuffer layout ece4740"
+N net18 avC6
+N net17 avC7
+N EN avC4
+N OUT avC2
+N IN avC3
+N vdd! avC5
+N gnd! avT557_1
+I PM17 avD7_4
+I PM16 avD7_1
+I PM1 avD7_3
+I PM0 avD7_2
+I NM16 avD1_1
+I NM18 avD1_4
+I NM1 avD1_2
+I NM0 avD1_3
+
+C "lab4_8bit_tristatebuffer schematic ece4740" "lab4_8bit_tristatebuffer layout ece4740"
+N EN EN
+N IN0 IN0
+N IN1 IN1
+N IN2 IN2
+N IN3 IN3
+N IN4 IN4
+N IN5 IN5
+N IN6 IN6
+N IN7 IN7
+N OUT0 OUT0
+N OUT1 OUT1
+N OUT2 OUT2
+N OUT3 OUT3
+N OUT4 OUT4
+N OUT5 OUT5
+N OUT6 OUT6
+N OUT7 OUT7
+N vdd! vdd!
+N gnd! gnd!
+I I7 I7
+I I6 I6
+I I5 I5
+I I4 I4
+I I3 I3
+I I2 I2
+I I1 I1
+I I0 I0
+

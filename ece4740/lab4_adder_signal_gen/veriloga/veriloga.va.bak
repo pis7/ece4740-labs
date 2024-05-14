@@ -1,0 +1,100 @@
+// VerilogA for ece4740, lab4_adder_signal_gen, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module lab4_adder_signal_gen(A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, Sub);
+
+output  A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, Sub;
+voltage A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, Sub;
+
+real		A0t, A1t, A2t, A3t, A4t, A5t, A6t, A7t, B0t, B1t, B2t, B3t, B4t, B5t, B6t, B7t, Subt;
+integer	i;
+real 	A0_vals[4:0] = {0.0, 0.0, 1.2, 1.2};
+real 	A1_vals[4:0] = {1.2, 1.2, 0.0, 1.2};
+real 	A2_vals[4:0] = {0.0, 0.0, 1.2, 0.0};
+real 	A3_vals[4:0] = {0.0, 0.0, 1.2, 1.2};
+real 	A4_vals[4:0] = {1.2, 0.0, 1.2, 1.2};
+real 	A5_vals[4:0] = {0.0, 1.2, 1.2, 1.2};
+real 	A6_vals[4:0] = {1.2, 0.0, 0.0, 0.0};
+real 	A7_vals[4:0] = {0.0, 1.2, 1.2, 0.0};
+real 	B0_vals[4:0] = {1.2, 0.0, 1.2, 1.2};
+real 	B1_vals[4:0] = {0.0, 0.0, 0.0, 1.2};
+real 	B2_vals[4:0] = {0.0, 0.0, 1.2, 0.0};
+real 	B3_vals[4:0] = {0.0, 1.2, 0.0, 1.2};
+real 	B4_vals[4:0] = {1.2, 0.0, 1.2, 1.2};
+real 	B5_vals[4:0] = {0.0, 1.2, 1.2, 0.0};
+real 	B6_vals[4:0] = {1.2, 0.0, 0.0, 1.2};
+real 	B7_vals[4:0] = {0.0, 0.0, 1.2, 1.2};
+real 	Sub_vals[4:0]= {0.0, 0.0, 1.2, 1.2};
+parameter real	clk_period = 2n from (0:inf);
+parameter real	clk_high = 1.2;
+parameter real	clk_low = 0.0;
+parameter real	trise = 20p from [0:inf];
+parameter real	tfall = 20p from [0:inf];
+
+analog begin
+
+	@(initial_step) begin
+	 A0t = 0;
+	 A1t = 0;
+	 A2t = 0;
+	 A3t = 0;
+	 A4t = 0;
+	 A5t = 0;
+	 A6t = 0;
+	 A7t = 0;
+	 B0t = 0;
+	 B1t = 0;
+	 B2t = 0;
+	 B3t = 0;
+	 B4t = 0;
+	 B5t = 0;
+	 B6t = 0;
+	 B7t = 0;
+	 Subt= 0;
+	 i   = 0;
+	end
+
+	@(timer(0n,clk_period))	begin
+			 A0t = A0_vals[i];
+			 A1t = A1_vals[i];
+	 		 A2t = A2_vals[i];
+	 		 A3t = A3_vals[i];
+	 		 A4t = A4_vals[i];
+	 		 A5t = A5_vals[i];
+			 A6t = A6_vals[i];
+			 A7t = A7_vals[i];
+			 B0t = B0_vals[i];
+			 B1t = B1_vals[i];
+	 	 	 B2t = B2_vals[i];
+			 B3t = B3_vals[i];
+	 		 B4t = B4_vals[i];
+			 B5t = B5_vals[i];
+			 B6t = B6_vals[i];
+	 		 B7t = B7_vals[i];
+			 Subt= Sub_vals[i];
+	 		 i   = i + 1;
+	end
+
+	V(A0)	 <+ transition(A0t, 0, trise, tfall);
+	V(A1)	 <+ transition(A1t, 0, trise, tfall);
+	V(A2)	 <+ transition(A2t, 0, trise, tfall);
+	V(A3)	 <+ transition(A3t, 0, trise, tfall);
+	V(A4)	 <+ transition(A4t, 0, trise, tfall);
+	V(A5)	 <+ transition(A5t, 0, trise, tfall);
+	V(A6)	 <+ transition(A6t, 0, trise, tfall);
+	V(A7)	 <+ transition(A7t, 0, trise, tfall);
+	V(B0)	 <+ transition(B0t, 0, trise, tfall);
+	V(B1)	 <+ transition(B1t, 0, trise, tfall);
+	V(B2)	 <+ transition(B2t, 0, trise, tfall);
+	V(B3)	 <+ transition(B3t, 0, trise, tfall);
+	V(B4)	 <+ transition(B4t, 0, trise, tfall);
+	V(B5)	 <+ transition(B5t, 0, trise, tfall);
+	V(B6)	 <+ transition(B6t, 0, trise, tfall);
+	V(B7)	 <+ transition(B7t, 0, trise, tfall);
+	V(Sub)	 <+ transition(Subt,0, trise, tfall);
+	
+end
+
+endmodule

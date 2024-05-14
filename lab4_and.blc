@@ -1,0 +1,7 @@
+"pmos1v(MOS)" "pmos1v(MOS)"
+"nmos1v(MOS)" "nmos1v(MOS)"
+"lab2_cmos_nand layout ece4740" "lab2_cmos_nand schematic ece4740" "nmos1v(MOS)" "pmos1v(MOS)"
+"lab1inv_narrow layout ece4740" "lab1inv_narrow schematic ece4740" "nmos1v(MOS)" "pmos1v(MOS)"
+"lab4_and layout ece4740" "lab4_and schematic ece4740"
+Devices filtered from layout
+"TIE"

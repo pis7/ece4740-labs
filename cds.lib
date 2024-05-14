@@ -1,0 +1,13 @@
+# File Created by Parker Ian Schless at Wed Jan 24 23:17:13 2024
+# assisted by CdsLibEditor
+DEFINE analogLib /opt/cadence/IC618-150/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE sbaLib /opt/cadence/IC618-150/tools/dfII/etc/cdslib/artist/sbaLib
+DEFINE basic /opt/cadence/IC618-150/tools/dfII/etc/cdslib/basic
+DEFINE sample /opt/cadence/IC618-150/tools/dfII/samples/cdslib/sample
+DEFINE US_8ths /opt/cadence/IC618-150/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE gpdk090 /opt/cadence-designkits/gpdk090.old/libs.oa22/gpdk090
+
+#Removed by ddDeleteObj: DEFINE ece4740 /home/pis7/Cadence/ece4740
+#Removed by ddDeleteObj: DEFINE ece4740 /home/pis7/Cadence/ece4740
+DEFINE ece4740 /home/pis7/Cadence/ece4740
+DEFINE avTech /opt/cadence/assura/tools.lnx86/assura/etc/avtech/avTech

@@ -1,0 +1,23 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab2_nand schematic ece4740" "lab2_nand layout ece4740"
+N Y Y
+N A A
+N B B
+N vdd! vdd!
+N gnd! gnd!
+I NM1 avD1_2
+I NM0 avD1_1
+I PM3 avD7_2
+I PM0 avD7_1
+

@@ -1,0 +1,49 @@
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab3_dff_onecell schematic ece4740" "lab3_dff_onecell layout ece4740"
+N net1 avC13
+N net5 avC10
+N net4 avC11
+N net8 avC7
+N net3 avC8
+N net2 avC12
+N net10 avC9
+N net9 avC6
+N D D
+N CLK CLK
+N Q Q
+N vdd! vdd!
+N gnd! gnd!
+I PM10 avD7_11
+I PM9 avD7_8
+I PM8 avD7_9
+I PM7 avD7_10
+I PM6 avD7_7
+I PM5 avD7_2
+I PM4 avD7_5
+I PM3 avD7_4
+I PM2 avD7_1
+I PM1 avD7_6
+I PM0 avD7_3
+I NM11 avD1_11
+I NM10 avD1_8
+I NM9 avD1_9
+I NM8 avD1_10
+I NM7 avD1_7
+I NM6 avD1_2
+I NM5 avD1_5
+I NM4 avD1_4
+I NM3 avD1_1
+I NM2 avD1_6
+I NM1 avD1_3
+

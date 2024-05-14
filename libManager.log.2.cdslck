@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      pis7
+HostName                       en-ec-ph314-20.ece.cornell.edu
+ProcessIdentifier              21408
+ProcessCreationTime_UTC        1713224167
+ProcessCreationTime_Readable   Mon Apr 15 19:36:07 2024 EDT
+AppIdentifier                  /opt/cadence/IC618-150/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/pis7/Cadence/libManager.log.2
+TimeEditLocked                 Mon Apr 15 19:36:10 2024 EDT

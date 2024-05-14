@@ -1,0 +1,12 @@
+
+// Library name: ece4740
+// Cell name: lab2_decoder_sim
+// View name: schematic
+V0 (vdd! 0) vsource dc=1.2 type=dc
+I2 (A B Y0 Y1 Y2 Y3) lab2_decoder
+C3 (Y0 0) capacitor c=20f
+C2 (Y1 0) capacitor c=20f
+C1 (Y2 0) capacitor c=20f
+C0 (Y3 0) capacitor c=20f
+I4 (A B) lab2_signal_gen clk_period=1e-09 clk_period2=5e-10 clk_high=1.2 \
+        clk_low=0 trise=2e-11 tfall=2e-11

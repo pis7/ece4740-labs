@@ -1,0 +1,5 @@
+"pmos1v(MOS)" "pmos1v(MOS)"
+"nmos1v(MOS)" "nmos1v(MOS)"
+"lab2_nora_inv layout ece4740" "lab2_nora_inv schematic ece4740" "nmos1v(MOS)" "pmos1v(MOS)"
+Devices filtered from layout
+"TIE"

@@ -1,0 +1,4 @@
+!<alc> v1 29
+0    7    0 lab2_cmos_nand layout ece4740
+0    6    0 lab1inv_narrow layout ece4740
+0    8    0 lab4_and layout ece4740

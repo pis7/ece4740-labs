@@ -1,0 +1,7 @@
+Schematic                        | Layout                        | Status
+-------------------------------------------------------------------------------
+lab1inv_narrow schematic ece4740 | lab1inv_narrow layout ece4740 | matched  
+lab2_cmos_nand schematic ece4740 | lab2_cmos_nand layout ece4740 | matched  
+lab4_and schematic ece4740       | lab4_and layout ece4740       | matched  
+
+Schematic and Layout Match

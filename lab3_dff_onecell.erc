@@ -1,0 +1,12 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab3_dff_onecell layout ece4740':
+  info: Assign pin label "gnd!" at (0.0900, -0.0050) to layer `Metal1_p'.
+  info: Assign pin label "CLK" at (0.1800, 1.0350) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.0850, 2.8750) to layer `Metal1_p'.
+  info: Assign pin label "D" at (3.7150, 2.5850) to layer `Metal1_p'.
+  info: Assign pin label "Q" at (7.0300, 1.4000) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

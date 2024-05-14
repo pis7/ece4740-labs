@@ -1,0 +1,5 @@
+!<alc> v1 30
+0   40    0 lab4_adder_1bit layout ece4740
+0   39    0 lab4_2_1_mux layout ece4740
+0   38    0 lab1inv_narrow layout ece4740
+0   41    0 lab4_adder_top layout ece4740

@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "lab3_dff_sim"
+  repList "spectre cmos_sch cmos.sch av_extracted chematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/pis7/Cadence/simulation/lab3_dff_sim/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "ece4740/lab3_dff_onecell/av_extracted" "lab3_dff_onecell" )
+( "ece4740/lab3_dff_sim/schematic" "lab3_dff_sim" )
+ )
+( "lab3_dff_onecell" "ihnl/cds0/map" )
+( "lab3_dff_sim" "ihnl/cds1/map" )
+ )

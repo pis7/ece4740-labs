@@ -1,0 +1,6 @@
+"pmos1v(MOS)" "pmos1v(MOS)"
+"nmos1v(MOS)" "nmos1v(MOS)"
+"lab4_xor_1bit layout ece4740" "lab4_xor_1bit schematic ece4740" "nmos1v(MOS)" "pmos1v(MOS)"
+"lab4_xor_8bit layout ece4740" "lab4_xor_8bit schematic ece4740"
+Devices filtered from layout
+"TIE"

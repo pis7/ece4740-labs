@@ -1,0 +1,12 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab4_xor_1bit layout ece4740':
+  info: Assign pin label "gnd!" at (0.1350, 0.0050) to layer `Metal1_p'.
+  info: Assign pin label "A" at (1.1000, 1.0350) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.0850, 2.8700) to layer `Metal1_p'.
+  info: Assign pin label "B" at (2.2100, 1.5700) to layer `Metal1_p'.
+  info: Assign pin label "OUT" at (3.1800, 0.9750) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

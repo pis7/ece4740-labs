@@ -1,0 +1,8 @@
+Schematic                                    | Layout                                    | Status
+---------------------------------------------------------------------------------------------------
+lab1inv schematic ece4740                    | lab1inv layout ece4740                    | matched
+lab1_opt_two_stage_inverter schematic ece4740| lab1_opt_two_stage_inverter layout ece4740| errors  *
+
+Mismatch between Schematic and Layout
+   1 cell with errors
+   1 cell matched

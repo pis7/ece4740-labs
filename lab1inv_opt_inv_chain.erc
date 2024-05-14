@@ -1,0 +1,11 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab1inv_opt_inv_chain layout ece4740':
+  info: Assign pin label "gnd!" at (0.0800, 0.0000) to layer `Metal1_p'.
+  info: Assign pin label "A" at (0.3750, 1.3500) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.0750, 2.8850) to layer `Metal1_p'.
+  info: Assign pin label "Y" at (4.2700, 1.1300) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

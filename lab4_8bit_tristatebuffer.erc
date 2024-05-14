@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab4_8bit_tristatebuffer layout ece4740':
+  info: Assign pin label "OUT0" at (0.3650, 1.0800) to layer `Metal1_p'.
+  info: Assign pin label "IN0" at (0.8700, 1.2300) to layer `Metal1_p'.
+  info: Assign pin label "EN" at (1.9950, 1.2750) to layer `Metal1_p'.
+  info: Assign pin label "OUT1" at (3.5500, 1.0100) to layer `Metal1_p'.
+  info: Assign pin label "IN1" at (4.1200, 1.2250) to layer `Metal1_p'.
+  info: Assign pin label "OUT2" at (6.7950, 1.0050) to layer `Metal1_p'.
+  info: Assign pin label "IN2" at (7.3800, 1.2450) to layer `Metal1_p'.
+  info: Assign pin label "OUT3" at (10.0450, 1.0100) to layer `Metal1_p'.
+  info: Assign pin label "IN3" at (10.6250, 1.2650) to layer `Metal1_p'.
+  info: Assign pin label "gnd!" at (12.8900, 0.0050) to layer `Metal1_p'.
+  info: Assign pin label "OUT4" at (13.2900, 1.0150) to layer `Metal1_p'.
+  info: Assign pin label "IN4" at (13.8800, 1.2500) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (12.8900, 2.8900) to layer `Metal1_p'.
+  info: Assign pin label "OUT5" at (16.5300, 1.0050) to layer `Metal1_p'.
+  info: Assign pin label "IN5" at (17.0900, 1.2550) to layer `Metal1_p'.
+  info: Assign pin label "OUT6" at (19.7800, 1.0100) to layer `Metal1_p'.
+  info: Assign pin label "IN6" at (20.3650, 1.1800) to layer `Metal1_p'.
+  info: Assign pin label "OUT7" at (23.0150, 1.0100) to layer `Metal1_p'.
+  info: Assign pin label "IN7" at (23.6050, 1.2150) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

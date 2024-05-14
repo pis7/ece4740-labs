@@ -1,0 +1,50 @@
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab2_nora_nand schematic ece4740" "lab2_nora_nand layout ece4740"
+N A avC3
+N B avC4
+N phi avC2
+N Y avC5
+N vdd! avC6
+N gnd! avT557_1
+I PM2 avD7_3
+I PM1 avD7_2
+I PM0 avD7_1
+I NM0 avD1_1
+
+C "lab2_nora_inv schematic ece4740" "lab2_nora_inv layout ece4740"
+N phi avC5
+N A avC2
+N Y avC4
+N vdd! avC3
+N gnd! avT557_1
+I PM0 avD7_1
+I NM1 avD1_5
+I NM0 avD1_1
+
+C "lab2_nora_criticalpath schematic ece4740" "lab2_nora_criticalpath layout ece4740"
+N net1 avC8
+N net2 avC9
+N net3 avC10
+N A A
+N B B
+N phi phi
+N phi_bar phi_bar
+N Y Y
+N vdd! vdd!
+N gnd! gnd!
+I I10 I10
+I I12 I12
+I I11 I11
+I I13 I13
+

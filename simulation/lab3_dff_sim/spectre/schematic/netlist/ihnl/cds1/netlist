@@ -1,0 +1,11 @@
+
+// Library name: ece4740
+// Cell name: lab3_dff_sim
+// View name: schematic
+I0 (CLK D Q) lab3_dff_onecell
+V0 (vdd! 0) vsource dc=1.2 type=dc
+V2 (D 0) vsource type=pulse val0=0 val1=1.2 period=2.3n delay=1.1n \
+        rise=10p fall=10p
+V1 (CLK 0) vsource type=pulse val0=0 val1=1.2 period=2n delay=0 rise=10p \
+        fall=10p
+C0 (Q 0) capacitor c=2f

@@ -1,0 +1,5 @@
+"pmos1v(MOS)" "pmos1v(MOS)"
+"nmos1v(MOS)" "nmos1v(MOS)"
+"lab4_1bit_tristatebuffer layout ece4740" "lab4_1bit_tristatebuffer schematic ece4740" "nmos1v(MOS)" "pmos1v(MOS)"
+Devices filtered from layout
+"TIE"

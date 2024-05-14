@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+ece4740/lab2_nora/av_extracted lab2_nora
+ece4740/lab2_nora_sim/schematic lab2_nora_sim
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

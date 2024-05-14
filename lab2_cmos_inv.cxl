@@ -1,0 +1,20 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab2_cmos_inv schematic ece4740" "lab2_cmos_inv layout ece4740"
+N A A
+N Y Y
+N vdd! vdd!
+N gnd! gnd!
+I NM0 avD1_1
+I PM0 avD7_1
+

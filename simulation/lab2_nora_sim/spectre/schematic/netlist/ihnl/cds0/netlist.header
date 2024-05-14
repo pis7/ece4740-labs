@@ -1,0 +1,6 @@
+
+// Library name: ece4740
+// Cell name: lab2_nora
+// View name: av_extracted
+// View type: maskLayout
+subckt lab2_nora A B Y phi phi_bar

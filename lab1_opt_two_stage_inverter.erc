@@ -1,0 +1,9 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab1_opt_two_stage_inverter layout ece4740':
+  info: Assign pin label "gnd!" at (0.3750, 2.8500) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.6800, 9.5850) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

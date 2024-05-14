@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "lab2_decoder_sim"
+  repList "spectre cmos_sch cmos.sch av_extracted schematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/pis7/Cadence/simulation/lab2_decoder_sim/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "ece4740/lab2_decoder_sim/schematic" "lab2_decoder_sim" )
+( "ece4740/lab2_decoder/av_extracted" "lab2_decoder" )
+ )
+( "lab2_decoder_sim" "ihnl/cds1/map" )
+( "lab2_decoder" "ihnl/cds0/map" )
+ )

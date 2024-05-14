@@ -1,0 +1,6 @@
+Schematic                      | Layout                      | Status
+---------------------------------------------------------------------------------
+lab1inv_basic schematic ece4740| lab1inv_basic layout ece4740| matched, pin errs *
+
+Mismatch between Schematic and Layout
+   1 cell matched with pin errors

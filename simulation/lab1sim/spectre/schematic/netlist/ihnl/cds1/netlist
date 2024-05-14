@@ -1,0 +1,9 @@
+
+// Library name: ece4740
+// Cell name: lab1sim
+// View name: schematic
+V0 (net1 0) vsource type=pulse val0=0 val1=1.2 period=2u delay=1u rise=10n \
+        fall=10n
+V1 (vdd! 0) vsource dc=1.2 type=dc
+C0 (net2 0) capacitor c=10p
+I5 (net1 net2) lab1inv

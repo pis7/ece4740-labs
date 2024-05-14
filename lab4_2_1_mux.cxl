@@ -1,0 +1,34 @@
+C pmos1v(MOS) pmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C nmos1v(MOS) nmos1v(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "lab4_2_1_mux schematic ece4740" "lab4_2_1_mux layout ece4740"
+N S_b avC7
+N net1 avC8
+N S S
+N A A
+N B B
+N Out Out
+N vdd! vdd!
+N gnd! gnd!
+I NM5 avD1_6
+I NM4 avD1_1
+I NM3 avD1_2
+I NM2 avD1_3
+I NM1 avD1_5
+I NM0 avD1_4
+I PM5 avD7_6
+I PM4 avD7_1
+I PM3 avD7_2
+I PM2 avD7_4
+I PM1 avD7_5
+I PM0 avD7_3
+

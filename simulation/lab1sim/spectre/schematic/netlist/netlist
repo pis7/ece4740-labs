@@ -1,0 +1,68 @@
+
+// Library name: ece4740
+// Cell name: lab1inv
+// View name: av_extracted
+// View type: maskLayout
+subckt lab1inv A Y
+    c1 (Y \2\:A) capacitor c=2.75518e-19
+    c2 (A \1\:vdd!) capacitor c=1.71649e-17
+    c3 (\1\:A Y) capacitor c=5.55518e-17
+    c4 (Y \1\:gnd!) capacitor c=9.00519e-18
+    c5 (Y \1\:vdd!) capacitor c=2.71426e-17
+    c6 (\2\:A \1\:vdd!) capacitor c=3.848e-17
+    c7 (\3\:A \1\:gnd!) capacitor c=3.35011e-17
+    c8 (\1\:A \1\:gnd!) capacitor c=1.08659e-17
+    c9 (\1\:A \1\:vdd!) capacitor c=4.39639e-17
+    c10 (\2\:gnd! A) capacitor c=8.54586e-19
+    c11 (\2\:vdd! \2\:A) capacitor c=6.6869e-18
+    c12 (\2\:gnd! \3\:A) capacitor c=7.68178e-18
+    c13 (\2\:gnd! \1\:A) capacitor c=1.68148e-18
+    c14 (\5\:gnd! \2\:Y) capacitor c=1.15559e-17
+    c15 (\2\:Y \3\:A) capacitor c=1.29424e-17
+    c16 (A \5\:vdd!) capacitor c=6.77372e-18
+    c17 (\5\:vdd! \2\:A) capacitor c=1.348e-17
+    c18 (\5\:vdd! \1\:A) capacitor c=1.91245e-18
+    c19 (\2\:gnd! \2\:Y) capacitor c=6.43537e-18
+    c20 (\5\:vdd! \5\:Y) capacitor c=1.5118e-17
+    c21 (\5\:gnd! A) capacitor c=5.86713e-18
+    c22 (\5\:Y \2\:vdd!) capacitor c=5.32963e-18
+    c23 (\2\:Y \1\:A) capacitor c=4.57165e-19
+    c24 (\5\:Y \1\:vdd!) capacitor c=2.36785e-17
+    c25 (\5\:Y \2\:A) capacitor c=1.34864e-17
+    c26 (\2\:Y \1\:gnd!) capacitor c=2.98426e-17
+    c27 (\5\:gnd! \3\:A) capacitor c=1.08801e-17
+    c28 (\5\:vdd! 0) capacitor c=1.51588e-18
+    ri1 (\1\:A A) resistor r=10.0292 c=0
+    ri3 (\2\:Y Y) resistor r=0.3661 c=0
+    ri4 (Y \5\:Y) resistor r=0.3224 c=0
+    ri6 (\1\:Y \2\:Y) resistor r=15 c=0
+    ri7 (\4\:Y \5\:Y) resistor r=15 c=0
+    ri8 (\1\:vdd! \2\:vdd!) resistor r=15.4544 c=0
+    ri9 (\2\:vdd! \3\:vdd!) resistor r=0.2394 c=0
+    ri10 (\3\:vdd! vdd!) resistor r=0.1125 c=0
+    ri11 (\2\:vdd! \5\:vdd!) resistor r=0.3923 c=0
+    ri13 (\1\:vdd! \3\:vdd!) resistor r=15 c=0
+    ri14 (\4\:vdd! \5\:vdd!) resistor r=15 c=0
+    ri15 (\1\:gnd! \2\:gnd!) resistor r=15.5144 c=0
+    ri16 (\2\:gnd! \3\:gnd!) resistor r=0.2369 c=0
+    ri17 (\3\:gnd! 0) resistor r=0.08125 c=0
+    ri18 (\2\:gnd! \5\:gnd!) resistor r=0.2798 c=0
+    ri20 (\1\:gnd! \3\:gnd!) resistor r=15 c=0
+    ri21 (\4\:gnd! \5\:gnd!) resistor r=15 c=0
+    rj1 (\2\:A \1\:A) resistor r=49.7927 c=0
+    rj2 (\1\:A \3\:A) resistor r=60.2927 c=0
+    PM0 (\4\:Y \2\:A \4\:vdd! \1\:vdd!) gpdk090_pmos1v w=2.4e-07 l=1e-07 \
+        as=6.72e-14 ad=6.72e-14 ps=1.04e-06 pd=1.04e-06 m=(1)*(1)
+    NM0 (\1\:Y \3\:A \4\:gnd! \1\:gnd!) gpdk090_nmos1v w=1.2e-07 l=1e-07 \
+        as=6.96e-14 ad=6.96e-14 ps=1.16e-06 pd=1.16e-06 m=(1)*(1)
+ends lab1inv
+// End of subcircuit definition.
+
+// Library name: ece4740
+// Cell name: lab1sim
+// View name: schematic
+V0 (net1 0) vsource type=pulse val0=0 val1=1.2 period=2u delay=1u rise=10n \
+        fall=10n
+V1 (vdd! 0) vsource dc=1.2 type=dc
+C0 (net2 0) capacitor c=10p
+I5 (net1 net2) lab1inv

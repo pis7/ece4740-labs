@@ -1,0 +1,25 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab4_inv layout ece4740':
+  info: Assign pin label "A0" at (0.3550, 1.3400) to layer `Metal1_p'.
+  info: Assign pin label "Y0" at (0.8400, 1.3850) to layer `Metal1_p'.
+  info: Assign pin label "A1" at (1.7750, 1.3450) to layer `Metal1_p'.
+  info: Assign pin label "Y1" at (2.1950, 1.3050) to layer `Metal1_p'.
+  info: Assign pin label "A2" at (3.1700, 1.3550) to layer `Metal1_p'.
+  info: Assign pin label "Y2" at (3.6500, 1.3350) to layer `Metal1_p'.
+  info: Assign pin label "gnd!" at (5.6150, -0.0100) to layer `Metal1_p'.
+  info: Assign pin label "A3" at (4.6450, 1.3300) to layer `Metal1_p'.
+  info: Assign pin label "Y3" at (5.1200, 1.3050) to layer `Metal1_p'.
+  info: Assign pin label "A4" at (6.1400, 1.3450) to layer `Metal1_p'.
+  info: Assign pin label "Y4" at (6.6200, 1.2750) to layer `Metal1_p'.
+  info: Assign pin label "A5" at (7.6150, 1.3550) to layer `Metal1_p'.
+  info: Assign pin label "Y5" at (8.1050, 1.3400) to layer `Metal1_p'.
+  info: Assign pin label "A6" at (9.1200, 1.3650) to layer `Metal1_p'.
+  info: Assign pin label "Y6" at (9.5900, 1.3550) to layer `Metal1_p'.
+  info: Assign pin label "A7" at (10.5850, 1.3650) to layer `Metal1_p'.
+  info: Assign pin label "Y7" at (11.0650, 1.3350) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (10.1700, 2.8900) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+ece4740/lab2_decoder_sim/schematic lab2_decoder_sim
+ece4740/lab2_decoder/av_extracted lab2_decoder
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam
