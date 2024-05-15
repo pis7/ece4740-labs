@@ -1,0 +1,123 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module alu_signal_gen_tb(A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, En);
+
+output  A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, En;
+voltage A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, En;
+
+real    A0t, A1t, A2t, A3t, A4t, A5t, A6t, A7t, B0t, B1t, B2t, B3t, B4t, B5t, B6t, B7t, FUN_SEL0t, FUN_SEL1t, FUN_SEL2t;
+integer i;
+real    A0_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
+real    A1_vals[3:0] = {1.2, 1.2, 0.0, 1.2};
+real    A2_vals[3:0] = {0.0, 0.0, 1.2, 0.0};
+real    A3_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
+real    A4_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
+real    A5_vals[3:0] = {0.0, 1.2, 1.2, 1.2};
+real    A6_vals[3:0] = {1.2, 0.0, 0.0, 0.0};
+real    A7_vals[3:0] = {0.0, 1.2, 1.2, 0.0};
+real    B0_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
+real    B1_vals[3:0] = {0.0, 0.0, 0.0, 1.2};
+real    B2_vals[3:0] = {0.0, 0.0, 1.2, 0.0};
+real    B3_vals[3:0] = {0.0, 1.2, 0.0, 1.2};
+real    B4_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
+real    B5_vals[3:0] = {0.0, 1.2, 1.2, 0.0};
+real    B6_vals[3:0] = {1.2, 0.0, 0.0, 1.2};
+real    B7_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
+real    FUN_SEL_vals[5:0] = {3'b000, 3'b001, 3'b010, 3'b011, 3'b100, 3'b101};
+
+parameter real    clk_period = 2n from (0:inf);
+parameter real    clk_high = 1.2;
+parameter real    clk_low = 0.0;
+parameter real    trise = 20p from [0:inf];
+parameter real    tfall = 20p from [0:inf];
+
+real    CLKt, Ent;
+integer clk_counter;
+
+analog begin
+
+    @(initial_step) begin
+        A0t = 0;
+        A1t = 0;
+        A2t = 0;
+        A3t = 0;
+        A4t = 0;
+        A5t = 0;
+        A6t = 0;
+        A7t = 0;
+        B0t = 0;
+        B1t = 0;
+        B2t = 0;
+        B3t = 0;
+        B4t = 0;
+        B5t = 0;
+        B6t = 0;
+        B7t = 0;
+        FUN_SEL0t = 0;
+        FUN_SEL1t = 0;
+        FUN_SEL2t = 0;
+        CLKt = clk_low;
+        Ent = 0;
+        i = 0;
+        clk_counter = 0;
+    end
+
+    // Clock generation
+    @(timer(0, clk_period/2)) begin
+        CLKt = (CLKt == clk_low) ? clk_high : clk_low;
+        clk_counter = clk_counter + 1;
+        if (clk_counter % 4 == 0) begin
+            Ent = !Ent; // Toggle enable every 4 clock periods
+        end
+    end
+
+    // Signal generation
+    @(timer(0, clk_period)) begin
+        A0t = A0_vals[i % 4];
+        A1t = A1_vals[i % 4];
+        A2t = A2_vals[i % 4];
+        A3t = A3_vals[i % 4];
+        A4t = A4_vals[i % 4];
+        A5t = A5_vals[i % 4];
+        A6t = A6_vals[i % 4];
+        A7t = A7_vals[i % 4];
+        B0t = B0_vals[i % 4];
+        B1t = B1_vals[i % 4];
+        B2t = B2_vals[i % 4];
+        B3t = B3_vals[i % 4];
+        B4t = B4_vals[i % 4];
+        B5t = B5_vals[i % 4];
+        B6t = B6_vals[i % 4];
+        B7t = B7_vals[i % 4];
+        FUN_SEL0t = FUN_SEL_vals[i % 6][0]; // Directly assign from array
+        FUN_SEL1t = FUN_SEL_vals[i % 6][1]; // Directly assign from array
+        FUN_SEL2t = FUN_SEL_vals[i % 6][2]; // Directly assign from array
+        i = i + 1;
+    end
+
+    V(A0)    <+ transition(A0t, 0, trise, tfall);
+    V(A1)    <+ transition(A1t, 0, trise, tfall);
+    V(A2)    <+ transition(A2t, 0, trise, tfall);
+    V(A3)    <+ transition(A3t, 0, trise, tfall);
+    V(A4)    <+ transition(A4t, 0, trise, tfall);
+    V(A5)    <+ transition(A5t, 0, trise, tfall);
+    V(A6)    <+ transition(A6t, 0, trise, tfall);
+    V(A7)    <+ transition(A7t, 0, trise, tfall);
+    V(B0)    <+ transition(B0t, 0, trise, tfall);
+    V(B1)    <+ transition(B1t, 0, trise, tfall);
+    V(B2)    <+ transition(B2t, 0, trise, tfall);
+    V(B3)    <+ transition(B3t, 0, trise, tfall);
+    V(B4)    <+ transition(B4t, 0, trise, tfall);
+    V(B5)    <+ transition(B5t, 0, trise, tfall);
+    V(B6)    <+ transition(B6t, 0, trise, tfall);
+    V(B7)    <+ transition(B7t, 0, trise, tfall);
+    V(FUN_SEL0) <+ transition(FUN_SEL0t, 0, trise, tfall);
+    V(FUN_SEL1) <+ transition(FUN_SEL1t, 0, trise, tfall);
+    V(FUN_SEL2) <+ transition(FUN_SEL2t, 0, trise, tfall);
+    V(CLK) <+ transition(CLKt, 0, trise, tfall);
+    V(En) <+ transition(Ent, 0, trise, tfall);
+
+end
+
+endmodule
