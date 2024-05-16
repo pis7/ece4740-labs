@@ -1,0 +1,39 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lab4_alu layout ece4740':
+  info: Assign pin label "gnd!" at (0.1750, 0.0000) to layer `Metal1_p'.
+  info: Assign pin label "vdd!" at (0.1700, 2.8800) to layer `Metal1_p'.
+  info: Assign pin label "A7" at (3.5750, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "CLK" at (0.3700, 6.7950) to layer `Metal1_p'.
+  info: Assign pin label "Y7" at (0.2600, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B0" at (3.7150, 8.3450) to layer `Metal1_p'.
+  info: Assign pin label "FN0" at (0.2950, 12.8400) to layer `Metal1_p'.
+  info: Assign pin label "A6" at (11.1650, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "FN1" at (1.8100, 12.8900) to layer `Metal1_p'.
+  info: Assign pin label "FN2" at (3.1500, 13.1100) to layer `Metal1_p'.
+  info: Assign pin label "Y6" at (7.8500, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B1" at (11.3000, 8.3250) to layer `Metal1_p'.
+  info: Assign pin label "A5" at (18.7550, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "Y5" at (15.4400, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B2" at (18.9200, 8.3100) to layer `Metal1_p'.
+  info: Assign pin label "A4" at (26.3450, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "Y4" at (23.0300, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B3" at (26.4850, 8.3400) to layer `Metal1_p'.
+  info: Assign pin label "A3" at (33.9400, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "Y3" at (30.6200, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B4" at (34.1050, 8.3150) to layer `Metal1_p'.
+  info: Assign pin label "A2" at (41.5250, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "Y2" at (38.2100, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B5" at (41.6750, 8.3250) to layer `Metal1_p'.
+  info: Assign pin label "A1" at (49.1150, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "Y1" at (45.8000, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B6" at (49.2750, 8.3400) to layer `Metal1_p'.
+  info: Assign pin label "A0" at (56.7050, 3.1750) to layer `Metal1_p'.
+  info: Assign pin label "Y0" at (53.3900, 10.1200) to layer `Metal1_p'.
+  info: Assign pin label "B7" at (56.8750, 8.3250) to layer `Metal1_p'.
+  info: Assign pin label "OF" at (96.6150, 4.7850) to layer `Metal1_p'.
+  info: Assign pin label "EN" at (96.3550, 8.3450) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

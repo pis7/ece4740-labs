@@ -1,0 +1,28 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 statistics extraction device net pin parameter rewire total
+stat extr dev net pin param rewire total 
+none matched expanded errors param_err pin_err empty_sch empty_lay not_run 
+00000018
+23 lab4_alu layout ece4740 1 0 0 0 1 135 1 157 1 183 1 209 1 238 1 260 1 289 1 311 1 337 1 359 1 384 1 409 1 436 1 463 1 488 1 513 1 540 1 567 1 588 1 615 1 636 1 659 1 686 1 715 1 736 1 763 1 784 1 807 1 834 1 863 1 887 1 910 1 930 1 950 1 970 1 990 1 1010 1 1030 1 1050 1 1070 1 1090 1 1109 1 1128 1 1148 1 1168 1 1189 1 1207 1 1225
+28 lab4_xor_1bit layout ece4740 2 0 0 0 0 129 3 138 3 409 2 126 2 231 7 142
+28 lab4_xor_1bit layout ece4740 2 31 lab4_xor_1bit schematic ece4740 3 0
+28 lab4_xor_8bit layout ece4740 3 31 lab4_xor_8bit schematic ece4740 1 0
+39 lab4_1bit_tristatebuffer layout ece4740 4 42 lab4_1bit_tristatebuffer schematic ece4740 1 0
+39 lab4_8bit_tristatebuffer layout ece4740 5 42 lab4_8bit_tristatebuffer schematic ece4740 1 0
+29 lab1inv_narrow layout ece4740 6 32 lab1inv_narrow schematic ece4740 1 0
+23 lab4_inv layout ece4740 7 26 lab4_inv schematic ece4740 1 0
+31 lab4_2_input_nor layout ece4740 8 34 lab4_2_input_nor schematic ece4740 1 0
+22 lab4_or layout ece4740 9 25 lab4_or schematic ece4740 1 0
+31 lab3_dff_onecell layout ece4740 10 34 lab3_dff_onecell schematic ece4740 1 0
+32 lab4_4_input_nand layout ece4740 11 35 lab4_4_input_nand schematic ece4740 1 0
+27 lab4_decoder layout ece4740 12 30 lab4_decoder schematic ece4740 1 0
+29 lab2_cmos_nand layout ece4740 13 32 lab2_cmos_nand schematic ece4740 1 0
+23 lab4_and layout ece4740 14 26 lab4_and schematic ece4740 1 0
+28 lab4_8bit_reg layout ece4740 15 31 lab4_8bit_reg schematic ece4740 1 0
+27 lab4_2_1_mux layout ece4740 16 30 lab4_2_1_mux schematic ece4740 1 0
+30 lab4_adder_1bit layout ece4740 17 33 lab4_adder_1bit schematic ece4740 1 0
+29 lab4_adder_top layout ece4740 18 32 lab4_adder_top schematic ece4740 1 0
+23 lab4_alu layout ece4740 1 0 0 0 0 322 0 1557 3 624 3 661 3 679 3 825 3 971 3 1381 3 1792 3 2203 3 2613 3 3024 3 3435 3 3846 3 4256 3 4611 3 4966 3 5320 3 5674 3 6028 3 6382 3 6736 3 7090 3 7239 6 126 6 172 6 218 6 264 6 311 6 358 6 405 6 452 6 498 6 544 6 589 6 634 6 679 6 724 6 769 6 818 2 339 2 422 2 505 2 608 2 729 2 851 2 973 2 1070 2 1167 2 1264 2 1361 2 1458 2 1555 2 1652 2 1749 2 1846 2 1943 2 2039 2 2135 2 2234 2 2341 2 2448 2 2556 2 2664 2 2774 2 2882 2 2995 2 3110 2 3217 2 3327 2 3437 2 3547 7 249
+23 lab4_alu layout ece4740 1 26 lab4_alu schematic ece4740 3 0
