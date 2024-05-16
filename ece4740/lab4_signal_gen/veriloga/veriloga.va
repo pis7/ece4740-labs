@@ -24,7 +24,9 @@ real    B4_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
 real    B5_vals[3:0] = {0.0, 1.2, 1.2, 0.0};
 real    B6_vals[3:0] = {1.2, 0.0, 0.0, 1.2};
 real    B7_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
-real    FUN_SEL_vals[5:0] = {3'b000, 3'b001, 3'b010, 3'b011, 3'b100, 3'b101};
+real FUN_SEL_vals_0[5:0] = {0.0, 0.0, 0.0, 0.0, 1.2, 1.2};
+real FUN_SEL_vals_1[5:0] = {0.0, 0.0, 1.2, 1.2, 0.0, 0.0};
+real FUN_SEL_vals_2[5:0] = {0.0, 1.2, 0.0, 1.2, 0.0, 1.2};
 
 parameter real    clk_period = 2n from (0:inf);
 parameter real    clk_high = 1.2;
@@ -90,9 +92,9 @@ analog begin
         B5t = B5_vals[i % 4];
         B6t = B6_vals[i % 4];
         B7t = B7_vals[i % 4];
-        FUN_SEL0t = FUN_SEL_vals[i % 6][0]; // Directly assign from array
-        FUN_SEL1t = FUN_SEL_vals[i % 6][1]; // Directly assign from array
-        FUN_SEL2t = FUN_SEL_vals[i % 6][2]; // Directly assign from array
+        FUN_SEL0t = FUN_SEL_vals_0[i % 6]; // Directly assign from array
+        FUN_SEL1t = FUN_SEL_vals_1[i % 6]; // Directly assign from array
+        FUN_SEL2t = FUN_SEL_vals_2[i % 6]; // Directly assign from array
         i = i + 1;
     end
 
