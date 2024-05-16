@@ -25,7 +25,7 @@ N S avC6
 N A avC5
 N B avC3
 N Out avC2
-N vdd! avC4
+N vdd! avC12
 N gnd! avT557_1
 I NM5 avD1_6
 I NM4 avD1_1

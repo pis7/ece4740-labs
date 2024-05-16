@@ -1,0 +1,4 @@
+T -1  gnd! /gnd!
+? Terminal gnd! in the schematic failed to match any terminal in the layout.
+T -1  vdd! /vdd!
+? Terminal vdd! in the schematic failed to match any terminal in the layout.

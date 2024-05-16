@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-type"/>
+        <title>Html Report</title>
+        <script src="report.js"></script>
+        <style> body { background-color : Lavender } table{ border: 1px solid black; border-collapse: collapse; background-color : GhostWhite;} thead { background-color : lightGray } tfoot { border: 2px solid black; background-color : lightGray } td, th { padding : 10px ; border: 1px solid black } th.noTop { border-style: none solid solid solid} th.noBottom { border-style: solid solid none solid} .Red { background-color : #FF0000; } .Orange { background-color : #FFA500; } .Yellow { background-color : #FFFF00; } .LightGreen { background-color : #ADFF2F; } .Green { background-color : #00FF00; } .sort-by { display: inline-block; padding-left: 0.25rem; padding-right: 0.25rem; margin-bottom: 1px; vertical-align: middle;} .sort-by-asc, .sort-by-desc { display: block; width: 0; height: 0; margin: 0; margin-top: 1px; margin-bottom: 1px; border: solid 0.3rem transparent; background: transparent; cursor: pointer} .sort-by-asc { border-bottom: solid 0.5rem dimgray; border-top-width: 0;} .sort-by-desc { border-top: solid 0.5rem dimgray; border-bottom-width: 0;}</style>
+    </head>
+    <body class="page">
+        <h1 id="Top"></h1>
+        <hr/>
+        <h2 id="ece4740 lab4_alu layout">ece4740 lab4_alu layout</h2>
+        <h3>Summary</h3>
+        <table id="info0">
+            <thead>
+                <tr>
+                    <th/>
+                    <th>Bound</th>
+                    <th>%Compliance</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td data-value="Total">Total</td>
+                    <td data-value="157">157</td>
+                    <td class="Green" data-value="100">100</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td data-value="Terminals">Terminals</td>
+                    <td data-value="30">30</td>
+                    <td class="Green" data-value="100">100</td>
+                </tr>
+                <tr>
+                    <td data-value="Instances">Instances</td>
+                    <td data-value="18">18</td>
+                    <td class="Green" data-value="100">100</td>
+                </tr>
+                <tr>
+                    <td data-value="Nets">Nets</td>
+                    <td data-value="109">109</td>
+                    <td class="Green" data-value="100">100</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <h3>INFOS:</h3>
+        <p>
+            <pre>INFO (LX-1946): %Compliance value for nets may not be accurate because layout connectivity extraction has not been run.<br/>To get an accurate value, set the 'checkExtractLayout' environment variable to true.<br/>
+            </pre>
+        </p>
+        <h3>WARNINGS:</h3>
+        <p>
+            <pre>WARNING (LX-2166): Unable to detect route cells accurately because there are no stop layers defined in<br/>the 'virtuosoDefaultExtractorSetup' constraint group of the technology library 'gpdk090'. Define a stop layer<br/>in the technology library and add it to the 'validLayers' constraint.<br/>
+            </pre>
+        </p>
+        <p>
+            <pre>WARNING (LX-2305): The following cellviews have shapes or routes with the lxStickyNet property:<br/>    ece4740  lab4_alu  layout<br/>    If the lxStickyNet property is invalid, this can result in shorts and bad bindings.<br/>    Use the Property Editor assistant to remove the lxStickyNet property from shapes,<br/>    Or use the following SKILL code:<br/>        foreach(shape geGetEditCellView()~&gt;shapes dbDeletePropByName(shape &quot;lxStickyNet&quot;))<br/>        foreach(route geGetEditCellView()~&gt;routes dbDeletePropByName(route &quot;lxStickyNet&quot;))<br/>    If the design is fully routed, run Update Binding with 'Connectivity - Clear' option selected.<br/>
+            </pre>
+        </p>
+    </body>
+</html>

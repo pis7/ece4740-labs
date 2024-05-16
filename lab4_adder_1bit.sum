@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sun May 12 01:46:02 2024
+run on en-ec-ph314-15.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Thu May 16 14:06:34 2024
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -1677,8 +1677,8 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap  472.4M virt       0 pf
-LVS preprocessing. . . .      1 cpu      3 elap  100.7M virt       0 pf
+reading DFII data. . . .      0 cpu      0 elap  472.5M virt       0 pf
+LVS preprocessing. . . .      0 cpu      2 elap  100.7M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  100.7M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  100.7M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  103.2M virt       0 pf
@@ -1701,7 +1701,7 @@ duplicate inst removal .      0 cpu      0 elap  105.7M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  105.7M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  105.7M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
+TOTALS (secs). . . . . .      0 cpu      2 elap  472.5M virt       0 pf
 
 
 ************************************************************************
@@ -2069,7 +2069,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 91
     Nimp = geomOr( Nimp ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 3
 
  ;# 92
     Nimp_pin = geomOr( Nimp_pin ) 
@@ -2077,7 +2077,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 93
     Nimp = geomOr( Nimp Nimp_pin ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 4
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 3
 
  ;# 94
     Nwell = geomOr( Nwell ) 
@@ -2205,15 +2205,15 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 125
     Oxide = geomOr( Oxide ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 9
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 8
 
  ;# 126
     NOD = geomAnd( Nimp Oxide ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 4
 
  ;# 127
  ;  region( NOD )
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 4
 
  ;# 128
     POD = geomAnd( Oxide Pimp ) 
@@ -2225,7 +2225,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 130
     Cont = geomOr( Cont ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 44
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 43
 
  ;# 131
     cont_poly = geomAnd( Cont Poly ) 
@@ -2277,7 +2277,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 143
     nactive = geomCat( NOD ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 4
 
  ;# 144
     nb_tap = geomCat( dw_sna ) 
@@ -2337,11 +2337,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 158
     T?276 = geomOr( nactive ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 5
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 4
 
  ;# 159
     ndiff = geomAndNot( T?276 poly_conn ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 18
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 17
 
  ;# 160
     Via2 = geomOr( Via2 ) 
@@ -2401,11 +2401,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 174
     L46829 = geomAndNot( ndiff Resdum ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 18
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 17
 
  ;# 175
     ndiff_conn = geomAndNot( L46829 NPNdummy ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 18
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 17
 
  ;# 176
     dataReduction( ndiff_conn ) 
@@ -2413,11 +2413,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 177
  ;  region( ndiff_conn )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 18
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 17
 
  ;# 178
     cont_ndiff = geomAnd( Cont ndiff_conn ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 15
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 14
 
  ;# 179
     dataReduction( cont_ndiff ) 
@@ -2425,7 +2425,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 180
     ntap = geomAnd( Nwell ndiff_conn ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 1
 
  ;# 181
     dataReduction( ntap ) 
@@ -2433,7 +2433,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 182
  ;  region( ntap )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 1
 
  ;# 183
     L59011 = geomAndNot( Nwell ResWdum ) 
@@ -2641,7 +2641,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 234
  ;  region( cont_ndiff )
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 15
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 14
 
  ;# 235
     cont_base = groupVias(  via(cont_base) conn1(metal1_conn) conn2(npn_base) )
@@ -3397,7 +3397,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 423
     L28394 = geomAndNot( Oxide Oxide_thk ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 9
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 8
 
  ;# 424
     L66375 = geomAnd( L28394 Poly ) 
@@ -4161,11 +4161,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 614
  ;  via( cont_ndiff metal1_conn )
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 15
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 14
 
  ;# 615
  ;  via( cont_ndiff ndiff_conn )
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 15
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 14
 
  ;# 616
  ;  via( cont_emit metal1_conn )
@@ -4352,11 +4352,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 644
     T?529 = geomCat( ndiff_conn ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 18
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 17
 
  ;# 645
  ;  region( T?529 )
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 18
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 17
 
  ;# 646
     ntap_StampErrorFloat = geomOutside( ntap T?529  )
@@ -4391,11 +4391,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 653
     T?536 = geomCat( ntap ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 1
 
  ;# 654
  ;  region( T?536 )
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 1
 
  ;# 655
     nwell_conn_StampErrorFloat = geomOutside( nwell_conn T?536  )
@@ -11592,7 +11592,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 2451
     extractDIODE( "ndio" T?2272 psubstrate( "PLUS" ) ndiff_conn( "MINUS" ) flagMalformed  cellView("ndio ivpcell gpdk090"))
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2452
     unstable_device_for__ndio_DIODE_41 = unstableDevices( "ndio" _ndio_DIODE_41 _ndio_DIODE_41)
@@ -11760,11 +11760,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 2493
     T?2533 = _geomPushDown( pdiff_conn T?2278 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2494
     T?2534 = geomMerge( T?2533 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2495
     dataReduction( T?2534 ) 
@@ -12156,7 +12156,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 2592
     extractBJT( "npn" T?2290 npn_coll( "C" ) npn_base( "B" ) npn_emit( "E" ) flagMalformed  cellView("npn ivpcell gpdk090"))
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
 
  ;# 2593
     unstable_device_for__npn_BJT_47 = unstableDevices( "npn" _npn_BJT_47 _npn_BJT_47)
@@ -12240,7 +12240,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 
  ;# 2613
     extractCAP( "mimcap" T?2293 CapMetal( "PLUS" ) metal2_conn( "MINUS" ) flagMalformed  cellView("mimcap ivpcell gpdk090"))
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
 
  ;# 2614
     unstable_device_for_MIMCAP_CAP_48 = unstableDevices( "mimcap" MIMCAP_CAP_48 MIMCAP_CAP_48)
@@ -12430,9 +12430,9 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  472.4M virt       0 pf
 Total cells checked = 1
 Total rules checked = 2658
 
-Run time =  7.00 seconds
-CPU time =  1.44 seconds
-VM HWM   =   472 Mbytes
+Run time =  3.00 seconds
+CPU time =  0.32 seconds
+VM HWM   =   473 Mbytes
 Disk HWM =     3 Mbytes
 Disk end =     3 Mbytes
 Eman HWM =     0 Mbytes

@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:24 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Thu May 16 09:00:55 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Thu May 16 15:05:13 2024
 
 
 Starting /opt/cadence/assura//tools.lnx86/assura/bin/aveng /home/pis7/Cadence/lab4_alu.rsf -exec1 -LVS -cdslib /home/pis7/Cadence/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Thu May 16 09:00:55 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Thu May 16 15:05:13 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -42,7 +42,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:28 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Thu May 16 09:00:56 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Thu May 16 15:05:15 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -106,7 +106,7 @@ Starting /opt/cadence/assura/tools.lnx86/assura/bin/nvn /home/pis7/Cadence/lab4_
 Checking out license for Assura_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ecelinux-13.coecis.cornell.edu at Thu May 16 09:01:00 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Thu May 16 15:05:18 2024
   
 *************************************************************** 
   
@@ -124,7 +124,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:28 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Thu May 16 09:01:01 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Thu May 16 15:05:18 2024
 
   
 *************************************************************** 
@@ -193,7 +193,7 @@ Executing: bulk = cellBoundary(root)
 Building the VDB part 3 in background mode.
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.11  elap: 7  pf: 0  in: 96  out: 152  virt: 101M  phys: 585M
+cpu: 0.11  elap: 6  pf: 0  in: 176  out: 152  virt: 101M  phys: 585M
 
 Running the Task Processor, 18 cells, 2658 steps...
 
@@ -1382,12 +1382,12 @@ Executing: (saveInterconnect (npn_emit "Nimp"))
 Executing: (saveInterconnect (npn_coll "Nwell"))
 
 Finished running rules. Task processor time in main process:
-cpu: 0.38  elap: 0  pf: 0  in: 16  out: 824  virt: 145M  phys: 725M
+cpu: 0.42  elap: 1  pf: 0  in: 32  out: 952  virt: 145M  phys: 740M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6464  virt: 150M  phys: 742M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6472  virt: 150M  phys: 753M
 
 
 *****  aveng terminated normally  *****
@@ -1405,7 +1405,7 @@ Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRul
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Thu May 16 09:01:03 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Thu May 16 15:05:21 2024
 
 
    Creating Error Database 'lab4_alu'...
@@ -1537,7 +1537,7 @@ Total  errors:                                               0            0
 
    Writing Report into ./lab4_alu.err ...
 
-avrpt cpu sec:    0.06  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.07  elapsed:     0  virtual:    93M
 
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/avrpt
 
@@ -1552,7 +1552,7 @@ Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRul
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/avcallproc
 
 Starting /opt/cadence/assura//tools.lnx86/assura/bin/avnx /home/pis7/Cadence/lab4_alu.rsf -exec1 -LVS -cdslib /home/pis7/Cadence/cds.lib
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
 
@@ -1563,18 +1563,18 @@ Checking out license for Assura_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Thu May 16 09:01:05 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Thu May 16 15:05:22 2024
 
 avnx started...
-cpu: 0.09  elap: 0  pf: 0  in: 88  out: 96  virt: 549M  phys: 860M
+cpu: 0.10  elap: 0  pf: 0  in: 144  out: 96  virt: 549M  phys: 859M
 
-Run time =  0.00 seconds
-CPU time =  0.11 seconds
+Run time =  1.00 seconds
+CPU time =  0.12 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13224  virt: 479M  phys: 860M
+cpu: 0.01  elap: 1  pf: 0  in: 0  out: 13232  virt: 479M  phys: 860M
 ***** avnx terminated normally ***** 
 
 
@@ -1584,7 +1584,7 @@ Starting /opt/cadence/assura//tools.lnx86/assura/bin/nvn /home/pis7/Cadence/lab4
 Checking out license for Assura_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ecelinux-13.coecis.cornell.edu at Thu May 16 09:01:06 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Thu May 16 15:05:23 2024
   
 *************************************************************** 
   
@@ -1621,7 +1621,7 @@ Comparing lab4_2_1_mux schematic ece4740 vs lab4_2_1_mux layout ece4740
 Comparing lab4_adder_1bit schematic ece4740 vs lab4_adder_1bit layout ece4740
 Comparing lab4_adder_top schematic ece4740 vs lab4_adder_top layout ece4740
 Top cell  lab4_alu schematic ece4740 vs lab4_alu layout ece4740
-Compare errors, please see lab4_alu.csm and lab4_alu.cls files.
+Schematic and Layout Match
 cpu=0.00m  wall=0.00m  mem=73.13mb
 
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/nvn
@@ -1635,7 +1635,7 @@ Starting /opt/cadence/assura//tools.lnx86/assura/bin/vldbToRpa lab4_alu.lnn lab4
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/cadence/assura//tools.lnx86/assura/bin/ercChk /home/pis7/Cadence/lab4_alu.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
 
@@ -1689,7 +1689,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Thu May 16 09:01:10 2024
+Run ended: Thu May 16 15:05:26 2024
 
 *****  Assura terminated normally  *****
 

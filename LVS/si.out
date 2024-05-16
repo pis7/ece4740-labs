@@ -1,0 +1,171 @@
+@(#)$CDS: LVS version 6.1.8-64b 11/10/2020 19:30 (cpgsrv13) $
+
+Command line: /opt/cadence/IC618-150/tools.lnx86/dfII/bin/64bit/LVS -dir /home/pis7/Cadence/LVS -l -s -t /home/pis7/Cadence/LVS/layout /home/pis7/Cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+
+ GENERIC PDK LVS Rules
+
+    Net-list summary for /home/pis7/Cadence/LVS/layout/netlist
+       count
+        768             nets
+        32              terminals
+        759             pmos1v
+        759             nmos1v
+
+    Net-list summary for /home/pis7/Cadence/LVS/schematic/netlist
+       count
+        749             nets
+        32              terminals
+        759             pmos1v
+        759             nmos1v
+
+
+    Terminal correspondence points
+    N36       N3        A0
+    N35       N4        A1
+    N34       N5        A2
+    N33       N6        A3
+    N32       N7        A4
+    N31       N8        A5
+    N30       N9        A6
+    N29       N10       A7
+    N20       N11       B0
+    N19       N12       B1
+    N18       N13       B2
+    N17       N14       B3
+    N16       N15       B4
+    N15       N16       B5
+    N14       N17       B6
+    N13       N18       B7
+    N4        N2        CLK
+    N73       N30       EN
+    N83       N27       FN0
+    N82       N28       FN1
+    N81       N29       FN2
+    N110      N100      OF
+    N63       N19       Y0
+    N62       N20       Y1
+    N61       N21       Y2
+    N60       N22       Y3
+    N59       N23       Y4
+    N58       N24       Y5
+    N57       N25       Y6
+    N56       N26       Y7
+    N0        N0        gnd!
+    N1        N1        vdd!
+
+Devices in the rules but not in the netlist:
+        nmos1v_hvt nmos1v_iso nmos1v_nat nmos2v nmos2v_nat pmos1v_hvt pmos2v
+        resm1 resm2 resm3 resm4 resm5 resm6 resm7 resm8 resm9 resnsndiff
+        resnsnpoly resnspdiff resnsppoly resnwoxide resnwsti ressndiff
+        ressnpoly resspdiff ressppoly nmoscap1v nmoscap1v3 nmoscap2v
+        nmoscap2v3 pmoscap1v pmoscap1v3 pmoscap2v pmoscap2v3 pnp npn vpnp2
+        vpnp5 vpnp10 ndio pdio mimcap
+
+    Ill-defined correspondence points.
+
+	N0	N0  Accepted because one is a subset of the other
+	N0	N0  Accepted because one is a subset of the other
+	N1	N1  Accepted because one is a subset of the other
+	N1	N1  Accepted because one is a subset of the other
+
+
+        Device summary for layout
+                   bad  total
+          pmos1v     1    759
+          nmos1v     1    759
+
+
+        Device summary for schematic
+                   bad  total
+          pmos1v     1    759
+          nmos1v     1    759
+
+33 net-list ambiguities were resolved by random selection.
+
+The net-lists failed to match.
+
+                             layout  schematic
+                                instances
+        un-matched              2       2      
+        rewired                 1       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  1518    1518   
+        total                   1518    1518   
+
+                                  nets
+        un-matched              20      2      
+        merged                  1       0      
+        pruned                  0       0      
+        active                  768     749    
+        total                   768     749    
+
+                                terminals
+        un-matched              2       2      
+        matched but
+        different type          0       0      
+        total                   32      32     
+
+
+Probe files from /home/pis7/Cadence/LVS/schematic
+
+devbad.out:
+I /I5/I2/NM1
+? Device does not cross-match.
+I /I9/I4/PM0
+? Device does not cross-match.
+
+netbad.out:
+N /gnd!
+? Net does not cross-match. It has 1273 connections.
+N /vdd!
+? Net does not cross-match. It has 1296 connections.
+
+mergenet.out:
+
+termbad.out:
+T -1  gnd! /gnd!
+? Terminal gnd! in the schematic failed to match any terminal in the layout.
+T -1  vdd! /vdd!
+? Terminal vdd! in the schematic failed to match any terminal in the layout.
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/pis7/Cadence/LVS/layout
+
+devbad.out:
+I /I5/I2/+1
+? Device does not cross-match.
+I /I9/+45
+? Device does not cross-match.
+
+netbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/pis7/Cadence/LVS/layout/netbad.out
+
+mergenet.out:
+N /I9/24
+? Net /I9/24 merged with /net43
+
+termbad.out:
+T /I9/+6 G /I9/24
+? Terminal "G" on device /I9/+6 should be connected to /net43 instead of /I9/24
+T -1  gnd! /gnd!
+? Terminal gnd! in the layout failed to match any terminal in the schematic.
+T -1  vdd! /vdd!
+? Terminal vdd! in the layout failed to match any terminal in the schematic.
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

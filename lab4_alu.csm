@@ -1,6 +1,6 @@
 Schematic                                 | Layout                                 | Status
 ---------------------------------------------------------------------------------------------
-lab4_xor_1bit schematic ece4740           | lab4_xor_1bit layout ece4740           | errors  *
+lab4_xor_1bit schematic ece4740           | lab4_xor_1bit layout ece4740           | matched
 lab4_xor_8bit schematic ece4740           | lab4_xor_8bit layout ece4740           | matched
 lab4_1bit_tristatebuffer schematic ece4740| lab4_1bit_tristatebuffer layout ece4740| matched
 lab4_8bit_tristatebuffer schematic ece4740| lab4_8bit_tristatebuffer layout ece4740| matched
@@ -17,8 +17,6 @@ lab4_8bit_reg schematic ece4740           | lab4_8bit_reg layout ece4740        
 lab4_2_1_mux schematic ece4740            | lab4_2_1_mux layout ece4740            | matched
 lab4_adder_1bit schematic ece4740         | lab4_adder_1bit layout ece4740         | matched
 lab4_adder_top schematic ece4740          | lab4_adder_top layout ece4740          | matched
-lab4_alu schematic ece4740                | lab4_alu layout ece4740                | errors  *
+lab4_alu schematic ece4740                | lab4_alu layout ece4740                | matched
 
-Mismatch between Schematic and Layout
-   2 cells with errors
-  16 cells matched
+Schematic and Layout Match

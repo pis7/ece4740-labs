@@ -35,7 +35,7 @@ gpdk090 pmos1v layout 142
 gpdk090 pmos1v layout 142
 gpdk090 pmos1v layout 142
 gpdk090 pmos1v layout 142
-ece4740 lab1inv_narrow layout 1250
-ece4740 lab4_2_1_mux layout 12696
-ece4740 lab4_adder_1bit layout 36976
-ece4740 lab4_adder_top layout 28873
+ece4740 lab1inv_narrow layout 1387
+ece4740 lab4_2_1_mux layout 12865
+ece4740 lab4_adder_1bit layout 37665
+ece4740 lab4_adder_top layout 29731

@@ -1,8 +1,11 @@
                                                                                
 ; autoPinSwap() results for schematic network.
 
-swapPins("lab4_xor_8bit" "(p (f B0 A0 OUT0) (f B1 A1 OUT1) (f B2 A2 OUT2) (f B3
-   A3 OUT3) (f B4 A4 OUT4) (f B5 A5 OUT5) (f B6 A6 OUT6) (f B7 A7 OUT7))")
+swapPins("lab4_xor_1bit" "(p A B)")
+
+swapPins("lab4_xor_8bit" "(p (f (p A0 B0) OUT0) (f (p A1 B1) OUT1) (f (p A2 B2)
+   OUT2) (f (p A3 B3) OUT3) (f (p A4 B4) OUT4) (f (p A5 B5) OUT5) (f (p A6 B6)
+   OUT6) (f (p A7 B7) OUT7))")
 
 swapPins("lab4_1bit_tristatebuffer" "")
 
@@ -16,8 +19,8 @@ swapPins("lab4_inv" "(p (f Y0 A0) (f Y1 A1) (f Y2 A2) (f Y3 A3) (f Y4 A4) (f Y5
 
 swapPins("lab4_2_input_nor" "(p A B)")
 
-swapPins("lab4_or" "(p A7 B7) (p (f Y0 (p A0 B0)) (f Y1 (p A1 B1)) (f Y2 (p A2
-   B2)) (f Y3 (p A3 B3)) (f Y4 (p A4 B4)) (f Y5 (p A5 B5)) (f Y6 (p A6 B6)))")
+swapPins("lab4_or" "(p (f Y0 (p A0 B0)) (f Y1 (p A1 B1)) (f Y2 (p A2 B2)) (f Y3
+   (p A3 B3)) (f Y4 (p A4 B4)) (f Y5 (p A5 B5)) (f Y6 (p A6 B6)) (f Y7 (p A7 B7)))")
 
 swapPins("lab3_dff_onecell" "")
 

@@ -1,0 +1,40 @@
+N /I5/I7/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I6/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I1/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I2/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I5/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I0/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I4/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I3/gnd!
+? Net does not cross-match. It has 3 connections.
+N /I5/I6/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I2/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I0/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I1/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I5/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I4/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I7/vdd!
+? Net does not cross-match. It has 4 connections.
+N /I5/I3/vdd!
+? Net does not cross-match. It has 4 connections.
+N /gnd!
+? Net does not cross-match. It has 62 connections.
+N /vdd!
+? Net does not cross-match. It has 86 connections.
+N /gnd!
+? Net does not cross-match. It has 1187 connections.
+N /vdd!
+? Net does not cross-match. It has 1178 connections.
