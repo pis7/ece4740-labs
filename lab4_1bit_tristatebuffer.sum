@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Mon May 13 21:40:39 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri May 17 01:41:49 2024
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -1678,7 +1678,7 @@ Echoing run specific file...
                   Time Summary - Database
 
 reading DFII data. . . .      0 cpu      0 elap  470.0M virt      46 pf
-LVS preprocessing. . . .      0 cpu      4 elap  100.7M virt       0 pf
+LVS preprocessing. . . .      1 cpu      3 elap  100.7M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  100.7M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  100.7M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  103.2M virt       0 pf
@@ -1701,7 +1701,7 @@ duplicate inst removal .      0 cpu      0 elap  103.2M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  103.2M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  103.2M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
+TOTALS (secs). . . . . .      1 cpu      3 elap  470.0M virt      46 pf
 
 
 ************************************************************************
@@ -2297,7 +2297,7 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 
  ;# 148
     npn_base = geomAnd( NPNdummy Psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 149
     dataReduction( npn_base ) 
@@ -3449,7 +3449,7 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 
  ;# 436
     _pmoscap_25_3 = geomAnd( Cap3dum L73768 ) 
-    cpu: 0.0   elapsed: 0   virtual: 138M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
 
  ;# 437
  ;  region( _pmoscap_25_3 )
@@ -3473,7 +3473,7 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 
  ;# 442
     L52573 = geomAnd( NOD SiProt ) 
-    cpu: 0.0   elapsed: 0   virtual: 138M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
 
  ;# 443
     L17877 = geomAnd( L52573 Resdum ) 
@@ -3493,7 +3493,7 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 
  ;# 447
     L49196 = geomAnd( L90381 Nimp ) 
-    cpu: 0.0   elapsed: 0   virtual: 138M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
 
  ;# 448
     L17878 = geomAnd( L49196 Resdum ) 
@@ -11712,63 +11712,63 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 
  ;# 2481
     CALC_T?2071 = calculateParameter( ATTACH_T?2070 * 1e-12 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2482
     attachParameter( CALC_T?2071 "area" _pdio )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2483
     T?2278 = _geomExtractMerge( _vpnp2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2484
     unstable_device_for__vpnp2_BJT_43 = unstableDevices( "vpnp2" _vpnp2_BJT_43 T?2278)
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2485
     dataReduction( T?2278 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2486
  ;  region( T?2278 )
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2487
     T?2529 = _geomPushDown( psubstrate T?2278 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2488
     T?2530 = geomMerge( T?2529 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2489
     dataReduction( T?2530 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2490
     T?2531 = _geomPushDown( nwell_conn T?2278 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2491
     T?2532 = geomMerge( T?2531 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2492
     dataReduction( T?2532 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2493
     T?2533 = _geomPushDown( pdiff_conn T?2278 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2494
     T?2534 = geomMerge( T?2533 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2495
     dataReduction( T?2534 ) 
-    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2496
     extractBJT( "vpnp2" T?2278 psubstrate( "C" ) nwell_conn( "B" ) pdiff_conn( "E" ) flagMalformed  cellView("vpnp2 ivpcell gpdk090"))
@@ -12156,7 +12156,7 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 
  ;# 2592
     extractBJT( "npn" T?2290 npn_coll( "C" ) npn_base( "B" ) npn_emit( "E" ) flagMalformed  cellView("npn ivpcell gpdk090"))
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 142M   task sum: 0
 
  ;# 2593
     unstable_device_for__npn_BJT_47 = unstableDevices( "npn" _npn_BJT_47 _npn_BJT_47)
@@ -12430,8 +12430,8 @@ TOTALS (secs). . . . . .      0 cpu      4 elap  470.0M virt      46 pf
 Total cells checked = 1
 Total rules checked = 2658
 
-Run time = 10.00 seconds
-CPU time =  0.28 seconds
+Run time =  7.00 seconds
+CPU time =  1.46 seconds
 VM HWM   =   470 Mbytes
 Disk HWM =     3 Mbytes
 Disk end =     3 Mbytes

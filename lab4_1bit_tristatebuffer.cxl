@@ -11,8 +11,8 @@ N S S
 N B B
 
 C "lab4_1bit_tristatebuffer schematic ece4740" "lab4_1bit_tristatebuffer layout ece4740"
-N net18 avC6
-N net17 avC7
+N net1 avC7
+N net17 avC6
 N EN EN
 N OUT OUT
 N IN IN

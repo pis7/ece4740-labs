@@ -1,0 +1,7 @@
+Schematic                          | Layout                          | Status
+-------------------------------------------------------------------------------
+lab4_4_input_nand schematic ece4740| lab4_4_input_nand layout ece4740| matched
+lab1inv_narrow schematic ece4740   | lab1inv_narrow layout ece4740   | matched
+lab4_decoder schematic ece4740     | lab4_decoder layout ece4740     | matched
+
+Schematic and Layout Match

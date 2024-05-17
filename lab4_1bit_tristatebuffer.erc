@@ -3,8 +3,8 @@
 
  Label in cell 'lab4_1bit_tristatebuffer layout ece4740':
   info: Assign pin label "gnd!" at (0.1300, 0.0000) to layer `Metal1_p'.
-  info: Assign pin label "OUT" at (0.3050, 1.0100) to layer `Metal1_p'.
-  info: Assign pin label "IN" at (0.9950, 1.2375) to layer `Metal1_p'.
+  info: Assign pin label "IN" at (0.7650, 1.2125) to layer `Metal1_p'.
+  info: Assign pin label "OUT" at (1.4850, 1.0100) to layer `Metal1_p'.
   info: Assign pin label "vdd!" at (0.1350, 2.8800) to layer `Metal1_p'.
   info: Assign pin label "EN" at (1.9375, 1.1325) to layer `Metal1_p'.
 

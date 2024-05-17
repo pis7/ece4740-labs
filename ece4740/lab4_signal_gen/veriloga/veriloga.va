@@ -56,7 +56,7 @@ analog begin
         B5t = 0;
         B6t = 0;
         B7t = 0;
-        FUN_SEL0t = 0;
+        FUN_SEL0t = 1.2;
         FUN_SEL1t = 0;
         FUN_SEL2t = 0;
         CLKt = clk_low;
@@ -70,7 +70,7 @@ analog begin
         CLKt = (CLKt == clk_low) ? clk_high : clk_low;
         clk_counter = clk_counter + 1;
         if (clk_counter % 4 == 0) begin
-            Ent = !Ent; // Toggle enable every 4 clock periods
+           // Ent = !Ent; // Toggle enable every 4 clock periods
         end
     end
 
@@ -92,9 +92,9 @@ analog begin
         B5t = B5_vals[i % 4];
         B6t = B6_vals[i % 4];
         B7t = B7_vals[i % 4];
-        FUN_SEL0t = FUN_SEL_vals_0[i % 6]; // Directly assign from array
+        /*FUN_SEL0t = FUN_SEL_vals_0[i % 6]; // Directly assign from array
         FUN_SEL1t = FUN_SEL_vals_1[i % 6]; // Directly assign from array
-        FUN_SEL2t = FUN_SEL_vals_2[i % 6]; // Directly assign from array
+        FUN_SEL2t = FUN_SEL_vals_2[i % 6]; // Directly assign from array*/
         i = i + 1;
     end
 

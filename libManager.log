@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 10/27/2020 22:20 (sjfhw691) $
 \o Sub version:		sub-version  s154 
-\o Arguments:		-unmapped -mpssession virtuoso24516 -mpshost en-ec-ph314-08.ece.cornell.edu 
-\o Working Directory:	en-ec-ph314-08.ece.cornell.edu:/home/pis7/Cadence
+\o Arguments:		-unmapped -mpssession virtuoso4219 -mpshost en-ec-ph314-11.ece.cornell.edu 
+\o Working Directory:	en-ec-ph314-11.ece.cornell.edu:/home/pis7/Cadence
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o changeWorkingDir("/home/pis7/Cadence") unnecessary.
@@ -12,142 +12,96 @@
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(0 28 1249 863))
-\a nrResizeWindow(cdsLibManager list(0 28 2560 1337))
+\a nrResizeWindow(cdsLibManager list(374 370 1707 995))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1001 370 1707 995))
 \a cdsLibManager->libListBox->value = "ece4740"
 \a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab2_nand"
-\a cdsLibManager->cellLineEdit->value = "lab2_nand"
+\a nrListItemAction(cdsLibManager->libListBox "ece4740" 0)
+\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
+\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
+\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 10 0)
+\a nrListItemAction(cdsLibManager->cellListBox 41 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ece4740"
 \a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab2_nand"
-\a cdsLibManager->cellLineEdit->value = "lab2_nand"
+\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
+\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ece4740"
-\a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab2_nand"
-\a cdsLibManager->cellLineEdit->value = "lab2_nand"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "lab1inv_basic_sim"
-\a cdsLibManager->cellLineEdit->value = "lab1inv_basic_sim"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ece4740"
-\a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab1inv_basic_sim"
-\a cdsLibManager->cellLineEdit->value = "lab1inv_basic_sim"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "lab2_decoder"
-\a cdsLibManager->cellLineEdit->value = "lab2_decoder"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 9 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "ece4740"
-\a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab2_decoder"
-\a cdsLibManager->cellLineEdit->value = "lab2_decoder"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrResizeWindow(cdsLibManager list(435 450 1707 995))
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 139 240 2 "")
-\a lmgrLogShowPopup("mainListPopup1" 106 229 2 "")
-\a cdsLibManager->FileNewCVButton->value = t
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ece4740"
 \a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
+\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "veriloga"
+\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_sim"
+\a cdsLibManager->cellLineEdit->value = "lab4_sim"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 42 0)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 100 12 2 "")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(915 451 1707 995))
+\a nrResizeWindow(cdsLibManager list(732 296 1707 995))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(824 384 1249 863))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(786 365 1249 863))
 \a nrResizeWindow(cdsLibManager list(0 28 2560 1337))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(558 161 1707 995))
+\a nrResizeWindow(cdsLibManager list(645 323 1707 995))
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(661 313 1707 995))
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrResizeWindow(cdsLibManager list(786 365 1249 863))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

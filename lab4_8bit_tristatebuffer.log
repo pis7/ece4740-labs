@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:24 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Mon May 13 22:58:42 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Fri May 17 01:48:14 2024
 
 
 Starting /opt/cadence/assura//tools.lnx86/assura/bin/aveng /home/pis7/Cadence/lab4_8bit_tristatebuffer.rsf -exec1 -LVS -cdslib /home/pis7/Cadence/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Mon May 13 22:58:42 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri May 17 01:48:14 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -38,11 +38,11 @@ Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRul
 
 
 Starting dfIIToVdb...
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:28 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Mon May 13 22:58:43 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Fri May 17 01:48:15 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -106,7 +106,7 @@ Starting /opt/cadence/assura/tools.lnx86/assura/bin/nvn /home/pis7/Cadence/lab4_
 Checking out license for Assura_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ph314-14.ece.cornell.edu at Mon May 13 22:58:46 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Fri May 17 01:48:19 2024
   
 *************************************************************** 
   
@@ -120,11 +120,11 @@ run on en-ec-ph314-14.ece.cornell.edu at Mon May 13 22:58:46 2024
  
 Reading schematic network
  running dfIIToVldb -cdslib /home/pis7/Cadence/cds.lib /home/pis7/Cadence/lab4_8bit_tristatebuffer.vlr /home/pis7/Cadence/lab4_8bit_tristatebuffer.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:28 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Mon May 13 22:58:46 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Fri May 17 01:48:20 2024
 
   
 *************************************************************** 
@@ -184,7 +184,7 @@ Preprocessing layout network phase 1
  This binding will be skipped.
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-cpu=0.00m  wall=0.02m  mem=72.75mb
+cpu=0.00m  wall=0.02m  mem=72.77mb
 
 Finished /opt/cadence/assura/tools.lnx86/assura/bin/nvn
 
@@ -193,7 +193,7 @@ Executing: bulk = cellBoundary(root)
 Building the VDB part 3 in background mode.
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.07  elap: 5  pf: 0  in: 80  out: 152  virt: 101M  phys: 582M
+cpu: 0.11  elap: 6  pf: 0  in: 88  out: 152  virt: 101M  phys: 586M
 
 Running the Task Processor, 2 cells, 2658 steps...
 
@@ -1366,12 +1366,12 @@ Executing: (saveInterconnect (npn_emit "Nimp"))
 Executing: (saveInterconnect (npn_coll "Nwell"))
 
 Finished running rules. Task processor time in main process:
-cpu: 0.22  elap: 0  pf: 0  in: 0  out: 632  virt: 145M  phys: 720M
+cpu: 0.26  elap: 1  pf: 0  in: 16  out: 816  virt: 145M  phys: 731M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6440  virt: 150M  phys: 740M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6440  virt: 150M  phys: 748M
 
 
 *****  aveng terminated normally  *****
@@ -1389,7 +1389,7 @@ Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRul
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Mon May 13 22:58:48 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Fri May 17 01:48:22 2024
 
 
    Creating Error Database 'lab4_8bit_tristatebuffer'...
@@ -1521,7 +1521,7 @@ Total  errors:                                               0            0
 
    Writing Report into ./lab4_8bit_tristatebuffer.err ...
 
-avrpt cpu sec:    0.05  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.06  elapsed:     0  virtual:    93M
 
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/avrpt
 
@@ -1547,18 +1547,18 @@ Checking out license for Assura_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ph314-14.ece.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Mon May 13 22:58:50 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Fri May 17 01:48:24 2024
 
 avnx started...
-cpu: 0.07  elap: 0  pf: 0  in: 0  out: 16  virt: 548M  phys: 859M
+cpu: 0.08  elap: 1  pf: 0  in: 88  out: 16  virt: 548M  phys: 856M
 
-Run time =  0.00 seconds
-CPU time =  0.08 seconds
+Run time =  1.00 seconds
+CPU time =  0.11 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 12976  virt: 479M  phys: 859M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 12968  virt: 479M  phys: 856M
 ***** avnx terminated normally ***** 
 
 
@@ -1568,7 +1568,7 @@ Starting /opt/cadence/assura//tools.lnx86/assura/bin/nvn /home/pis7/Cadence/lab4
 Checking out license for Assura_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ph314-14.ece.cornell.edu at Mon May 13 22:58:51 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Fri May 17 01:48:24 2024
   
 *************************************************************** 
   
@@ -1590,7 +1590,7 @@ Preprocessing layout network phase 2
 Comparing lab4_1bit_tristatebuffer schematic ece4740 vs lab4_1bit_tristatebuffer layout ece4740
 Top cell  lab4_8bit_tristatebuffer schematic ece4740 vs lab4_8bit_tristatebuffer layout ece4740
 Schematic and Layout Match
-cpu=0.00m  wall=0.00m  mem=72.75mb
+cpu=0.00m  wall=0.02m  mem=72.75mb
 
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/nvn
 
@@ -1603,7 +1603,7 @@ Starting /opt/cadence/assura//tools.lnx86/assura/bin/vldbToRpa lab4_8bit_tristat
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /opt/cadence/assura//tools.lnx86/assura/bin/ercChk /home/pis7/Cadence/lab4_8bit_tristatebuffer.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
 
@@ -1657,7 +1657,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Mon May 13 22:58:52 2024
+Run ended: Fri May 17 01:48:28 2024
 
 *****  Assura terminated normally  *****
 

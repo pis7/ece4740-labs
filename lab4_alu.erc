@@ -8,10 +8,10 @@
   info: Assign pin label "CLK" at (0.3700, 6.7950) to layer `Metal1_p'.
   info: Assign pin label "Y7" at (0.2600, 10.1200) to layer `Metal1_p'.
   info: Assign pin label "B0" at (3.7150, 8.3450) to layer `Metal1_p'.
-  info: Assign pin label "FN0" at (0.2950, 12.8400) to layer `Metal1_p'.
+  info: Assign pin label "FN2" at (0.4700, 12.8450) to layer `Metal1_p'.
   info: Assign pin label "A6" at (11.1650, 3.1750) to layer `Metal1_p'.
   info: Assign pin label "FN1" at (1.8100, 12.8900) to layer `Metal1_p'.
-  info: Assign pin label "FN2" at (3.1500, 13.1100) to layer `Metal1_p'.
+  info: Assign pin label "FN0" at (3.1300, 12.8400) to layer `Metal1_p'.
   info: Assign pin label "Y6" at (7.8500, 10.1200) to layer `Metal1_p'.
   info: Assign pin label "B1" at (11.3000, 8.3250) to layer `Metal1_p'.
   info: Assign pin label "A5" at (18.7550, 3.1750) to layer `Metal1_p'.
