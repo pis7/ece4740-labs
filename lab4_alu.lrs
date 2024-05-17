@@ -1,6 +1,6 @@
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ecelinux-13.coecis.cornell.edu at Fri May 17 03:52:54 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Fri May 17 18:21:42 2024
 
 Schematic                                 | Layout                                 | Status
 ---------------------------------------------------------------------------------------------

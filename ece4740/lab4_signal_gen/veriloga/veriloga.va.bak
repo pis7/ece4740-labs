@@ -1,32 +1,53 @@
 `include "constants.vams"
 `include "disciplines.vams"
 
-module alu_signal_gen_tb(A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, En);
+module alu_signal_gen_tb(A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, EN);
 
-output  A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, En;
-voltage A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, En;
+output  A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, EN;
+voltage A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, FUN_SEL0, FUN_SEL1, FUN_SEL2, CLK, EN;
 
 real    A0t, A1t, A2t, A3t, A4t, A5t, A6t, A7t, B0t, B1t, B2t, B3t, B4t, B5t, B6t, B7t, FUN_SEL0t, FUN_SEL1t, FUN_SEL2t;
 integer i;
-real    A0_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
-real    A1_vals[3:0] = {1.2, 1.2, 0.0, 1.2};
-real    A2_vals[3:0] = {0.0, 0.0, 1.2, 0.0};
-real    A3_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
-real    A4_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
-real    A5_vals[3:0] = {0.0, 1.2, 1.2, 1.2};
-real    A6_vals[3:0] = {1.2, 0.0, 0.0, 0.0};
-real    A7_vals[3:0] = {0.0, 1.2, 1.2, 0.0};
-real    B0_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
-real    B1_vals[3:0] = {0.0, 0.0, 0.0, 1.2};
-real    B2_vals[3:0] = {0.0, 0.0, 1.2, 0.0};
-real    B3_vals[3:0] = {0.0, 1.2, 0.0, 1.2};
-real    B4_vals[3:0] = {1.2, 0.0, 1.2, 1.2};
-real    B5_vals[3:0] = {0.0, 1.2, 1.2, 0.0};
-real    B6_vals[3:0] = {1.2, 0.0, 0.0, 1.2};
-real    B7_vals[3:0] = {0.0, 0.0, 1.2, 1.2};
-real FUN_SEL_vals_0[5:0] = {0.0, 0.0, 0.0, 0.0, 1.2, 1.2};
-real FUN_SEL_vals_1[5:0] = {0.0, 0.0, 1.2, 1.2, 0.0, 0.0};
-real FUN_SEL_vals_2[5:0] = {0.0, 1.2, 0.0, 1.2, 0.0, 1.2};
+
+/* Testbench summary
+
+- ADD
+    1. Add 0s: 0x00 (0) + 0x00 (0) = 0x00 (0), Verify no OF
+    2. Add complements to 0: 0x7F (127) + 0x80 (-127) = 0x00 (0), Verify no OF
+    3. Add positives, no OF: 0x13 (19) + 0x64 (100) = 0x77 (119), Verify no OF
+    4. Add positives, yes OF: 0x47 (71) + 0x64 (100) = 0xAB (-85), Verify yes OF
+    5. Add negatives, no OF: 0xBF (-65) + 0xDA (-38) = 0x99 (-103), Verify no OF
+    6. Add negatives, yes OF: 0x9C (-100) + 0xDA (-38) = 0x76 (118), Verify yes OF
+    7. Add all 1s - carry for every bit, no OF: 0xFF (-1) + 0xFF (-1) = 0xFE (-2), Verify no OF
+    8. Add interspersed 1s, no carries, no OF: 0x55 (85) + 0xAA (-86) = 0xFF (-1), Verify no OF
+- Sub
+    +
+*/
+
+
+//                          ADD ---------------------------------- Sub
+//                          1    2    3    4    5    6    7    8
+real        A0_vals[7:0] = {0.0, 1.2, 1.2, 1.2, 1.2, 0.0, 1.2, 1.2};
+real        A1_vals[7:0] = {0.0, 1.2, 1.2, 1.2, 1.2, 0.0, 1.2, 0.0};
+real        A2_vals[7:0] = {0.0, 1.2, 0.0, 1.2, 1.2, 1.2, 1.2, 1.2};
+real        A3_vals[7:0] = {0.0, 1.2, 0.0, 0.0, 1.2, 1.2, 1.2, 0.0};
+real        A4_vals[7:0] = {0.0, 1.2, 1.2, 0.0, 1.2, 1.2, 1.2, 1.2};
+real        A5_vals[7:0] = {0.0, 1.2, 0.0, 0.0, 1.2, 0.0, 1.2, 0.0};
+real        A6_vals[7:0] = {0.0, 1.2, 0.0, 1.2, 0.0, 0.0, 1.2, 1.2};
+real        A7_vals[7:0] = {0.0, 0.0, 0.0, 0.0, 1.2, 1.2, 1.2, 0.0};
+//
+real        B0_vals[7:0] = {0.0, 1.2, 0.0, 0.0, 0.0, 0.0, 1.2, 0.0};
+real        B1_vals[7:0] = {0.0, 0.0, 0.0, 0.0, 1.2, 1.2, 1.2, 1.2};
+real        B2_vals[7:0] = {0.0, 0.0, 1.2, 1.2, 0.0, 0.0, 1.2, 0.0};
+real        B3_vals[7:0] = {0.0, 0.0, 0.0, 0.0, 1.2, 1.2, 1.2, 1.2};
+real        B4_vals[7:0] = {0.0, 0.0, 0.0, 0.0, 1.2, 1.2, 1.2, 0.0};
+real        B5_vals[7:0] = {0.0, 0.0, 1.2, 1.2, 0.0, 0.0, 1.2, 1.2};
+real        B6_vals[7:0] = {0.0, 0.0, 1.2, 1.2, 1.2, 1.2, 1.2, 0.0};
+real        B7_vals[7:0] = {0.0, 1.2, 0.0, 0.0, 1.2, 1.2, 1.2, 1.2};
+//
+real FUN_SEL_vals_0[7:0] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+real FUN_SEL_vals_1[7:0] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+real FUN_SEL_vals_2[7:0] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
 parameter real    clk_period = 2n from (0:inf);
 parameter real    clk_high = 1.2;
@@ -34,7 +55,7 @@ parameter real    clk_low = 0.0;
 parameter real    trise = 20p from [0:inf];
 parameter real    tfall = 20p from [0:inf];
 
-real    CLKt, Ent;
+real    CLKt, ENt;
 integer clk_counter;
 
 analog begin
@@ -56,12 +77,12 @@ analog begin
         B5t = 0;
         B6t = 0;
         B7t = 0;
-        FUN_SEL0t = 1.2;
+        FUN_SEL0t = 0.0;
         FUN_SEL1t = 0;
         FUN_SEL2t = 0;
         CLKt = clk_low;
-        Ent = 1.2;
-        i = 0;
+        ENt = 1.2;
+        i = 7;
         clk_counter = 0;
     end
 
@@ -69,33 +90,32 @@ analog begin
     @(timer(0, clk_period/2)) begin
         CLKt = (CLKt == clk_low) ? clk_high : clk_low;
         clk_counter = clk_counter + 1;
-        if (clk_counter % 4 == 0) begin
-           // Ent = !Ent; // Toggle enable every 4 clock periods
-        end
     end
 
     // Signal generation
     @(timer(0, clk_period)) begin
-        A0t = A0_vals[i % 4];
-        A1t = A1_vals[i % 4];
-        A2t = A2_vals[i % 4];
-        A3t = A3_vals[i % 4];
-        A4t = A4_vals[i % 4];
-        A5t = A5_vals[i % 4];
-        A6t = A6_vals[i % 4];
-        A7t = A7_vals[i % 4];
-        B0t = B0_vals[i % 4];
-        B1t = B1_vals[i % 4];
-        B2t = B2_vals[i % 4];
-        B3t = B3_vals[i % 4];
-        B4t = B4_vals[i % 4];
-        B5t = B5_vals[i % 4];
-        B6t = B6_vals[i % 4];
-        B7t = B7_vals[i % 4];
-        /*FUN_SEL0t = FUN_SEL_vals_0[i % 6]; // Directly assign from array
-        FUN_SEL1t = FUN_SEL_vals_1[i % 6]; // Directly assign from array
-        FUN_SEL2t = FUN_SEL_vals_2[i % 6]; // Directly assign from array*/
-        i = i + 1;
+		if (i > 0) begin
+        		A0t = A0_vals[i];
+        		A1t = A1_vals[i];
+       		A2t = A2_vals[i];
+       		A3t = A3_vals[i];
+       		A4t = A4_vals[i];
+        		A5t = A5_vals[i];
+       		A6t = A6_vals[i];
+        		A7t = A7_vals[i];
+        		B0t = B0_vals[i];
+        		B1t = B1_vals[i];
+        		B2t = B2_vals[i];
+        		B3t = B3_vals[i];
+        		B4t = B4_vals[i];
+        		B5t = B5_vals[i];
+       		B6t = B6_vals[i];
+       		B7t = B7_vals[i];
+        		FUN_SEL0t = FUN_SEL_vals_0[i];; // Directly assign from array
+        		FUN_SEL1t = FUN_SEL_vals_1[i];; // Directly assign from array
+        		FUN_SEL2t = FUN_SEL_vals_2[i];; // Directly assign from array
+        		i = i - 1;
+		end
     end
 
     V(A0)    <+ transition(A0t, 0, trise, tfall);
@@ -118,7 +138,7 @@ analog begin
     V(FUN_SEL1) <+ transition(FUN_SEL1t, 0, trise, tfall);
     V(FUN_SEL2) <+ transition(FUN_SEL2t, 0, trise, tfall);
     V(CLK) <+ transition(CLKt, 0, trise, tfall);
-    V(En) <+ transition(Ent, 0, trise, tfall);
+    V(EN) <+ transition(ENt, 0, trise, tfall);
 
 end
 
