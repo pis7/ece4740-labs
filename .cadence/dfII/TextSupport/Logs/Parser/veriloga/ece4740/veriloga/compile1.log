@@ -3,26 +3,3 @@ Reading file:
         /opt/cadence/SPECTRE201/tools.lnx86/spectre/etc/ahdl/constants.vams
 Reading file: 
         /opt/cadence/SPECTRE201/tools.lnx86/spectre/etc/ahdl/disciplines.vams
-
-Warning from spectre during AHDL compile.
-    WARNING (VACOMP-1139):
-        "/home/pis7/Cadence/ece4740/lab4_signal_gen/veriloga/veriloga.va", line
-        114: (Archaic Syntax) Does not comply with the Accellera Verilog-AMS
-        2.0 Standard and beyond. To comply with the current standard, delete
-        the null statement. You may use null statements (also known as empty
-        statements and coded as just `;') only in case or event control
-        statements.
-    WARNING (VACOMP-1139):
-        "/home/pis7/Cadence/ece4740/lab4_signal_gen/veriloga/veriloga.va", line
-        115: (Archaic Syntax) Does not comply with the Accellera Verilog-AMS
-        2.0 Standard and beyond. To comply with the current standard, delete
-        the null statement. You may use null statements (also known as empty
-        statements and coded as just `;') only in case or event control
-        statements.
-    WARNING (VACOMP-1139):
-        "/home/pis7/Cadence/ece4740/lab4_signal_gen/veriloga/veriloga.va", line
-        116: (Archaic Syntax) Does not comply with the Accellera Verilog-AMS
-        2.0 Standard and beyond. To comply with the current standard, delete
-        the null statement. You may use null statements (also known as empty
-        statements and coded as just `;') only in case or event control
-        statements.
