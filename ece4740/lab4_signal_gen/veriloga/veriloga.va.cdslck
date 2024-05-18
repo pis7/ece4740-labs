@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      pis7
+HostName                       en-ec-ecelinux-13.coecis.cornell.edu
+ProcessIdentifier              17079
+ProcessCreationTime_UTC        1716021310
+ProcessCreationTime_Readable   Sat May 18 04:35:10 2024 EDT
+AppIdentifier                  /opt/cadence/IC618-150/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Text Edit
+FilePathUsedToEditLock         /home/pis7/Cadence/ece4740/lab4_signal_gen/veriloga/veriloga.va
+TimeEditLocked                 Sat May 18 04:35:48 2024 EDT

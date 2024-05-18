@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      pis7
+HostName                       en-ec-ecelinux-13.coecis.cornell.edu
+ProcessIdentifier              7781
+ProcessCreationTime_UTC        1716004547
+ProcessCreationTime_Readable   Fri May 17 23:55:47 2024 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/pis7/Cadence/ece4740/lab4_opt_clock_sim/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat May 18 01:43:52 2024 EDT

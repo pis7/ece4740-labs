@@ -67,7 +67,10 @@ integer i;
     6. XOR random 2: 0xAD = 0x52
     7. XOR random 3: 0xBF = 0x40
     8. XOR random 4: 0xCB = 0x34
-- EN = 0 - All outputs are Z (floating bc tristates are off) and shouldn't change
+- EN = 0 - All outputs are undefined and correspond to no logic function,
+           Registers might output random values as the tristate bit busses
+           are floating and could be interpreted as either 1 or 0 by the
+           output registers.
 */
 
 parameter integer num_tests = 58;
@@ -100,8 +103,8 @@ real        EN_vals[num_tests:0] = {1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2,
 parameter real    clk_period = 2n from (0:inf);
 parameter real    clk_high = 1.2;
 parameter real    clk_low = 0.0;
-parameter real    trise = 20p from [0:inf];
-parameter real    tfall = 20p from [0:inf];
+parameter real    trise = 10p from [0:inf];
+parameter real    tfall = 10p from [0:inf];
 
 real    CLKt, ENt;
 integer clk_counter;
@@ -135,13 +138,13 @@ analog begin
     end
 
     // Clock generation
-    @(timer(0, clk_period/2)) begin
+    @(timer(1n, clk_period/2)) begin
         CLKt = (CLKt == clk_low) ? clk_high : clk_low;
         clk_counter = clk_counter + 1;
     end
 
     // Signal generation
-    @(timer(0, clk_period)) begin
+    @(timer(1n, clk_period)) begin
 		if (i >= 0) begin
             A0t = A0_vals[i];
             A1t = A1_vals[i];
