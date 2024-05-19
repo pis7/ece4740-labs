@@ -13,11 +13,11 @@ specified, it is automatically set to the input directory.
 INFO (LBRCXU-108): Starting
 
  /opt/cadence/assura/tools.lnx86/assura/bin/rcxToDfII /home/pis7/Cadence/lab4_alu/__qrc.rcx_cmd -t -f /home/pis7/Cadence/lab4_alu/extview.tmp -w /home/pis7/Cadence/lab4_alu
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
 @(#)$CDS: rcxToDfII_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:30 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/rcxToDfII on Fri May 17 18:22:56 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/rcxToDfII on Sat May 18 14:09:57 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -72,7 +72,7 @@ INFO (CAPGEN-41804): Lvs stamped by pdiff_conn layers ptap are not mapped in lay
 WARNING (RCXSPIC-27104): p2lvsfile in tech directory does not have resistance 
  temperature coefficients (TC1, TC2). ?temperature is ignored 
 
-rcxspice took  0.39 user, 0.70 sys, 1.00 elapsed, 6484.0 kbytes
+rcxspice took  0.41 user, 0.66 sys, 1.00 elapsed, 6484.0 kbytes
 
 Successfully created RCX script '/home/pis7/Cadence/lab4_alu/rcx.sh'
 WARNING (LBRCXM-617): Unable to obtain 1 license(s) of QTS100 20.10
@@ -241,11 +241,11 @@ Opening LVS data for lab4_alu in /home/pis7/Cadence
 Open time is 0.0 sec.
 Build pins/attributes took 0.0 sec.
 Processing Metal1_p_pintext                     32 shapes 0.0 sec.
-create satfile took  0.17 user, 0.02 sys, 0.00 elapsed, 136876.0 kbytes
-write edge Metal1_p_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 137072.0 kbytes
+create satfile took  0.17 user, 0.02 sys, 0.00 elapsed, 136892.0 kbytes
+write edge Metal1_p_pintext took  0.00 user, 0.00 sys, 0.00 elapsed, 137088.0 kbytes
 Building net map file.		0.0 sec.
-create netmap file took 0.01 user, 0.00 sys, 0.00 elapsed, 137176.0 kbytes
-create net file took 0.00 user, 0.00 sys, 0.00 elapsed, 137176.0 kbytes
+create netmap file took 0.00 user, 0.00 sys, 0.00 elapsed, 137192.0 kbytes
+create net file took 0.00 user, 0.00 sys, 0.00 elapsed, 137192.0 kbytes
 WARNING (LBCLV-5663): No bipolar models provided. Can't create bipolar files
 
 WARNING (LBCLV-5660): No resistor models provided. Can't create resistor files
@@ -258,60 +258,60 @@ WARNING (LBCLV-5706): no generic models in rule file
 
 Device creation took 0.0 sec
 Processing cont_poly                            44 shapes 0.0 sec.
-write edge cont_poly took  0.00 user, 0.00 sys, 0.00 elapsed, 137400.0 kbytes
+write edge cont_poly took  0.01 user, 0.00 sys, 0.00 elapsed, 137416.0 kbytes
 Processing cont_ndiff                          126 shapes 0.0 sec.
-write edge cont_ndiff took  0.00 user, 0.00 sys, 0.00 elapsed, 137552.0 kbytes
+write edge cont_ndiff took  0.00 user, 0.00 sys, 0.00 elapsed, 137580.0 kbytes
 Processing via2_out_capInd                     250 shapes 0.0 sec.
-write edge via2_out_capInd took  0.00 user, 0.00 sys, 0.00 elapsed, 137704.0 kbytes
+write edge via2_out_capInd took  0.00 user, 0.00 sys, 0.00 elapsed, 137732.0 kbytes
 Processing Metal1_v                            292 shapes 0.0 sec.
-write edge Metal1_v took  0.00 user, 0.01 sys, 0.00 elapsed, 137856.0 kbytes
+write edge Metal1_v took  0.00 user, 0.00 sys, 0.00 elapsed, 137884.0 kbytes
 Processing cont_pdiff                          184 shapes 0.0 sec.
-write edge cont_pdiff took  0.00 user, 0.00 sys, 0.00 elapsed, 138084.0 kbytes
+write edge cont_pdiff took  0.00 user, 0.00 sys, 0.00 elapsed, 138112.0 kbytes
 Processing Via1                                388 shapes 0.0 sec.
-write edge Via1 took  0.00 user, 0.00 sys, 0.00 elapsed, 138240.0 kbytes
+write edge Via1 took  0.00 user, 0.00 sys, 0.00 elapsed, 138264.0 kbytes
 Processing Via3                                240 shapes 0.0 sec.
-write edge Via3 took  0.00 user, 0.00 sys, 0.00 elapsed, 138412.0 kbytes
+write edge Via3 took  0.01 user, 0.00 sys, 0.00 elapsed, 138428.0 kbytes
 Processing Via4                                135 shapes 0.0 sec.
-write edge Via4 took  0.00 user, 0.00 sys, 0.00 elapsed, 138564.0 kbytes
+write edge Via4 took  0.00 user, 0.00 sys, 0.00 elapsed, 138580.0 kbytes
 Processing Via5                                135 shapes 0.0 sec.
-write edge Via5 took  0.01 user, 0.00 sys, 0.00 elapsed, 138716.0 kbytes
-write edge _pmos_12_MOS_7 took  0.00 user, 0.00 sys, 0.00 elapsed, 138868.0 kbytes
-write edge _nmos_12_MOS_1 took  0.00 user, 0.00 sys, 0.00 elapsed, 139028.0 kbytes
+write edge Via5 took  0.00 user, 0.01 sys, 0.00 elapsed, 138732.0 kbytes
+write edge _pmos_12_MOS_7 took  0.00 user, 0.00 sys, 0.00 elapsed, 138884.0 kbytes
+write edge _nmos_12_MOS_1 took  0.00 user, 0.00 sys, 0.00 elapsed, 139044.0 kbytes
 Processing _pmos_12_MOS_7                       50 shapes 0.0 sec.
 Processing _nmos_12_MOS_1                       50 shapes 0.0 sec.
 Processing psubstrate                            1 shapes 0.0 sec.
-write edge psubstrate took  0.00 user, 0.00 sys, 0.00 elapsed, 139208.0 kbytes
+write edge psubstrate took  0.00 user, 0.00 sys, 0.00 elapsed, 139224.0 kbytes
 Processing metal6_conn                          37 shapes 0.0 sec.
-write edge metal6_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139372.0 kbytes
+write edge metal6_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139392.0 kbytes
 Processing metal5_conn                         125 shapes 0.0 sec.
-write edge metal5_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139544.0 kbytes
+write edge metal5_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139560.0 kbytes
 Processing metal4_conn                         187 shapes 0.0 sec.
-write edge metal4_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139780.0 kbytes
+write edge metal4_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139796.0 kbytes
 Processing metal3_conn                         240 shapes 0.0 sec.
-write edge metal3_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 139952.0 kbytes
+write edge metal3_conn took  0.01 user, 0.00 sys, 0.00 elapsed, 139968.0 kbytes
 Processing metal2_conn                         329 shapes 0.0 sec.
-write edge metal2_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140124.0 kbytes
+write edge metal2_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140140.0 kbytes
 Processing metal1_conn                         844 shapes 0.0 sec.
-write edge metal1_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140572.0 kbytes
+write edge metal1_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140588.0 kbytes
 Processing ptap                                114 shapes 0.0 sec.
-write edge ptap took  0.01 user, 0.00 sys, 0.00 elapsed, 140580.0 kbytes
+write edge ptap took  0.00 user, 0.00 sys, 0.00 elapsed, 140600.0 kbytes
 Processing pdiff_conn                          177 shapes 0.0 sec.
-write edge pdiff_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140732.0 kbytes
+write edge pdiff_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140752.0 kbytes
 Processing nwell_conn                           19 shapes 0.0 sec.
-write edge nwell_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140896.0 kbytes
+write edge nwell_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 140916.0 kbytes
 Processing ntap                                 75 shapes 0.0 sec.
-write edge ntap took  0.00 user, 0.00 sys, 0.00 elapsed, 141064.0 kbytes
+write edge ntap took  0.00 user, 0.00 sys, 0.00 elapsed, 141080.0 kbytes
 Processing ndiff_conn                          139 shapes 0.0 sec.
-write edge ndiff_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 141216.0 kbytes
+write edge ndiff_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 141232.0 kbytes
 Processing poly_conn                            43 shapes 0.0 sec.
-write edge poly_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 141380.0 kbytes
+write edge poly_conn took  0.00 user, 0.00 sys, 0.00 elapsed, 141396.0 kbytes
 Processing Metal1_p                            365 shapes 0.0 sec.
-write edge Metal1_p took  0.00 user, 0.00 sys, 0.00 elapsed, 141548.0 kbytes
-sort edges took  0.08 user, 0.30 sys, 1.00 elapsed, 2560.0 kbytes
-sort edges and labels took  0.28 user, 0.53 sys, 1.00 elapsed, 141712.0 kbytes
+write edge Metal1_p took  0.01 user, 0.00 sys, 0.00 elapsed, 141564.0 kbytes
+sort edges took  0.08 user, 0.34 sys, 1.00 elapsed, 2552.0 kbytes
+sort edges and labels took  0.29 user, 0.53 sys, 1.00 elapsed, 141728.0 kbytes
 
 	vdbToRcx System Usage:
-	Elapsed:     1 seconds.
+	Elapsed:     2 seconds.
 	CPU:         0.3 seconds
 	Memory      32 Meg
 GOALIE2DIR=/opt/cadence/QUANTUS201/tools.lnx86/extraction/bin/64bit/
@@ -330,17 +330,17 @@ cat global.net > power_list
 #==========================================================#
 
 geom -V Via5 metal6_conn metal5_conn - Via5,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3328.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3332.0 kbytes
 geom -V Via4 metal5_conn metal4_conn - Via4,111,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3332.0 kbytes
 geom -V Via3 metal4_conn metal3_conn - Via3,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3332.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3328.0 kbytes
 geom -V via2_out_capInd metal3_conn metal2_conn - via2_out_capInd,111,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3596.0 kbytes
 geom -V Via1 metal2_conn metal1_conn - Via1,111,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3860.0 kbytes
-geom -V Metal1_v Metal1_p metal1_conn - Metal1_v,111,i,2
 geom took  0.01 user, 0.00 sys, 0.00 elapsed, 3860.0 kbytes
+geom -V Metal1_v Metal1_p metal1_conn - Metal1_v,111,i,2
+geom took  0.01 user, 0.01 sys, 0.00 elapsed, 3852.0 kbytes
 geom -V cont_poly metal1_conn poly_conn - cont_poly,111,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3596.0 kbytes
 geom -V cont_pdiff metal1_conn pdiff_conn - cont_pdiff,111,i,2
@@ -348,11 +348,11 @@ geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3596.0 kbytes
 geom -V cont_ndiff metal1_conn ndiff_conn - cont_ndiff,111,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3596.0 kbytes
 geom -V ptap pdiff_conn - ptap_pdiff_conn_ovia,11,i,1
-geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3272.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3272.0 kbytes
 geom -V psubstrate ptap - psubstrate_ptap_ovia,11,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3272.0 kbytes
 geom -V ntap ndiff_conn - ntap_ndiff_conn_ovia,11,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3276.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3276.0 kbytes
 geom -V nwell_conn ntap - nwell_conn_ntap_ovia,11,i,1
 
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3540.0 kbytes
@@ -365,20 +365,20 @@ beginFlattenInputs
 export SAVEDIR
 /bin/mv -f NET h_NET
 flatnet -V -li -h '/' h_NET NET
-flatnet took 0.00 user, 0.02 sys, 0.00 elapsed, 18140.0 kbytes
+flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 18184.0 kbytes
 netprint -V -N1 power_list:power_list_nums NET
 flattenTransistorData _nmos_12_MOS_1 meters
-flattub took  0.00 user, 0.01 sys, 0.00 elapsed, 9560.0 kbytes
-flatnet took 0.01 user, 0.01 sys, 0.00 elapsed, 17700.0 kbytes
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 9556.0 kbytes
+flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 17708.0 kbytes
 flattenTransistorData _pmos_12_MOS_7 meters
-flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 9620.0 kbytes
-flatnet took 0.01 user, 0.01 sys, 0.00 elapsed, 17852.0 kbytes
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 7880.0 kbytes
+flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 17776.0 kbytes
 flattenLayers -m metal6_conn metal5_conn metal4_conn metal3_conn metal2_conn \
 	metal1_conn poly_conn ndiff_conn pdiff_conn nwell_conn psubstrate \
 	Via5 Via4 Via3 via2_out_capInd Via1 Metal1_v Metal1_p cont_poly \
 	cont_pdiff cont_ndiff ptap_pdiff_conn_ovia ptap psubstrate_ptap_ovia \
 	ntap_ndiff_conn_ovia ntap nwell_conn_ntap_ovia
-flattub took  0.07 user, 0.03 sys, 0.00 elapsed, 4220.0 kbytes
+flattub took  0.04 user, 0.03 sys, 0.00 elapsed, 5740.0 kbytes
 endFlattenInputs
 
 #==========================================================#
@@ -403,7 +403,7 @@ cp power_list_nums2 power_list_nums
 #==========================================================#
 
 selectNetsByNumber power_list_nums Metal1_p p_rMetal1_p np_rMetal1_p
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2084.0 kbytes
 selectNetsByNumber power_list_nums metal1_conn p_rmetal1_conn np_rmetal1_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums metal2_conn p_rmetal2_conn np_rmetal2_conn
@@ -411,19 +411,19 @@ epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums metal3_conn p_rmetal3_conn np_rmetal3_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums metal4_conn p_rmetal4_conn np_rmetal4_conn
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2084.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums metal5_conn p_rmetal5_conn np_rmetal5_conn
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums metal6_conn p_rmetal6_conn np_rmetal6_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums ndiff_conn p_rndiff_conn np_rndiff_conn
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.02 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums ntap p_rntap np_rntap
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2084.0 kbytes
 selectNetsByNumber power_list_nums nwell_conn p_rnwell_conn np_rnwell_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums pdiff_conn p_rpdiff_conn np_rpdiff_conn
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums poly_conn p_rpoly_conn np_rpoly_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums psubstrate p_rpsubstrate np_rpsubstrate
@@ -431,15 +431,15 @@ epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums ptap p_rptap np_rptap
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums Via1 p_rVia1 np_rVia1
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2084.0 kbytes
-selectNetsByNumber power_list_nums Via3 p_rVia3 np_rVia3
 epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2088.0 kbytes
+selectNetsByNumber power_list_nums Via3 p_rVia3 np_rVia3
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums Via4 p_rVia4 np_rVia4
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums Via5 p_rVia5 np_rVia5
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums cont_poly p_rcont_poly np_rcont_poly
-epick took  0.00 user, 0.01 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 selectNetsByNumber power_list_nums via2_out_capInd p_rvia2_out_capInd np_rvia2_out_capInd
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 mv power_list_nums_orig power_list_nums
@@ -451,16 +451,16 @@ mv power_list_nums_orig power_list_nums
 
 mergevia -V -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	np_rVia1 rVia1 - np_rmetal2_conn np_rmetal1_conn
-mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 11084.0 kbytes
+mergevia took 0.01 user, 0.01 sys, 0.00 elapsed, 11084.0 kbytes
 mergevia -V -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	np_rVia3 rVia3 - np_rmetal4_conn np_rmetal3_conn
-mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 11080.0 kbytes
+mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 11084.0 kbytes
 mergevia -V -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	np_rVia4 rVia4 - np_rmetal5_conn np_rmetal4_conn
 mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 11084.0 kbytes
 mergevia -V -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	np_rVia5 rVia5 - np_rmetal6_conn np_rmetal5_conn
-mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 11084.0 kbytes
+mergevia took 0.00 user, 0.02 sys, 0.00 elapsed, 11080.0 kbytes
 mergevia -V -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	np_rcont_poly rcont_poly - np_rmetal1_conn np_rpoly_conn
 mergevia took 0.00 user, 0.01 sys, 0.00 elapsed, 11080.0 kbytes
@@ -497,8 +497,8 @@ connect -V -relocate NET np_rMetal1_p:np_rMetal1_p.conn \
 	psubstrate_ptap_ovia,3,7 ptap_pdiff_conn_ovia,7,5 - \
 	Metal1_p_pintext_nr_labs,1
 
-relocate took 0.05 user, 0.16 sys, 0.00 elapsed, 271720.0 kbytes
-connect took  0.01 user, 0.00 sys, 0.00 elapsed, 271720.0 kbytes
+relocate took 0.05 user, 0.15 sys, 0.00 elapsed, 271720.0 kbytes
+connect took  0.00 user, 0.00 sys, 0.00 elapsed, 271720.0 kbytes
 #==========================================================#
 # Assign net numbers to resistor vias
 #==========================================================#
@@ -507,19 +507,19 @@ geom -V Metal1_v np_rMetal1_p.conn - tmp_rMetal1_v,11,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 mergevia -V -i -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	tmp_rMetal1_v rMetal1_v - np_rmetal1_conn np_rMetal1_p
-mergevia took 0.17 user, 0.08 sys, 1.00 elapsed, 11096.0 kbytes
+mergevia took 0.15 user, 0.09 sys, 1.00 elapsed, 11092.0 kbytes
 /bin/rm -f tmp_rMetal1_v
 geom -V cont_ndiff np_rndiff_conn.conn - tmp_rcont_ndiff,11,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 mergevia -V -i -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	tmp_rcont_ndiff rcont_ndiff - np_rmetal1_conn np_rndiff_conn
-mergevia took 0.16 user, 0.07 sys, 0.00 elapsed, 11080.0 kbytes
+mergevia took 0.13 user, 0.08 sys, 0.00 elapsed, 11084.0 kbytes
 /bin/rm -f tmp_rcont_ndiff
 geom -V cont_pdiff np_rpdiff_conn.conn - tmp_rcont_pdiff,11,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 mergevia -V -i -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx -cnt \
 	tmp_rcont_pdiff rcont_pdiff - np_rmetal1_conn np_rpdiff_conn
-mergevia took 0.18 user, 0.07 sys, 0.00 elapsed, 11084.0 kbytes
+mergevia took 0.13 user, 0.09 sys, 0.00 elapsed, 11084.0 kbytes
 /bin/rm -f tmp_rcont_pdiff
 
 #==========================================================#
@@ -528,11 +528,11 @@ mergevia took 0.18 user, 0.07 sys, 0.00 elapsed, 11084.0 kbytes
 
 epick -V -reo -e rMetal1_v -e rcont_ndiff -e rcont_pdiff np_rndiff_conn.conn \
 	tmp_ndiff_conn
-epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2092.0 kbytes
 epick -V -reo -e tmp_ndiff_conn -c np_rndiff_conn.conn tmp1_ndiff_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 geom -V tmp1_ndiff_conn np_rndiff_conn - tmp1_ndiff_conn,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V tmp_ndiff_conn,tmp1_ndiff_conn - np_rndiff_conn,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 /bin/rm -f tmp_ndiff_conn tmp1_ndiff_conn
@@ -542,19 +542,19 @@ epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 epick -V -reo -e tmp_pdiff_conn -c np_rpdiff_conn.conn tmp1_pdiff_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 geom -V tmp1_pdiff_conn np_rpdiff_conn - tmp1_pdiff_conn,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
-geom -V tmp_pdiff_conn,tmp1_pdiff_conn - np_rpdiff_conn,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
+geom -V tmp_pdiff_conn,tmp1_pdiff_conn - np_rpdiff_conn,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 /bin/rm -f tmp_pdiff_conn tmp1_pdiff_conn
 epick -V -reo -e rMetal1_v -e rcont_ndiff -e rcont_pdiff np_rnwell_conn.conn \
 	tmp_nwell_conn
-epick took  0.00 user, 0.00 sys, 1.00 elapsed, 2088.0 kbytes
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 epick -V -reo -e tmp_nwell_conn -c np_rnwell_conn.conn tmp1_nwell_conn
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 geom -V tmp1_nwell_conn np_rnwell_conn - tmp1_nwell_conn,11,i,2
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.00 sys, 1.00 elapsed, 3068.0 kbytes
 geom -V tmp_nwell_conn,tmp1_nwell_conn - np_rnwell_conn,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3068.0 kbytes
 /bin/rm -f tmp_nwell_conn tmp1_nwell_conn
 epick -V -reo -e rMetal1_v -e rcont_ndiff -e rcont_pdiff np_rpsubstrate.conn \
 	tmp_psubstrate
@@ -564,7 +564,7 @@ epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 geom -V tmp1_psubstrate np_rpsubstrate - tmp1_psubstrate,11,i,2
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V tmp_psubstrate,tmp1_psubstrate - np_rpsubstrate,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 /bin/rm -f tmp_psubstrate tmp1_psubstrate
 
 #==========================================================#
@@ -596,43 +596,43 @@ rex -V -m -pd -I'#' -tech /opt/cadence-designkits/gpdk090_v4.6/assura/rcx \
 	rcont_poly,1,2,t rvia2_out_capInd,3,4,t _nmos_12_MOS_1_mgvia,1,z \
 	_pmos_12_MOS_7_mgvia,1,z - L1T0,2,I
 
-rex took  0.27 user, 0.39 sys, 1.00 elapsed, 19812.0 kbytes
+rex took  0.27 user, 0.46 sys, 1.00 elapsed, 19812.0 kbytes
 #==========================================================#
 # Form resistive via layers
 #==========================================================#
 
 stamp -V -i2 np_rmetal2_conn rVia1 np_rVia1
-stamp took  0.16 user, 0.05 sys, 0.00 elapsed, 270944.0 kbytes
+stamp took  0.14 user, 0.06 sys, 0.00 elapsed, 270944.0 kbytes
 geom -V np_rVia1,p_rVia1 - rVia1,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3068.0 kbytes
 stamp -V -i2 np_rmetal4_conn rVia3 np_rVia3
-stamp took  0.15 user, 0.05 sys, 1.00 elapsed, 270888.0 kbytes
+stamp took  0.14 user, 0.06 sys, 1.00 elapsed, 270888.0 kbytes
 geom -V np_rVia3,p_rVia3 - rVia3,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3064.0 kbytes
 stamp -V -i2 np_rmetal5_conn rVia4 np_rVia4
-stamp took  0.15 user, 0.05 sys, 0.00 elapsed, 270888.0 kbytes
+stamp took  0.13 user, 0.05 sys, 0.00 elapsed, 270884.0 kbytes
 geom -V np_rVia4,p_rVia4 - rVia4,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 stamp -V -i2 np_rmetal6_conn rVia5 np_rVia5
-stamp took  0.15 user, 0.05 sys, 0.00 elapsed, 270888.0 kbytes
+stamp took  0.13 user, 0.06 sys, 0.00 elapsed, 270884.0 kbytes
 geom -V np_rVia5,p_rVia5 - rVia5,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 stamp -V -i2 np_rmetal1_conn rcont_poly np_rcont_poly
-stamp took  0.15 user, 0.06 sys, 0.00 elapsed, 270932.0 kbytes
+stamp took  0.13 user, 0.06 sys, 1.00 elapsed, 270936.0 kbytes
 geom -V np_rcont_poly,p_rcont_poly - rcont_poly,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 stamp -V -i2 np_rmetal3_conn rvia2_out_capInd np_rvia2_out_capInd
-stamp took  0.15 user, 0.05 sys, 1.00 elapsed, 270888.0 kbytes
+stamp took  0.13 user, 0.05 sys, 0.00 elapsed, 270888.0 kbytes
 geom -V np_rvia2_out_capInd,p_rvia2_out_capInd - rvia2_out_capInd,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 stamp -V -B -i np_rmetal1_conn Metal1_v
-stamp took  0.17 user, 0.05 sys, 0.00 elapsed, 271084.0 kbytes
+stamp took  0.13 user, 0.06 sys, 0.00 elapsed, 271084.0 kbytes
 /bin/cp -f Metal1_v rMetal1_v
 stamp -V -B -i np_rmetal1_conn cont_ndiff
-stamp took  0.19 user, 0.05 sys, 0.00 elapsed, 271084.0 kbytes
+stamp took  0.14 user, 0.06 sys, 0.00 elapsed, 271084.0 kbytes
 /bin/cp -f cont_ndiff rcont_ndiff
 stamp -V -B -i np_rmetal1_conn cont_pdiff
-stamp took  0.17 user, 0.05 sys, 1.00 elapsed, 271088.0 kbytes
+stamp took  0.15 user, 0.05 sys, 1.00 elapsed, 271088.0 kbytes
 /bin/cp -f cont_pdiff rcont_pdiff
 
 #==========================================================#
@@ -664,7 +664,7 @@ reconnect -V -n NET -se2 mwires.res -mf -t \
 	ndiff_conn,_nmos_12_MOS_1_mgvia,psubstrate -t \
 	_pmos_12_MOS_7.trans:_pmos_12_MOS_7.transr _pmos_12_MOS_7 \
 	pdiff_conn,_pmos_12_MOS_7_mgvia,nwell_conn
-reconnect took 0.20 user, 0.06 sys, 0.00 elapsed, 279784.0 kbytes
+reconnect took 0.16 user, 0.07 sys, 0.00 elapsed, 279784.0 kbytes
 changeTransFileNameAP _nmos_12_MOS_1.trans _nmos_12_MOS_1.transr
 changeTransFileNameAP _pmos_12_MOS_7.trans _pmos_12_MOS_7.transr
 netprint -max NET > original_maxnetfile
@@ -674,13 +674,13 @@ netprint -max NET > original_maxnetfile
 #==========================================================#
 
 geom -V -i p_rpoly_conn,np_rpoly_conn - so_poly,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3212.0 kbytes
+geom took  0.01 user, 0.00 sys, 0.00 elapsed, 3212.0 kbytes
 geom -V p_rpoly_conn,np_rpoly_conn - poly,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
-geom -V -i p_rmetal1_conn,np_rmetal1_conn - so_mt1,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3212.0 kbytes
-geom -V p_rmetal1_conn,np_rmetal1_conn - mt1,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
+geom -V -i p_rmetal1_conn,np_rmetal1_conn - so_mt1,1,n
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3216.0 kbytes
+geom -V p_rmetal1_conn,np_rmetal1_conn - mt1,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V -i p_rmetal2_conn,np_rmetal2_conn - so_mt2,1,n
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3216.0 kbytes
 geom -V p_rmetal2_conn,np_rmetal2_conn - mt2,1,i,1
@@ -692,11 +692,11 @@ geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V -i p_rmetal4_conn,np_rmetal4_conn - so_mt4,1,n
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2948.0 kbytes
 geom -V p_rmetal4_conn,np_rmetal4_conn - mt4,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
-geom -V -i p_rmetal5_conn,np_rmetal5_conn - so_mt5,1,n
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 2948.0 kbytes
-geom -V p_rmetal5_conn,np_rmetal5_conn - mt5,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
+geom -V -i p_rmetal5_conn,np_rmetal5_conn - so_mt5,1,n
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 2952.0 kbytes
+geom -V p_rmetal5_conn,np_rmetal5_conn - mt5,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V -i p_rmetal6_conn,np_rmetal6_conn - so_mt6,1,n
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3212.0 kbytes
 geom -V p_rmetal6_conn,np_rmetal6_conn - mt6,1,i,1
@@ -707,7 +707,7 @@ geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 #==========================================================#
 
 grow -V .001 ndiff_conn mask
-grow took  0.00 user, 0.01 sys, 0.00 elapsed, 2284.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2288.0 kbytes
 geom -V pdiff_conn mask - pdiff_conn,10,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V ndiff_conn,pdiff_conn - diff,1,i,1
@@ -721,38 +721,38 @@ createEmptyLayer mt7
 #==========================================================#
 
 geom -V p_rnwell_conn,np_rnwell_conn - nwell_conn,1,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3064.0 kbytes
 geom -V p_rpsubstrate,np_rpsubstrate - psubstrate,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 /bin/cp -f psubstrate psubstrate.df2
 grow -V 0.001 nwell_conn g_nwell_conn
 grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2284.0 kbytes
 geom -V psubstrate g_nwell_conn - psubstrate,10,i,1
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3060.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 geom -V nwell_conn,psubstrate - sti,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 xytoebbox -V -g 13.202 -e mt9,mt8,mt7,mt6,mt5,mt4,mt3,mt2,mt1,poly,diff,nwell_conn,psubstrate xg_sti
 grow -V 0.001 sti g_sti
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2288.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2280.0 kbytes
 geom -V xg_sti g_sti - tmp_sti,10
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 epick -V -reo -D ${CAP_GROUND} tmp_sti pick_sti
 epick took  0.00 user, 0.00 sys, 0.00 elapsed, 2088.0 kbytes
 grow -V -m 0.002 pick_sti g_pick_sti
 grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2284.0 kbytes
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3052.0 kbytes
+geom took  0.00 user, 0.01 sys, 0.00 elapsed, 3052.0 kbytes
 stamp -i sti g_pick_sti
 grow -V -m -0.002 g_pick_sti pick_sti
-grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2508.0 kbytes
-sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 2604.0 kbytes
-geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3144.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 2504.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 2600.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3140.0 kbytes
 emerge -V pick_sti sti tmp1_sti
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 2008.0 kbytes
+emerge took 0.00 user, 0.01 sys, 0.00 elapsed, 2012.0 kbytes
 geom -V tmp1_sti - sti,1,i,1
 geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
 /bin/rm -f g_pick_sti xg_sti tmp_sti tmp1_sti
 geom -V sti diff - sti,10,i,1
-geom took  0.01 user, 0.00 sys, 0.00 elapsed, 3068.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 3064.0 kbytes
 geom _nmos_12_MOS_1,_pmos_12_MOS_7 - qrcgate,1,i,1
 
 #==========================================================#
@@ -848,7 +848,7 @@ ENDCAT
 
 emerge -V _nmos_12_MOS_1 _pmos_12_MOS_7 allGate
 
-emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 2008.0 kbytes
+emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 2012.0 kbytes
 #==========================================================#
 # Run pax16 to generate capfile
 #==========================================================#
@@ -863,8 +863,8 @@ pax16 -V -lee_off -gnd ${CAP_GROUND} -rmselfC -ignore_cf_table -scf sip.cmd \
 	/opt/cadence-designkits/gpdk090_v4.6/assura/rcx/qrcTechFile - - NET - \
 	capfile
 
-pax16_rdpaxcmd took  0.25 user, 0.04 sys, 1.00 elapsed, 30512.0 kbytes
-pax16 took  1.78 user, 0.63 sys, 5.00 elapsed, 99748.0 kbytes
+pax16_rdpaxcmd took  0.23 user, 0.05 sys, 1.00 elapsed, 28644.0 kbytes
+pax16 took  1.66 user, 0.78 sys, 5.00 elapsed, 97876.0 kbytes
 #==========================================================#
 # Generate netlister data files
 #==========================================================#
@@ -913,7 +913,7 @@ INFO (XREDUCE-199108): d1 option renamed 532 nets
 
 INFO (XREDUCE-199054): Total number of capacitors in capfile is 60935
 
-xreduce took 0.39 user, 1.08 sys, 3.00 elapsed, 10236.0 kbytes
+xreduce took 0.50 user, 1.40 sys, 3.00 elapsed, 10244.0 kbytes
 #==========================================================#
 # Generate HSPICE file
 #==========================================================#
@@ -935,7 +935,7 @@ advgen -V -g0 -li -f -n -o HSPICE -TL L1T0 -sc caps2dversion -mx capfile \
 	_nmos_12_MOS_1.transr -ta lvsmos.mod,_pmos_12_MOS_7.net \
 	_pmos_12_MOS_7.transr - NET - /home/pis7/Cadence/lab4_alu/extview.tmp
 
-advgen took:  1.19 user, 0.79 sys, 2.00 elapsed, 7816.0 kbytes
+advgen took:  0.96 user, 0.94 sys, 2.00 elapsed, 7820.0 kbytes
 #==========================================================#
 # Create _save_layers file for Assura extracted view
 #==========================================================#
@@ -1011,7 +1011,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: rcxToDfII_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:30 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/rcxToDfII on Fri May 17 18:23:27 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/rcxToDfII on Sat May 18 14:10:30 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -1115,15 +1115,15 @@ instance count totals:
     gpdk090          pmos1v           ivpcell                   803
 
 extracted view creation completed
-cpu: 2.63  elap: 3  pf: 2  in: 14360  out: 13912  virt: 479M  phys: 966M
+cpu: 2.52  elap: 4  pf: 2  in: 15872  out: 13912  virt: 479M  phys: 966M
 INFO (LBRCXU-114): Finished /opt/cadence/assura/tools.lnx86/assura/bin/rcxToDfII
 
 INFO (LBRCXM-582): Checking in license of QTS300 20.10
 
-INFO (LBRCXM-702): Run ended: Fri May 17 18:23:30 2024
+INFO (LBRCXM-702): Run ended: Sat May 18 14:10:33 2024
 
 
-INFO (LBRCXM-805): Run took: 35s elapsed
+INFO (LBRCXM-805): Run took: 37s elapsed
 
 INFO (LBRCXM-708): *****  Quantus terminated normally  *****
 

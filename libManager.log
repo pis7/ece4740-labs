@@ -1,107 +1,894 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 10/27/2020 22:20 (sjfhw691) $
 \o Sub version:		sub-version  s154 
-\o Arguments:		-unmapped -mpssession virtuoso4219 -mpshost en-ec-ph314-11.ece.cornell.edu 
-\o Working Directory:	en-ec-ph314-11.ece.cornell.edu:/home/pis7/Cadence
+\o Arguments:		-mpssession virtuoso64430 -mpshost en-ec-ecelinux-13.coecis.cornell.edu 
+\o Working Directory:	en-ec-ecelinux-13.coecis.cornell.edu:/home/pis7/Cadence
 \o 64-bit offsets
 \o Qt version: 		5.9.1
-\o changeWorkingDir("/home/pis7/Cadence") unnecessary.
-\o ddSetForcedLib("") unnecessary.
 \o Log file is "/home/pis7/Cadence/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(661 313 1707 995))
+\a nrSetCurrentWindow(cdsLibManager)
+\o changeWorkingDir("/home/pis7/Cadence") unnecessary.
+\o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(374 370 1707 995))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1001 370 1707 995))
+\a nrResizeWindow(cdsLibManager list(1310 299 1707 995))
+\a nrResizeWindow(cdsLibManager list(1080 23 2560 1369))
 \a cdsLibManager->libListBox->value = "ece4740"
 \a cdsLibManager->libLineEdit->value = "ece4740"
-\a nrListItemAction(cdsLibManager->libListBox "ece4740" 0)
-\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
-\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
-\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "lab4_or"
+\a cdsLibManager->cellLineEdit->value = "lab4_or"
+\a lmgrLogShowPopup("mainListPopup1" 49 702 2 "lab4_or")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_or"
+\a nrSetWindowVisibility(basicRenameForm "show")
+\a basicRenameForm->basicRenameToEdit->value = "lab4_or"
+\a nrResizeWindow(basicRenameForm list(2231 572 239 190))
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_or_8bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_or" to "lab4_or_8bit" in library "ece4740".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
-\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 41 0)
+\a cdsLibManager->cellLineEdit->value = ""
+\o Rename succeeded.
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "ece4740"
 \a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
-\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(435 450 1707 995))
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->cellListBox->value = "lab4_inv"
+\a cdsLibManager->cellLineEdit->value = "lab4_inv"
+\a lmgrLogShowPopup("mainListPopup1" 55 677 2 "lab4_inv")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_inv"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_inv"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_inv_8bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_inv" to "lab4_inv_8bit" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\o Rename succeeded.
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ece4740"
 \a cdsLibManager->libLineEdit->value = "ece4740"
-\a cdsLibManager->cellListBox->value = "lab4_signal_gen"
-\a cdsLibManager->cellLineEdit->value = "lab4_signal_gen"
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_and"
+\a cdsLibManager->cellLineEdit->value = "lab4_and"
+\a lmgrLogShowPopup("mainListPopup1" 44 619 2 "lab4_and")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_and"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_and"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_and_8bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_and" to "lab4_and_8bit" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_adder_top"
+\a cdsLibManager->cellLineEdit->value = "lab4_adder_top"
+\a lmgrLogShowPopup("mainListPopup1" 76 587 2 "lab4_adder_top")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_adder_top"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_adder_top"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_adder_8bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_adder_top" to "lab4_adder_8bit" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_8bit_reg"
+\a cdsLibManager->cellLineEdit->value = "lab4_8bit_reg"
+\a lmgrLogShowPopup("mainListPopup1" 62 504 2 "lab4_8bit_reg")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_8bit_reg"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_8bit_reg"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_reg_8bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_8bit_reg" to "lab4_reg_8bit" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_8bit_tristatebuffer"
+\a cdsLibManager->cellLineEdit->value = "lab4_8bit_tristatebuffer"
+\a lmgrLogShowPopup("mainListPopup1" 97 500 2 "lab4_8bit_tristatebuffer")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_8bit_tristatebuffer"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_8bit_tristatebuffer"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_tristatebuffer_8bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_8bit_tristatebuffer" to "lab4_tristatebuffer_8bit" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_adder_signal_gen"
+\a cdsLibManager->cellLineEdit->value = "lab4_adder_signal_gen"
+\a cdsLibManager->cellListBox->value = "lab4_adder_8bit"
+\a cdsLibManager->cellLineEdit->value = "lab4_adder_8bit"
+\a cdsLibManager->cellListBox->value = "lab4_1bit_tristatebuffer"
+\a cdsLibManager->cellLineEdit->value = "lab4_1bit_tristatebuffer"
+\a lmgrLogShowPopup("mainListPopup1" 61 433 2 "lab4_1bit_tristatebuffer")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_1bit_tristatebuffer"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_1bit_tristatebuffer"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_tristatebuffer_1bit"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_1bit_tristatebuffer" to "lab4_tristatebuffer_1bit" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_buffer"
+\a cdsLibManager->cellLineEdit->value = "lab4_buffer"
+\a lmgrLogShowPopup("mainListPopup1" 57 592 2 "lab4_buffer")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrResizeWindow(deleteForm list(2037 455 627 425))
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2191 582 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "lab4_buffer" from library "ece4740".
+\a nrResizeWindow(workingDialogForm list(2216 601 268 133))
+\o Deleted cell 'ece4740/lab4_buffer'.
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 2560 1369))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1080 23 2560 1369))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrResizeWindow(cdsLibManager list(1920 23 2560 1369))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(0 0 2560 1369))
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1920 23 2560 1369))
+\a cdsLibManager->cellListBox->value = "lab4_adder_signal_gen"
+\a cdsLibManager->cellLineEdit->value = "lab4_adder_signal_gen"
+\a lmgrLogShowPopup("mainListPopup1" 85 519 2 "lab4_adder_signal_gen")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrResizeWindow(deleteForm list(2037 455 627 425))
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2191 582 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "lab4_adder_signal_gen" from library "ece4740".
+\a nrResizeWindow(workingDialogForm list(3056 601 268 133))
+\o Deleted cell 'ece4740/lab4_adder_signal_gen'.
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab4_adder_sim"
+\a cdsLibManager->cellLineEdit->value = "lab4_adder_sim"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "veriloga"
-\a cdsLibManager->viewLineEdit->value = "veriloga"
+\a lmgrLogShowPopup("mainListPopup1" 33 519 2 "lab4_adder_sim")
+\a lmgrLogShowPopup("mainListPopup1" 80 522 2 "lab4_adder_sim")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2191 582 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "lab4_adder_sim" from library "ece4740".
+\a nrResizeWindow(workingDialogForm list(3056 601 268 133))
+\o Deleted cell 'ece4740/lab4_adder_sim'.
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(5760 23 1707 996))
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "lab4_sim"
 \a cdsLibManager->cellLineEdit->value = "lab4_sim"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 42 0)
+\a lmgrLogShowPopup("mainListPopup1" 53 466 2 "lab4_sim")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "lab4_sim"
+\a basicRenameForm->basicRenameToEdit->value = "lab4_sim"
+\a nrResizeWindow(basicRenameForm list(6378 386 239 190))
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "lab4_verif_sim"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "lab4_sim" to "lab4_verif_sim" in library "ece4740".
+\a nrResizeWindow(workingDialogForm list(6349 415 268 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(4920 23 1707 996))
 \a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ece4740"
+\a cdsLibManager->libLineEdit->value = "ece4740"
+\a cdsLibManager->cellListBox->value = "lab2_nora_nand"
+\a cdsLibManager->cellLineEdit->value = "lab2_nora_nand"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a lmgrLogShowPopup("mainListPopup2" 100 12 2 "")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(915 451 1707 995))
-\a nrResizeWindow(cdsLibManager list(732 296 1707 995))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(0 28 2560 1337))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(558 161 1707 995))
-\a nrResizeWindow(cdsLibManager list(645 323 1707 995))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(661 313 1707 995))
+\a _lmgrCloseIconify("cdsLibManager" 0)
 \a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a _lmgrCloseIconify("cdsLibManager" 0)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a _lmgrCloseIconify("cdsLibManager" 0)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

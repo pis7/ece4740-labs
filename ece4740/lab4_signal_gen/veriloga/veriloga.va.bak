@@ -144,7 +144,7 @@ analog begin
     end
 
     // Signal generation
-    @(timer(1n, clk_period)) begin
+    @(timer(1020p, clk_period)) begin
 		if (i >= 0) begin
             A0t = A0_vals[i];
             A1t = A1_vals[i];

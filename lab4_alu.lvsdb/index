@@ -6,21 +6,21 @@ stat extr dev net pin param rewire total
 none matched expanded errors param_err pin_err empty_sch empty_lay not_run 
 00000018
 23 lab4_alu layout ece4740 1 0 0 0 1 135 1 157 1 183 1 209 1 238 1 260 1 289 1 311 1 337 1 359 1 384 1 409 1 436 1 463 1 488 1 513 1 540 1 567 1 588 1 615 1 636 1 659 1 686 1 715 1 736 1 763 1 784 1 807 1 834 1 863 1 887 1 910 1 930 1 950 1 970 1 990 1 1010 1 1030 1 1050 1 1070 1 1090 1 1109 1 1128 1 1148 1 1168 1 1189 1 1207 1 1225
-28 lab4_xor_1bit layout ece4740 2 31 lab4_xor_1bit schematic ece4740 1 0
-28 lab4_xor_8bit layout ece4740 3 31 lab4_xor_8bit schematic ece4740 1 0
-39 lab4_1bit_tristatebuffer layout ece4740 4 42 lab4_1bit_tristatebuffer schematic ece4740 1 0
-39 lab4_8bit_tristatebuffer layout ece4740 5 42 lab4_8bit_tristatebuffer schematic ece4740 1 0
-29 lab1inv_narrow layout ece4740 6 32 lab1inv_narrow schematic ece4740 1 0
-23 lab4_inv layout ece4740 7 26 lab4_inv schematic ece4740 1 0
-31 lab4_2_input_nor layout ece4740 8 34 lab4_2_input_nor schematic ece4740 1 0
-22 lab4_or layout ece4740 9 25 lab4_or schematic ece4740 1 0
+29 lab1inv_narrow layout ece4740 2 32 lab1inv_narrow schematic ece4740 1 0
+31 lab4_2_input_nor layout ece4740 3 34 lab4_2_input_nor schematic ece4740 1 0
+27 lab4_or_8bit layout ece4740 4 30 lab4_or_8bit schematic ece4740 1 0
+28 lab4_xor_1bit layout ece4740 5 31 lab4_xor_1bit schematic ece4740 1 0
+28 lab4_xor_8bit layout ece4740 6 31 lab4_xor_8bit schematic ece4740 1 0
+29 lab2_cmos_nand layout ece4740 7 32 lab2_cmos_nand schematic ece4740 1 0
+28 lab4_and_8bit layout ece4740 8 31 lab4_and_8bit schematic ece4740 1 0
+28 lab4_inv_8bit layout ece4740 9 31 lab4_inv_8bit schematic ece4740 1 0
 31 lab3_dff_onecell layout ece4740 10 34 lab3_dff_onecell schematic ece4740 1 0
 32 lab4_4_input_nand layout ece4740 11 35 lab4_4_input_nand schematic ece4740 1 0
 27 lab4_decoder layout ece4740 12 30 lab4_decoder schematic ece4740 1 0
-29 lab2_cmos_nand layout ece4740 13 32 lab2_cmos_nand schematic ece4740 1 0
-23 lab4_and layout ece4740 14 26 lab4_and schematic ece4740 1 0
-28 lab4_8bit_reg layout ece4740 15 31 lab4_8bit_reg schematic ece4740 1 0
-27 lab4_2_1_mux layout ece4740 16 30 lab4_2_1_mux schematic ece4740 1 0
-30 lab4_adder_1bit layout ece4740 17 33 lab4_adder_1bit schematic ece4740 1 0
-29 lab4_adder_top layout ece4740 18 32 lab4_adder_top schematic ece4740 1 0
+27 lab4_2_1_mux layout ece4740 13 30 lab4_2_1_mux schematic ece4740 1 0
+30 lab4_adder_1bit layout ece4740 14 33 lab4_adder_1bit schematic ece4740 1 0
+30 lab4_adder_8bit layout ece4740 15 33 lab4_adder_8bit schematic ece4740 1 0
+39 lab4_tristatebuffer_1bit layout ece4740 16 42 lab4_tristatebuffer_1bit schematic ece4740 1 0
+39 lab4_tristatebuffer_8bit layout ece4740 17 42 lab4_tristatebuffer_8bit schematic ece4740 1 0
+28 lab4_reg_8bit layout ece4740 18 31 lab4_reg_8bit schematic ece4740 1 0
 23 lab4_alu layout ece4740 1 26 lab4_alu schematic ece4740 1 0

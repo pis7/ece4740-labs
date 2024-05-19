@@ -1,22 +1,22 @@
 Schematic                                 | Layout                                 | Status
 ---------------------------------------------------------------------------------------------
+lab1inv_narrow schematic ece4740          | lab1inv_narrow layout ece4740          | matched
+lab4_2_input_nor schematic ece4740        | lab4_2_input_nor layout ece4740        | matched
+lab4_or_8bit schematic ece4740            | lab4_or_8bit layout ece4740            | matched
 lab4_xor_1bit schematic ece4740           | lab4_xor_1bit layout ece4740           | matched
 lab4_xor_8bit schematic ece4740           | lab4_xor_8bit layout ece4740           | matched
-lab4_1bit_tristatebuffer schematic ece4740| lab4_1bit_tristatebuffer layout ece4740| matched
-lab4_8bit_tristatebuffer schematic ece4740| lab4_8bit_tristatebuffer layout ece4740| matched
-lab1inv_narrow schematic ece4740          | lab1inv_narrow layout ece4740          | matched
-lab4_inv schematic ece4740                | lab4_inv layout ece4740                | matched
-lab4_2_input_nor schematic ece4740        | lab4_2_input_nor layout ece4740        | matched
-lab4_or schematic ece4740                 | lab4_or layout ece4740                 | matched
+lab2_cmos_nand schematic ece4740          | lab2_cmos_nand layout ece4740          | matched
+lab4_and_8bit schematic ece4740           | lab4_and_8bit layout ece4740           | matched
+lab4_inv_8bit schematic ece4740           | lab4_inv_8bit layout ece4740           | matched
 lab3_dff_onecell schematic ece4740        | lab3_dff_onecell layout ece4740        | matched
 lab4_4_input_nand schematic ece4740       | lab4_4_input_nand layout ece4740       | matched
 lab4_decoder schematic ece4740            | lab4_decoder layout ece4740            | matched
-lab2_cmos_nand schematic ece4740          | lab2_cmos_nand layout ece4740          | matched
-lab4_and schematic ece4740                | lab4_and layout ece4740                | matched
-lab4_8bit_reg schematic ece4740           | lab4_8bit_reg layout ece4740           | matched
 lab4_2_1_mux schematic ece4740            | lab4_2_1_mux layout ece4740            | matched
 lab4_adder_1bit schematic ece4740         | lab4_adder_1bit layout ece4740         | matched
-lab4_adder_top schematic ece4740          | lab4_adder_top layout ece4740          | matched
+lab4_adder_8bit schematic ece4740         | lab4_adder_8bit layout ece4740         | matched
+lab4_tristatebuffer_1bit schematic ece4740| lab4_tristatebuffer_1bit layout ece4740| matched
+lab4_tristatebuffer_8bit schematic ece4740| lab4_tristatebuffer_8bit layout ece4740| matched
+lab4_reg_8bit schematic ece4740           | lab4_reg_8bit layout ece4740           | matched
 lab4_alu schematic ece4740                | lab4_alu layout ece4740                | matched
 
 Schematic and Layout Match

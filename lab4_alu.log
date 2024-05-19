@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:24 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Fri May 17 18:21:31 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Sat May 18 23:09:35 2024
 
 
 Starting /opt/cadence/assura//tools.lnx86/assura/bin/aveng /home/pis7/Cadence/lab4_alu.rsf -exec1 -LVS -cdslib /home/pis7/Cadence/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri May 17 18:21:32 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sat May 18 23:09:36 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -38,11 +38,11 @@ Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRul
 
 
 Starting dfIIToVdb...
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:28 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Fri May 17 18:21:33 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Sat May 18 23:09:39 2024
 
 
 Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRuleSets
@@ -106,7 +106,7 @@ Starting /opt/cadence/assura/tools.lnx86/assura/bin/nvn /home/pis7/Cadence/lab4_
 Checking out license for Assura_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ecelinux-13.coecis.cornell.edu at Fri May 17 18:21:36 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Sat May 18 23:09:43 2024
   
 *************************************************************** 
   
@@ -124,7 +124,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:28 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Fri May 17 18:21:37 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Sat May 18 23:09:45 2024
 
   
 *************************************************************** 
@@ -184,7 +184,7 @@ Preprocessing layout network phase 1
  This binding will be skipped.
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-cpu=0.00m  wall=0.02m  mem=72.88mb
+cpu=0.00m  wall=0.03m  mem=72.88mb
 
 Finished /opt/cadence/assura/tools.lnx86/assura/bin/nvn
 
@@ -193,7 +193,7 @@ Executing: bulk = cellBoundary(root)
 Building the VDB part 3 in background mode.
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.10  elap: 7  pf: 0  in: 176  out: 152  virt: 101M  phys: 586M
+cpu: 0.11  elap: 10  pf: 0  in: 176  out: 152  virt: 101M  phys: 594M
 
 Running the Task Processor, 18 cells, 2658 steps...
 
@@ -653,11 +653,11 @@ Executing: geomStamp(Nburied nb_tap error)
 
 Executing: extractMOS("nmos1v" _nmos_12 (poly_conn "G") (ndiff_conn "S" "D") (psubstrate...
          6 'nmos1v' created in cell 'lab4_xor_1bit layout ece4740'.
+         4 'nmos1v' created in cell 'lab4_tristatebuffer_1bit layout ece4740'.
         14 'nmos1v' created in cell 'lab4_adder_1bit layout ece4740'.
          4 'nmos1v' created in cell 'lab4_4_input_nand layout ece4740'.
          2 'nmos1v' created in cell 'lab4_2_input_nor layout ece4740'.
          6 'nmos1v' created in cell 'lab4_2_1_mux layout ece4740'.
-         4 'nmos1v' created in cell 'lab4_1bit_tristatebuffer layout ece4740'.
         11 'nmos1v' created in cell 'lab3_dff_onecell layout ece4740'.
          2 'nmos1v' created in cell 'lab2_cmos_nand layout ece4740'.
          1 'nmos1v' created in cell 'lab1inv_narrow layout ece4740'.
@@ -746,11 +746,11 @@ Executing: attachParameter(sdperimeter ("ps" "S") ("pd" "D") _nmos_25_native sha
 
 Executing: extractMOS("pmos1v" _pmos_12 (poly_conn "G") (pdiff_conn "S" "D") (nwell_conn...
          6 'pmos1v' created in cell 'lab4_xor_1bit layout ece4740'.
+         4 'pmos1v' created in cell 'lab4_tristatebuffer_1bit layout ece4740'.
         14 'pmos1v' created in cell 'lab4_adder_1bit layout ece4740'.
          4 'pmos1v' created in cell 'lab4_4_input_nand layout ece4740'.
          2 'pmos1v' created in cell 'lab4_2_input_nor layout ece4740'.
          6 'pmos1v' created in cell 'lab4_2_1_mux layout ece4740'.
-         4 'pmos1v' created in cell 'lab4_1bit_tristatebuffer layout ece4740'.
         11 'pmos1v' created in cell 'lab3_dff_onecell layout ece4740'.
          2 'pmos1v' created in cell 'lab2_cmos_nand layout ece4740'.
          1 'pmos1v' created in cell 'lab1inv_narrow layout ece4740'.
@@ -1382,12 +1382,12 @@ Executing: (saveInterconnect (npn_emit "Nimp"))
 Executing: (saveInterconnect (npn_coll "Nwell"))
 
 Finished running rules. Task processor time in main process:
-cpu: 0.46  elap: 0  pf: 0  in: 32  out: 808  virt: 145M  phys: 745M
+cpu: 0.56  elap: 0  pf: 0  in: 32  out: 640  virt: 147M  phys: 746M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6464  virt: 150M  phys: 756M
+cpu: 0.02  elap: 0  pf: 0  in: 0  out: 6464  virt: 152M  phys: 749M
 
 
 *****  aveng terminated normally  *****
@@ -1405,7 +1405,7 @@ Loading tech rule set file : /opt/cadence-designkits/gpdk090_v4.6/assura/techRul
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Fri May 17 18:21:39 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Sat May 18 23:09:47 2024
 
 
    Creating Error Database 'lab4_alu'...
@@ -1537,7 +1537,7 @@ Total  errors:                                               0            0
 
    Writing Report into ./lab4_alu.err ...
 
-avrpt cpu sec:    0.07  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.06  elapsed:     1  virtual:    93M
 
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/avrpt
 
@@ -1563,18 +1563,18 @@ Checking out license for Assura_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:25 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
 
-run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Fri May 17 18:21:41 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu from /opt/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Sat May 18 23:09:49 2024
 
 avnx started...
-cpu: 0.09  elap: 0  pf: 0  in: 144  out: 96  virt: 549M  phys: 863M
+cpu: 0.11  elap: 0  pf: 0  in: 144  out: 96  virt: 549M  phys: 865M
 
 Run time =  0.00 seconds
-CPU time =  0.12 seconds
+CPU time =  0.14 seconds
 
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13272  virt: 479M  phys: 863M
+cpu: 0.02  elap: 0  pf: 0  in: 0  out: 13272  virt: 479M  phys: 865M
 ***** avnx terminated normally ***** 
 
 
@@ -1584,7 +1584,7 @@ Starting /opt/cadence/assura//tools.lnx86/assura/bin/nvn /home/pis7/Cadence/lab4
 Checking out license for Assura_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII20.1-64b:ICADVM20.1-64b.500.15 12/21/2020 21:29 (sjfhw697) $
 sub-version 4.1_USR6_HF10, integ signature 2020-12-21-2022
-run on en-ec-ecelinux-13.coecis.cornell.edu at Fri May 17 18:21:41 2024
+run on en-ec-ecelinux-13.coecis.cornell.edu at Sat May 18 23:09:50 2024
   
 *************************************************************** 
   
@@ -1603,26 +1603,26 @@ Preprocessing schematic network phase 1
 Preprocessing layout network phase 1
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
+Comparing lab1inv_narrow schematic ece4740 vs lab1inv_narrow layout ece4740
+Comparing lab4_2_input_nor schematic ece4740 vs lab4_2_input_nor layout ece4740
+Comparing lab4_or_8bit schematic ece4740 vs lab4_or_8bit layout ece4740
 Comparing lab4_xor_1bit schematic ece4740 vs lab4_xor_1bit layout ece4740
 Comparing lab4_xor_8bit schematic ece4740 vs lab4_xor_8bit layout ece4740
-Comparing lab4_1bit_tristatebuffer schematic ece4740 vs lab4_1bit_tristatebuffer layout ece4740
-Comparing lab4_8bit_tristatebuffer schematic ece4740 vs lab4_8bit_tristatebuffer layout ece4740
-Comparing lab1inv_narrow schematic ece4740 vs lab1inv_narrow layout ece4740
-Comparing lab4_inv schematic ece4740 vs lab4_inv layout ece4740
-Comparing lab4_2_input_nor schematic ece4740 vs lab4_2_input_nor layout ece4740
-Comparing lab4_or schematic ece4740 vs lab4_or layout ece4740
+Comparing lab2_cmos_nand schematic ece4740 vs lab2_cmos_nand layout ece4740
+Comparing lab4_and_8bit schematic ece4740 vs lab4_and_8bit layout ece4740
+Comparing lab4_inv_8bit schematic ece4740 vs lab4_inv_8bit layout ece4740
 Comparing lab3_dff_onecell schematic ece4740 vs lab3_dff_onecell layout ece4740
 Comparing lab4_4_input_nand schematic ece4740 vs lab4_4_input_nand layout ece4740
 Comparing lab4_decoder schematic ece4740 vs lab4_decoder layout ece4740
-Comparing lab2_cmos_nand schematic ece4740 vs lab2_cmos_nand layout ece4740
-Comparing lab4_and schematic ece4740 vs lab4_and layout ece4740
-Comparing lab4_8bit_reg schematic ece4740 vs lab4_8bit_reg layout ece4740
 Comparing lab4_2_1_mux schematic ece4740 vs lab4_2_1_mux layout ece4740
 Comparing lab4_adder_1bit schematic ece4740 vs lab4_adder_1bit layout ece4740
-Comparing lab4_adder_top schematic ece4740 vs lab4_adder_top layout ece4740
+Comparing lab4_adder_8bit schematic ece4740 vs lab4_adder_8bit layout ece4740
+Comparing lab4_tristatebuffer_1bit schematic ece4740 vs lab4_tristatebuffer_1bit layout ece4740
+Comparing lab4_tristatebuffer_8bit schematic ece4740 vs lab4_tristatebuffer_8bit layout ece4740
+Comparing lab4_reg_8bit schematic ece4740 vs lab4_reg_8bit layout ece4740
 Top cell  lab4_alu schematic ece4740 vs lab4_alu layout ece4740
 Schematic and Layout Match
-cpu=0.00m  wall=0.02m  mem=73.13mb
+cpu=0.00m  wall=0.00m  mem=73.13mb
 
 Finished /opt/cadence/assura//tools.lnx86/assura/bin/nvn
 
@@ -1689,7 +1689,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Fri May 17 18:21:45 2024
+Run ended: Sat May 18 23:09:53 2024
 
 *****  Assura terminated normally  *****
 
